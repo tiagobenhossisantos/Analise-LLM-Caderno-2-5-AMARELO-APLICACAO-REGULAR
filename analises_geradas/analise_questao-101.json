@@ -1,0 +1,118 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 101,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 101,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-101.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade."
+        },
+        "habilidade_principal": {
+            "id": "H1",
+            "descricao": "Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            },
+            {
+                "id": "H22",
+                "descricao": "Compreender fenômenos decorrentes da interação entre a radiação e a matéria em suas manifestações em processos naturais ou tecnológicos, ou em suas implicações biológicas, sociais, econômicas ou ambientais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Ondulatória e espectro eletromagnético",
+        "conteudos_relacionados": [
+            "Equação fundamental da ondulatória",
+            "Relação entre frequência e comprimento de onda",
+            "Interpretação gráfica de espectros de emissão luminosa",
+            "Fotoluminescência"
+        ],
+        "assunto": "Relação inversa entre comprimento de onda e frequência na radiação luminosa",
+        "objeto_de_analise": "Deslocamento espectral na emissão luminescente de um sensor óptico para monitoramento de fototerapia",
+        "fenomeno_conceito": "Equação da onda luminosa (v = λ · f) e deslocamento espectral para frequências maiores (menores comprimentos de onda)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Gráfico com pico no início em 600 nm e curva no final do tratamento deslocada para um menor comprimento de onda (aproximadamente 550 nm).",
+            "correta": true,
+            "justificativa": "Como a velocidade da luz é constante no meio de propagação (v = λ · f), o aumento da frequência da luz emitida ao longo da exposição à luz azul acarreta a diminuição do comprimento de onda emitido (λ). Logo, o pico do espectro no final do tratamento deve se deslocar para comprimentos de onda menores do que 600 nm (região do verde, por volta de 550 nm)."
+        },
+        {
+            "letra": "B",
+            "texto": "Gráfico com curva no final do tratamento deslocada para comprimentos de onda maiores (em torno de 630-640 nm).",
+            "correta": false,
+            "justificativa": "Incorreta, pois um aumento de comprimento de onda corresponderia a uma diminuição da frequência, contrariando o enunciado que afirma que a frequência da luz emitida aumenta com o tempo de exposição."
+        },
+        {
+            "letra": "C",
+            "texto": "Gráfico com curvas no início e no final com o mesmo comprimento de onda de pico (600 nm), variando apenas a intensidade (menor intensidade no final).",
+            "correta": false,
+            "justificativa": "Incorreta, pois a mudança de cor (de vermelho-laranja para verde) e o aumento da frequência implicam alteração do comprimento de onda central da emissão, e não apenas redução na intensidade."
+        },
+        {
+            "letra": "D",
+            "texto": "Gráfico com curvas no início e no final mantendo o mesmo pico em 600 nm, mas com maior intensidade no final.",
+            "correta": false,
+            "justificativa": "Incorreta, pois manter o pico no mesmo comprimento de onda não representa a alteração de frequência nem a alteração de cor informadas."
+        },
+        {
+            "letra": "E",
+            "texto": "Gráfico com curvas no início e no final perfeitamente sobrepostas e idênticas em 600 nm.",
+            "correta": false,
+            "justificativa": "Incorreta, pois a sobreposição indicaria ausência de alteração nas propriedades ondulatórias da luz emitida pelo sensor."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-22T14:49:52.875027",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita que a frequência da luz emitida pelo sensor aumenta em função do tempo de exposição à luz azul.",
+            "A relação v = λ · f indica que, para velocidade constante, maior frequência corresponde a menor comprimento de onda.",
+            "A curva tracejada (final do tratamento) precisa apresentar o pico em um comprimento de onda menor que 600 nm, o que ocorre unicamente na alternativa A."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-101.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

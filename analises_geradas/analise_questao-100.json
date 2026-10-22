@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 100,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 100,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "textos_extraidos\\questao-100.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade."
+        },
+        "habilidade_principal": {
+            "id": "H4",
+            "descricao": "Avaliar propostas de intervenção no ambiente, considerando a qualidade da vida humana ou medidas de conservação, recuperação ou utilização sustentável da biodiversidade."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H9",
+                "descricao": "Compreender a importância dos ciclos biogeoquímicos ou do fluxo energia para a vida, ou da ação de agentes ou fenômenos que podem causar alterações nesses processos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "V",
+            "nome": "Elaborar propostas (EP)",
+            "descricao": "recorrer aos conhecimentos desenvolvidos na escola para elaboração de propostas de intervenção solidária na realidade, respeitando os valores humanos e considerando a diversidade sociocultural."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Ecologia e ciências ambientais",
+        "conteudos_relacionados": [
+            "Ciclo do carbono",
+            "Fotossíntese e fixação de carbono",
+            "Mudanças climáticas e efeito estufa"
+        ],
+        "assunto": "Mudanças climáticas e sequestro de carbono",
+        "objeto_de_analise": "Estratégias de mitigação ambiental com foco na remoção ativa de gases de efeito estufa da atmosfera",
+        "fenomeno_conceito": "Sequestro biológico de carbono através da fotossíntese vegetal"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Plantar mais árvores.",
+            "correta": true,
+            "justificativa": "O plantio de árvores promove a remoção direta do gás carbônico da atmosfera por meio do processo de fotossíntese, fixando o carbono na forma de biomassa vegetal (madeira, folhas, raízes), atuando efetivamente como um sumidouro de carbono."
+        },
+        {
+            "letra": "B",
+            "texto": "Instalar mais usinas eólicas.",
+            "correta": false,
+            "justificativa": "A geração de energia eólica é uma alternativa que evita ou reduz emissões adicionais de gases estufa ao substituir combustíveis fósseis, mas não retira o gás carbônico já acumulado na atmosfera."
+        },
+        {
+            "letra": "C",
+            "texto": "Ampliar o uso de energia solar.",
+            "correta": false,
+            "justificativa": "Assim como a energia eólica, a energia solar reduz a taxa de emissão de novos gases poluentes por ser uma matriz limpa, porém não possui mecanismo intrínseco de captura ou remoção do CO₂ atmosférico preexistente."
+        },
+        {
+            "letra": "D",
+            "texto": "Manter os combustíveis fósseis no solo.",
+            "correta": false,
+            "justificativa": "Não extrair nem queimar combustíveis fósseis impede a emissão de mais CO₂ para a atmosfera (ação de contenção/prevenção de emissões), mas não atua na remoção do gás que já se encontra na atmosfera."
+        },
+        {
+            "letra": "E",
+            "texto": "Produzir menos resíduos sólidos urbanos.",
+            "correta": false,
+            "justificativa": "A redução da produção de resíduos sólidos diminui a emissão futura de gases resultantes da decomposição (como metano e dióxido de carbono), mas não remove os níveis de CO₂ já presentes na camada atmosférica."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-22T14:32:44.151996",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando da questão exige explicitamente uma ação que auxilie 'na remoção desse gás presente na atmosfera, reduzindo seus níveis'.",
+            "Dentre as alternativas, somente o plantio de árvores (A) realiza sequestro e fixação biológica de carbono já existente na atmosfera via fotossíntese, enquanto as outras alternativas apenas evitam novas emissões.",
+            "A habilidade H4 trata de avaliar propostas de intervenção no ambiente, coerente com a proposição de ações mitigadoras para mudanças climáticas."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-100.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}
