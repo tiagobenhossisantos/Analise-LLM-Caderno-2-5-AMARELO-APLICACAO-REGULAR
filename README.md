@@ -1,0 +1,1 @@
+# Analise-LLM-Caderno-2-5-AMARELO-APLICACAO-REGULAR
