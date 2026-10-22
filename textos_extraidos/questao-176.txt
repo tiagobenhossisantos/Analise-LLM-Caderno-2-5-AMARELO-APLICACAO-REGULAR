@@ -1,0 +1,21 @@
+QUESTÃO 176
+
+Um empresário utiliza máquinas cuja pressão interna $P$, em atmosfera, depende do tempo contínuo de utilização $t$, em hora, e de um parâmetro positivo $K$, que define o modelo da máquina, segundo a expressão:
+
+$$P = 4 \cdot \log[-K \cdot (t + 1) \cdot (t - 19)]$$
+
+O fabricante dessas máquinas recomenda ao usuário que a pressão interna desse tipo de máquina não ultrapasse 10 atmosferas durante seu funcionamento.
+
+O empresário pretende comprar novas máquinas desse tipo que deverão funcionar, diariamente, por um período contínuo de 10 horas. Para isso, precisa definir o modelo de máquina a ser adquirida escolhendo o maior valor possível do parâmetro $K$, atendendo à recomendação do fabricante.
+
+O maior valor a ser escolhido para $K$ é
+
+A) $10^{0,5}$
+
+B) $10^{8}$
+
+C) $\frac{10^{2,5}}{84}$
+
+D) $\frac{10^{2,5}}{99}$
+
+E) $25 \times 10^{-2}$

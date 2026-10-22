@@ -1,0 +1,21 @@
+QUESTÃO 157
+
+Em um estudo clínico, 55 mulheres foram distribuídas, aleatoriamente, em 5 grupos de 11 pessoas. Para testar uma nova medicação, será escolhido um grupo no qual a maioria das mulheres tenham idades entre 20 e 30 anos. Os demais grupos tomarão placebo ou medicações já existentes no mercado. O quadro, parcialmente preenchido, informa alguns dados relativos às idades das mulheres desses grupos.
+
+**[FIGURA: Tabela com 6 linhas e 7 colunas. A primeira linha (cabeçalho) tem fundo verde e os textos: "Grupos", "Menor idade", "Maior idade", "Média", "Mediana", "Moda", "Desvio padrão". As linhas de 2 a 6 representam os Grupos de 1 a 5, com algumas células preenchidas:
+- Grupo 1: Média = 25, Desvio padrão = 10;
+- Grupo 2: Mediana = 25, Desvio padrão = 9;
+- Grupo 3: Moda = 25;
+- Grupo 4: Média = 25, Desvio padrão = 1;
+- Grupo 5: Menor idade = 20, Maior idade = 35.
+As demais células da tabela encontram-se vazias.]**
+
+Mesmo com o quadro incompleto, foi possível selecionar um desses grupos porque, apenas com os dados apresentados no quadro, foi identificado um grupo que, certamente, atendia ao critério de escolha.
+
+O grupo escolhido foi o
+
+A 1.
+B 2.
+C 3.
+D 4.
+E 5.

@@ -1,0 +1,17 @@
+QUESTÃO 168
+
+A figura ilustra o projeto visual para confecção de uma medalha comemorativa, com a forma de um cilindro circular reto, de diâmetro 6 cm e espessura 3 mm.
+
+**[FIGURA: A imagem apresenta duas representações da medalha. À esquerda, uma vista superior que mostra um círculo amarelo com diâmetro de 6 cm, contendo em seu interior um quadrado cinza inscrito rotulado com os vértices A, B, C e D. À direita, uma vista em perspectiva isométrica (tridimensional) da medalha cilíndrica amarela, destacando a face superior onde o quadrado cinza está presente, com indicação de espessura de 3 mm na lateral.]**
+
+A figura $ABCD$ tem a forma de um quadrado e é a base de um prisma que atravessa toda a medalha. A região da medalha externa a esse prisma será cunhada em ouro. Pretende-se cunhar 100 dessas medalhas.
+
+Considere 3,1 como valor aproximado para $\pi$.
+
+Qual é o volume de ouro, em centímetro cúbico, necessário para a confecção dessas medalhas?
+
+A 288
+B 297
+C 567
+D 990
+E 1 134

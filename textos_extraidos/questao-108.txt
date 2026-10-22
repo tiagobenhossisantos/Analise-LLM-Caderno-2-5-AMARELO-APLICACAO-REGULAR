@@ -1,0 +1,21 @@
+QUESTÃO 108
+
+No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.
+
+**[FIGURA: Fotografia em preto e branco de uma sala de aula de química do início do século XX, mostrando um professor diante de uma lousa preta onde estão escritas equações químicas, e alunos assistindo à aula nas bancadas. Ao lado da foto, há um destaque em um retângulo verde escuro com borda preta, exibindo em letras brancas as seguintes equações químicas escritas na lousa:
+AzO + O = AzO²
+SO² + H²O = H²SO³
+2 H²SO³ + O² = 2 H²SO⁴
+2 HCl + MgO²H² = MgCl² + 2 H²O]**
+
+O nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO²). Analogamente, o nitrato de sódio era representado por $\text{NaAzO}^3$.
+
+Disponível em: www.novomilenio.inf.br. Acesso em: 29 ago. 2014 (adaptado).
+
+Em 1909, as representações das substâncias ácido nítrico e cloreto de cálcio, tendo por base essas informações e seguindo a mesma lógica, seriam, respectivamente:
+
+A) $\text{HAzO}^3\text{ e CaCl}^2$
+B) $\text{HAz}^3\text{O e Ca}^2\text{Cl}$
+C) $\text{H}^3\text{AzO}^4\text{ e CaCl}$
+D) $\text{HAz}^3\text{O e KCl}^2$
+E) $\text{HAzO}^2\text{ e KCl}$

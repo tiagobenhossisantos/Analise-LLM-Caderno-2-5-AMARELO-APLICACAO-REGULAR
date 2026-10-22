@@ -1,0 +1,15 @@
+QUESTÃO 166
+
+O dono de uma sorveteria armazena sorvete em potes de $20\,000\text{ cm}^3$. Ele serve o sorvete em taças, em porções de $250\text{ mL}$.
+
+A quantidade de taças que ele consegue servir a partir de um pote cheio de sorvete é
+
+Ⓐ 5.
+
+Ⓑ 8.
+
+Ⓒ 50.
+
+Ⓓ 80.
+
+Ⓔ 800.

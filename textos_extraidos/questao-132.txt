@@ -1,0 +1,15 @@
+QUESTÃO 132
+
+A filtração em carvão é uma das mais antigas formas de purificação de água. O carvão ativado, diferentemente do carvão comum, é útil para ser empregado na remoção de material orgânico, cloro e outros contaminantes. Essa capacidade decorre de suas propriedades de adsorção. A origem do material utilizado para produzir o carvão ativado pode influenciar sua porosidade e, consequentemente, interferir na capacidade do material de remover impurezas. Na figura, é ilustrada esquematicamente a diferença entre as estruturas físicas do carvão comum e do carvão ativado.
+
+**[FIGURA: Ilustração esquemática comparativa entre "Carvão comum" e "Carvão ativado". O "Carvão comum" é representado por um círculo cinza com poucos poros internos rotulados como "Mesoporo". O "Carvão ativado" é representado por um círculo cinza com uma estrutura interna altamente irregular, fraturada e porosa, contendo "Macroporo", "Microporo", "Mesoporo" e pequenas partículas pretas na superfície externa rotuladas como "Impureza adsorvida".]**
+
+CORRÊA, M. A. **Cosmetologia: ciência e técnica**. São Paulo: Medfarma, 2012 (adaptado).
+
+Qual característica do carvão ativado explica a sua maior eficiência nesse processo?
+
+A) Massa.
+B) Dureza.
+C) Densidade.
+D) Superfície.
+E) Condutividade.

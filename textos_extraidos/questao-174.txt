@@ -1,0 +1,17 @@
+QUESTÃO 174
+
+Uma caixa de descarga, acoplada a um vaso sanitário, tem a forma de paralelepípedo reto retângulo cujas dimensões internas da base são 2,5 dm e 1,5 dm. Nessa caixa há uma boia que interrompe o abastecimento quando a altura da coluna de água atinge 2 dm, conforme a figura.
+
+**[FIGURA: Duas ilustrações sequenciais em perspectiva de uma caixa de descarga em forma de paralelepípedo reto retângulo. Na primeira figura, a caixa está parcialmente preenchida com água até uma altura menor, mostrando as dimensões da base de 2,5 dm (comprimento) por 1,5 dm (largura) e o mecanismo da boia com uma haste vertical e uma esfera preta acima da linha d'água. Na segunda figura, a caixa está cheia com a água atingindo a altura de 2 dm (indicada por uma seta lateral), onde a boia esférica preta agora flutua na superfície da água, interrompendo o abastecimento.]**
+
+A cada acionamento da descarga, todo o volume de água contida na caixa é despejado no vaso. Para reduzir o volume de água despejado a cada acionamento, uma pessoa colocará, no interior dessa caixa, garrafas de 300 mL, cheias de areia e tampadas, de modo a ficarem submersas quando o abastecimento for interrompido.
+
+Para garantir o funcionamento eficiente, o mínimo de água despejada a cada acionamento deve ser de 5 L.
+
+A quantidade máxima de garrafas que serão colocadas nessa caixa, garantindo um funcionamento eficiente, é igual a
+
+A 10.
+B 8.
+C 4.
+D 3.
+E 2.

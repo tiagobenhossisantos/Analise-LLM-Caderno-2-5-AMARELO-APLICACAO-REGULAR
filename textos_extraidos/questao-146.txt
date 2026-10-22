@@ -1,0 +1,11 @@
+QUESTÃO 146
+
+Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram, respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente, 7 dias por semana, e o consumo do GNV é de $1\text{ m}^3$ a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor preço e que garanta apenas um abastecimento semanal.
+
+Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?
+
+A) 10
+B) 14
+C) 17
+D) 21
+E) 25

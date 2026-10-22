@@ -1,0 +1,15 @@
+QUESTÃO 129
+
+Nos processos de transformação e reciclagem de recursos naturais, as velocidades das reações químicas são estudadas pela cinética química. Uma reação A $\rightarrow$ B é realizada na presença e na ausência de uma enzima, com todas as demais condições permanecendo inalteradas. Considere que, no gráfico da variação de energia ao longo dessa reação, a linha contínua representa o avanço da reação na ausência da enzima, e a linha pontilhada, na presença da enzima.
+
+O gráfico que representa a situação descrita é:
+
+A) **[FIGURA: Gráfico de perfil de reação (Energia versus Progresso da reação). O eixo vertical representa a "Energia" e o eixo horizontal o "Progresso da reação". Os reagentes "A" e os produtos "B" estão no mesmo nível energético final. A linha contínua (ausência de enzima) parte de um nível energético inferior para "A". A linha pontilhada (presença de enzima) parte de um nível energético superior para "A". Ambas as curvas sobem e atingem o mesmo pico máximo de energia (estado de transição) e descem para o mesmo nível de "B".]**
+
+B) **[FIGURA: Gráfico de perfil de reação (Energia versus Progresso da reação). O eixo vertical representa a "Energia" e o eixo horizontal o "Progresso da reação". A linha contínua (ausência de enzima) e a pontilhada (presença de enzima) partem do mesmo nível energético para "A". Ambas as curvas sobem e atingem o mesmo pico máximo de energia. Na descida, a linha contínua desce a um nível energético menor para "B", enquanto a linha pontilhada estabiliza em um nível energético final mais alto para "B".]**
+
+C) **[FIGURA: Gráfico de perfil de reação (Energia versus Progresso da reação). O eixo vertical representa a "Energia" e o eixo horizontal o "Progresso da reação". A linha contínua (ausência de enzima) e a pontilhada (presença de enzima) partem do mesmo nível energético para "A" e terminam no mesmo nível energético para "B". A linha contínua apresenta um pico de energia mais alto (maior energia de ativação), enquanto a linha pontilhada apresenta um pico de energia mais baixo (menor energia de ativação, indicando a ação da enzima).]**
+
+D) **[FIGURA: Gráfico de perfil de reação (Energia versus Progresso da reação). O eixo vertical representa a "Energia" e o eixo horizontal o "Progresso da reação". A linha contínua (ausência de enzima) e a pontilhada (presença de enzima) partem do mesmo nível energético para "A" e terminam no mesmo nível para "B". A linha contínua apresenta um pico de energia mais baixo, enquanto a linha pontilhada apresenta um pico de energia mais alto.]**
+
+E) **[FIGURA: Gráfico de perfil de reação (Energia versus Progresso da reação). O eixo vertical representa a "Energia" e o eixo horizontal o "Progresso da reação". A linha contínua (ausência de enzima) e a pontilhada (presença de enzima) possuem níveis iniciais e finais deslocados, onde a linha pontilhada possui maior energia inicial para "A" e maior energia final para "B", mas compartilham o mesmo pico máximo de energia.]**

@@ -1,0 +1,23 @@
+QUESTÃO 177
+
+Em uma cidade, será construído um túnel que atravessa uma montanha para facilitar o trânsito de automóveis e bicicletas. Dois projetos foram elaborados e os esquemas com as vistas frontais desses projetos são apresentados na figura.
+
+**[FIGURA: Imagem dividida em duas seções denominadas "Projeto 1" e "Projeto 2". No Projeto 1, há dois túneis em formato de semicírculo encavados em uma área marrom (montanha): à esquerda, o "Túnel para automóveis" com base de 12 metros, dividido internamente pelas marcações pontilhadas "volta" e "ida"; à direita, o "Túnel para bicicletas" com base de 6 metros, também dividido em "volta" e "ida". No Projeto 2, há um único túnel maior chamado "Túnel de uso misto", cuja base total é dividida em quatro seções indicadas por setas: 3 m (volta), 6 m (volta), 6 m (ida) e 3 m (ida).]**
+
+O Projeto 1 conta com dois túneis, um exclusivo para bicicletas e o outro, para automóveis. O Projeto 2 conta com um único túnel, com espaços reservados para o trânsito exclusivo de bicicletas e automóveis. Nos dois projetos, os túneis têm o formato de semicilindro reto de mesma extensão, com vias de ida e volta para os dois tipos de veículos, separados por muretas.
+
+O projeto a ser aprovado será aquele que apresentar a menor área da seção transversal, pois implicará menor volume de material retirado da montanha.
+
+Considere 3 como aproximação para $\pi$ e desconsidere as espessuras das muretas.
+
+O projeto a ser aprovado é
+
+A) o 1, pois apresenta área de seção transversal medindo $67,5\text{ m}^2$.
+
+B) o 2, pois apresenta área de seção transversal medindo $121,5\text{ m}^2$.
+
+C) o 1, pois apresenta área de seção transversal medindo $135\text{ m}^2$.
+
+D) o 2, pois apresenta área de seção transversal medindo $243\text{ m}^2$.
+
+E) qualquer um dos dois, pois apresentam áreas de suas seções transversais com medidas iguais.

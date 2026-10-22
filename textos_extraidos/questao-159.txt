@@ -1,0 +1,21 @@
+QUESTÃO 159
+
+Um recipiente tem um formato que faz com que, ao ser enchido de água com uma vazão constante, a distância $D$ da lâmina de água ao tampo da mesa, em centímetro, aumente em relação ao tempo $T$, em minuto, de acordo com uma função do tipo
+
+$$D = k + \text{tg}[p(T + m)],$$
+
+sendo os parâmetros $k$, $p$ e $m$ números reais, para $T$ variando entre 0 e 4 minutos, conforme ilustrado na figura, na qual estão apresentadas assíntotas verticais da função tangente utilizada na definição de $D$.
+
+**[FIGURA: Ilustração dividida em duas partes. À esquerda, um recipiente de vidro com formato simétrico abaulado (semelhante a uma taça ou vaso) apoiado sobre um "Tampo da mesa" cinza. À direita, um plano cartesiano com o eixo horizontal representando o tempo $T$ e o eixo vertical representando a distância $D$. A curva da função $D(T)$ é mostrada em vermelho contínuo para o intervalo de $T$ entre 0 e 4, e tracejada fora dele. Há duas assíntotas verticais tracejadas em verde: uma à esquerda do eixo vertical, passando por $\frac{5 - 2\pi}{2}$, e outra à direita, passando por $\frac{5 + 2\pi}{2}$. No gráfico, marca-se o ponto $(2,5; 30)$, indicando que quando $T = 2,5$, $D = 30$. O ponto inicial para $T = 0$ tem uma bola vazia indicando início do domínio considerado.]**
+
+A expressão algébrica que representa a relação entre $D$ e $T$ é
+
+A) $D = 2,5 + \text{tg}\left[30\left(T - \frac{5 - 2\pi}{2}\right)\right]$
+
+B) $D = 4 + \text{tg}\left[30\left(T + \frac{5}{2}\right)\right]$
+
+C) $D = 4 + \text{tg}\left[2,5\left(T + \frac{5 + 2\pi}{2}\right)\right]$
+
+D) $D = 30 + \text{tg}\left[\frac{1}{2}(T - 5)\right]$
+
+E) $D = 30 + \text{tg}\left[\frac{1}{2}\left(T - \frac{5}{2}\right)\right]$

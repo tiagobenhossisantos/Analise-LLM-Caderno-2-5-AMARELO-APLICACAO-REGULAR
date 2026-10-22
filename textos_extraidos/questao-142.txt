@@ -1,0 +1,15 @@
+QUESTÃO 142
+
+Pesquisas na área de neurobiologia confirmam que a prática meditativa é responsável por diminuir consideravelmente a frequência respiratória para praticantes avançados, que, após iniciarem a meditação, têm suas frequências respiratórias reduzidas até se estabilizarem em um nível mais baixo. O gráfico apresenta a relação da frequência respiratória, em incursões de respirações por minuto (rpm), em relação ao tempo, em minuto, de um praticante avançado, em que ($f_1$) representa a frequência no instante $t_1$, no qual se inicia a prática meditativa; e ($f_2$), a frequência no instante $t_2$, a partir do qual esta se estabiliza durante a meditação.
+
+**[FIGURA: Gráfico cartesiano de linha mostrando a "Frequência respiratória (rpm)" no eixo vertical em função do "Tempo (min)" no eixo horizontal. No eixo vertical, são marcados dois pontos: $f_1$ (frequência mais alta antes da estabilização) e $f_2$ (frequência mais baixa após a estabilização). No eixo horizontal, há a marcação de dois instantes de tempo: $t_1$ (indicado como "Início da prática meditativa") e $t_2$. A curva azul inicia-se horizontalmente no nível $f_1$ até o instante $t_1$, momento em que começa a decrescer de forma suave até atingir o nível $f_2$ no instante $t_2$, a partir do qual a curva torna-se novamente horizontal e constante no valor de $f_2$.]**
+
+Disponível em: www.redepsi.com.br. Acesso em: 3 dez. 2018 (adaptado).
+
+A partir do instante $t_1$, em que se inicia a prática meditativa, o comportamento da frequência respiratória, em relação ao tempo,
+
+A) mantém-se constante.
+B) é diretamente proporcional ao tempo.
+C) é inversamente proporcional ao tempo.
+D) diminui até o instante $t_2$, a partir do qual se torna constante.
+E) diminui de forma proporcional ao tempo, tanto entre $t_1$ e $t_2$ quanto após $t_2$.

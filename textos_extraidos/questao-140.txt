@@ -1,0 +1,21 @@
+QUESTÃO 140
+
+Na cantina de uma escola, há cinco alimentos vendidos em pacotes com diferentes quantidades de porções.
+As informações nutricionais contidas nos rótulos desses produtos estão indicadas nas imagens.
+
+**[FIGURA: Infográfico composto por cinco caixas coloridas com informações nutricionais de diferentes alimentos:
+1. Caixa azul claro (superior esquerda): "Batata chips", "Pacote com 3 porções de 50 g", "170 mg de sódio por porção".
+2. Caixa verde (superior direita): "Palitos salgados", "Pacote com 4 porções de 20 g", "501 mg de sódio por porção".
+3. Caixa roxa (intermediária esquerda): "Biscoito multigrãos", "Pacote com 8 porções de 25 g", "264 mg de sódio por porção".
+4. Caixa laranja (intermediária direita): "Biscoito de polvilho", "Pacote com 6 porções de 15 g", "175 mg de sódio por porção".
+5. Caixa amarela (inferior central): "Biscoito de água e sal", "Pacote com 5 porções de 40 g", "166 mg de sódio por porção".]**
+
+Uma estudante opta sempre pelo alimento com a menor quantidade total de sódio por pacote.
+
+Qual desses produtos deve ser o escolhido pela estudante?
+
+A Batata chips.
+B Palitos salgados.
+C Biscoito multigrãos.
+D Biscoito de polvilho.
+E Biscoito de água e sal.

@@ -1,0 +1,15 @@
+QUESTÃO 151
+
+A cúpula pentagonal giralongada é um poliedro de Johnson, cujas faces são polígonos regulares, mas que não é um poliedro de Platão, de Arquimedes, prisma ou antiprisma.
+
+As figuras apresentam esse poliedro em duas posições e uma de suas planificações.
+
+**[FIGURA: Imagem composta por três partes que mostram um poliedro tridimensional e sua planificação. Na parte superior esquerda, há uma vista tridimensional do poliedro com faces coloridas em azul (triângulos), amarelo (quadrados) e uma face verde (pentágono) visível. Na parte superior direita, outra vista tridimensional do mesmo poliedro, mostrando uma face vermelha (decágono ou pentágono irregular grande) em destaque e outras faces azuis. Na parte inferior, exibe-se a planificação do poliedro, composta por uma grande face central vermelha (em formato de decágono regular) cercada por triângulos azuis dispostos radialmente, quadrados amarelos e pentágonos verdes conectados nas extremidades.]**
+
+Quantos vértices tem esse poliedro?
+
+A) 21
+B) 25
+C) 55
+D) 80
+E) 110

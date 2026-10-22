@@ -1,0 +1,19 @@
+QUESTÃO 144
+
+Em um jogo de computador, um cubo se encontra inicialmente posicionado conforme indicado na figura.
+
+[FIGURA: Sistema de coordenadas tridimensional ortogonal com eixos x, y e z. Um cubo azul está posicionado no primeiro octante. Linhas tracejadas pontilhadas conectam os vértices do cubo às suas projeções ortogonais nos três planos coordenados: um quadrado azul no plano xy, um quadrado azul no plano xz e um quadrado azul no plano yz.]
+
+Cada deslocamento efetuado por esse cubo se dá sempre em uma das direções definidas pelos três eixos coordenados. Ao se movimentar a partir da posição inicial, esse cubo se aproximou 3 unidades do plano yz, se afastou 5 unidades do plano xz e se aproximou 4 unidades do plano xy.
+
+A figura que apresenta as projeções ortogonais desse cubo sobre os três planos coordenados, após efetuar as movimentações descritas, é
+
+A) [FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz.]
+
+B) [FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes da alternativa A.]
+
+C) [FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]
+
+D) [FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]
+
+E) [FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]

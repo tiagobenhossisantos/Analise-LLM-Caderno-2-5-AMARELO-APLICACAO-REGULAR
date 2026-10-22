@@ -1,0 +1,17 @@
+QUESTÃO 116
+
+O despejo acidental de óleo nos oceanos tem ocasionado incontáveis prejuízos à vida marinha e à economia de regiões costeiras. Métodos tradicionais de tratamento do despejo geram resíduos de difícil descarte e nem sempre são eficazes. Por isso, pesquisadores desenvolveram um filtro capaz de separar óleo e água. O dispositivo é montado sobre uma malha de aço com uma sequência de camadas. A primeira camada é formada por um polímero de carga positiva, a segunda é composta por nanopartículas de sílica ($SiO_2$), a terceira é formada pelo mesmo polímero e a última é um surfactante, conforme apresentado na figura.
+
+Representação esquemática do dispositivo
+
+**[FIGURA: Diagrama esquemático vertical mostrando as camadas do dispositivo de separação de óleo e água sobre uma malha de aço. De baixo para cima, a estrutura é composta por: uma base quadriculada representando a "Malha de aço"; sobre ela, a "Camada inferior de polímero" com unidades repetidas indicadas por $N^+$ e o índice $n$; uma faixa intermediária com círculos vermelhos contendo "$SiO_2^-$" representando as "Nanopartículas de sílica"; uma "Camada superior de polímero" semelhante à inferior com unidades $N^+$ e índice $n$; e, na porção mais superior, o "Surfactante", representado por longas cadeias fluorocarbonadas ramificadas (contendo átomos de carbono $C$ e flúor $F$) com extremidades carregadas negativamente ($\theta^-$) voltadas para a camada de polímero positivo.]**
+
+BROWN, P. S.; BHUSHAN, B. Mechanically durable, superoleophobic coatings prepared by layer-by-layer technique for anti-smudge and oil-water separation. **Scientific Reports**, v. 5, mar. 2015 (adaptado).
+
+Na utilização desse dispositivo, a retenção do óleo ocorre
+
+A) no surfactante.
+B) na camada superior de polímero.
+C) nas nanopartículas de sílica.
+D) na camada inferior de polímero.
+E) na malha de aço.

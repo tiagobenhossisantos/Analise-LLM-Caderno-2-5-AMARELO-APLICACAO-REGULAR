@@ -1,0 +1,15 @@
+QUESTÃO 136
+
+No entorno de uma lagoa circular, cujo raio mede $1\text{ km}$, há um uma ciclovia. Devido aos frequentes roubos de bicicleta, a prefeitura planeja alocar policiais em posições estratégicas para patrulhar essa ciclovia, de forma a torná-la totalmente protegida. Um ponto da ciclovia é considerado protegido se houver pelo menos um policial a, no máximo, $200\text{ m}$ de distância daquele ponto, posicionado sobre a ciclovia. A figura ilustra um ponto $P$ sobre a ciclovia, que estará protegido se houver pelo menos um policial posicionado sobre a região de cor cinza escuro.
+
+Desconsidere a largura da pista da ciclovia e utilize $3$ como aproximação para $\pi$.
+
+[FIGURA: Ilustração que mostra uma lagoa circular azul, circundada por uma pista circular (ciclovia) representada por uma faixa branca. Na parte superior da ciclovia, há um ponto amarelo identificado como P. Um trecho da ciclovia ao redor do ponto P está destacado em cinza escuro, representando a região de alcance. Setas indicam distâncias de 200 m para cada lado a partir do ponto P, delimitando o arco de 400 m de comprimento de proteção.]
+
+Nessas condições, a quantidade mínima necessária de policiais a serem alocados ao longo dessa ciclovia para torná-la protegida é
+
+A) $4$.
+B) $8$.
+C) $15$.
+D) $30$.
+E) $60$.

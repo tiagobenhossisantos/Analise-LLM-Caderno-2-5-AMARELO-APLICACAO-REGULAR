@@ -1,0 +1,22 @@
+QUESTÃO 113
+
+Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essas fontes sem levar em conta a tensão, a corrente ou a potência elétrica de saída.
+
+Considere um equipamento de resistência elétrica $R_C$ que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão $20\%$ superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção $R_P$, de potência adequada, se faz necessária.
+
+A configuração adequada do circuito e o valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:
+
+**[FIGURA: Alternativa A contendo um circuito elétrico em formato retangular com uma fonte de tensão contínua no ramo esquerdo, um resistor $R_C$ em um ramo central em paralelo, e um resistor $R_P = 0,2\,R_C$ em um ramo à direita em paralelo.]**
+**A** 
+
+**[FIGURA: Alternativa B contendo um circuito elétrico em formato retangular com uma fonte de tensão contínua no ramo esquerdo, um resistor $R_C$ em um ramo central em paralelo, e um resistor $R_P = 1,2\,R_C$ em um ramo à direita em paralelo.]**
+**B** 
+
+**[FIGURA: Alternativa C contendo um circuito elétrico em formato retangular com uma fonte de tensão contínua no ramo esquerdo e, no ramo direito, uma associação em série contendo um resistor de proteção $R_P = 1,2\,R_C$ acima de um resistor do equipamento $R_C$.]**
+**C** 
+
+**[FIGURA: Alternativa D contendo um circuito elétrico em formato retangular com uma fonte de tensão contínua no ramo esquerdo e, no ramo direito, uma associação em série contendo um resistor de proteção $R_P = 2,2\,R_C$ acima de um resistor do equipamento $R_C$.]**
+**D** 
+
+**[FIGURA: Alternativa E contendo um circuito elétrico em formato retangular com uma fonte de tensão contínua no ramo esquerdo e, no ramo direito, uma associação em série contendo um resistor de proteção $R_P = 0,2\,R_C$ acima de um resistor do equipamento $R_C$.]**
+**E**

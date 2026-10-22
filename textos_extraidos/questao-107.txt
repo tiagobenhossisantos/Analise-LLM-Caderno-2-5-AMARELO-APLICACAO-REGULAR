@@ -1,0 +1,17 @@
+QUESTÃO 107
+
+As usinas termonucleares são aquelas que produzem energia elétrica a partir da geração de energia térmica proveniente das reações nucleares. Normalmente, essas usinas funcionam por meio de dois circuitos, denominados circuito primário (vaso de pressão, pressurizador e bomba) e circuito secundário (gerador de vapor, turbina, condensador, tanque de alimentação e bombas), além de um sistema de água de refrigeração, formado por uma bomba ligada a uma fonte hídrica natural.
+
+[FIGURA: Diagrama esquemático de uma usina termonuclear dentro de um grande vaso de contenção cinza. O esquema detalha três sistemas através de legendas coloridas em círculos: Circuito primário (amarelo), Circuito secundário (azul) e Sistema de água de refrigeração (verde). No circuito primário, o Reator abriga o Elemento combustível e está conectado a uma Bomba e a um Pressurizador. O vapor gerado alimenta o circuito secundário que passa por uma Turbina conectada a um Gerador elétrico (que envia energia para torres de transmissão). O vapor é condensado no Condensador utilizando água fria proveniente de um ecossistema aquático (lrio/rio) através de bombas, retornando à torre de resfriamento e ao ecossistema. Há setas indicando o fluxo dos fluidos em cada etapa.]
+
+Durante a operação da usina, se o sistema de água de refrigeração funcionar de forma ineficiente pode causar poluição térmica, comprometendo a vida no ecossistema aquático.
+
+Disponível em: www.eletronuclear.gov.br. Acesso em: 29 nov. 2021 (adaptado).
+
+Para o ecossistema aquático, a ineficiência do sistema de água de refrigeração tem como consequência a
+
+A diminuição do pH.
+B liberação de gases poluentes.
+C contaminação por combustíveis.
+D liberação de elementos radioativos.
+E diminuição da solubilidade do gás oxigênio.

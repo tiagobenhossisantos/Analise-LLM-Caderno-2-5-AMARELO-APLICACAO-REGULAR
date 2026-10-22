@@ -1,0 +1,15 @@
+QUESTÃO 170
+
+A luminância de um objeto é a grandeza que descreve a quantidade de luz produzida ou refletida por sua superfície. Ela está definida como a razão entre a intensidade luminosa, medida em candela (cd), e o quadrado da distância do objeto até o foco de luz, medida em metro (m).
+
+A unidade de medida da luminância de um objeto é
+
+**A** $\frac{\text{cd}}{\text{m}^2}$
+
+**B** $\frac{\text{m}^2}{\text{cd}}$
+
+**C** $\frac{\text{cd}}{\text{m}}$
+
+**D** $\frac{\text{m}}{\text{cd}}$
+
+**E** $\frac{\text{m}}{\text{cd}^2}$

@@ -1,0 +1,21 @@
+QUESTÃO 135
+
+Réguas elétricas são dispositivos que permitem a ligação segura e simultânea de dois ou mais aparelhos eletroeletrônicos à rede elétrica. Uma estudante comprou uma régua com seis tomadas, conforme a figura. Essa régua suporta uma intensidade máxima de corrente elétrica igual a 20 A. Acima desse valor, o fusível de segurança da régua se rompe, inutilizando-a até que um novo fusível seja instalado. Considere as potências nominais de alguns aparelhos eletroeletrônicos apresentadas no quadro.
+
+[FIGURA: Tabela com duas colunas ("Aparelho" e "Potência (watt)") e seis linhas contendo os seguintes dados: Lumininária de LED - 5 W; Computador - 250 W; Impressora a laser - 660 W; Secador de cabelos - 750 W; Cafeteira - 900 W; Condicionador de ar portátil - 1100 W. Ao lado da tabela, há uma foto de uma régua elétrica (filtro de linha) de cor branca, contendo seis tomadas dispostas em fila e um cabo elétrico enrolado.]
+
+Em um dia quente, a estudante mantém o computador e o condicionador de ar portátil ligados à régua permanentemente. Nessa situação, ela tenta realizar algumas atividades, uma de cada vez, utilizando a mesma régua, na seguinte ordem:
+1º – imprimir um trabalho escolar;
+2º – fazer um café com a cafeteira;
+3º – ligar a luminária;
+4º – secar os cabelos.
+
+Sabe-se que a régua foi ligada à tensão elétrica de 110 V, adequada para o funcionamento desses aparelhos.
+
+Considerando a ordem das tentativas, quantas atividades a estudante conseguiu realizar sem queimar o fusível?
+
+A 4
+B 3
+C 2
+D 1
+E 0

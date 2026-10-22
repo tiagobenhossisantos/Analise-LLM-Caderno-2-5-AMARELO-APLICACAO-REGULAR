@@ -1,0 +1,23 @@
+QUESTÃO 173
+
+Em um país, a primeira etapa para obtenção da carteira de motorista é a contratação de três produtos:
+• pacote com 20 aulas teóricas;
+• pacote com 10 aulas práticas;
+• aluguel do veículo para realização das aulas práticas.
+
+Uma pessoa que pretende obter a carteira de motorista pesquisou o valor do aluguel do veículo e os valores de cada aula teórica e de cada aula prática em três autoescolas. O quadro apresenta esses valores.
+
+**[FIGURA: Tabela com 4 colunas e 4 linhas (1 linha de cabeçalho e 3 linhas de dados). A primeira linha, em fundo amarelo escuro com texto em preto, contém os cabeçalhos: "Autoescola", "Valor de cada aula teórica (R$)", "Valor de cada aula prática (R$)" e "Aluguel do veículo (R$)". As linhas de dados contêm as seguintes informações:
+- Linha 1 (Autoescola I): 10 (aula teórica), 80 (aula prática), 400 (aluguel).
+- Linha 2 (Autoescola II): 30 (aula teórica), 50 (aula prática), 200 (aluguel).
+- Linha 3 (Autoescola III): 20 (aula teórica), 40 (aula prática), 400 (aluguel).]**
+
+Ela contratará os três produtos numa mesma autoescola de modo que o custo total nessa primeira etapa seja o menor possível.
+
+A autoescola que será contratada é a
+
+Ⓐ I, com o custo total de R$ 1 400,00.
+Ⓑ II, com o custo total de R$ 280,00.
+Ⓒ II, com o custo total de R$ 1 300,00.
+Ⓓ III, com o custo total de R$ 460,00.
+Ⓔ III, com o custo total de R$ 1 200,00.

@@ -1,0 +1,18 @@
+QUESTÃO 103
+
+Para transportar uma caixa do primeiro para o segundo piso de uma construção, um trabalhador precisará arrastá-la sobre um plano inclinado. O trabalhador começa a arrastar a caixa no primeiro piso, exercendo sobre ela uma força de grande intensidade, paralela ao seu deslocamento. Na medida em que a caixa sobe o plano inclinado, ele decide reduzir a força sobre ela, arrastando-a lentamente até chegar ao segundo piso. Considere que a caixa permanece em movimento nos encontros dos pisos com o plano inclinado, e que a rugosidade entre as superfícies permanece a mesma durante todo o percurso.
+
+O comportamento da força de atrito entre a caixa e o chão no plano inclinado é representado em:
+
+**[FIGURA: Conjunto de cinco gráficos cartesianos de linha, rotulados de A a E, que relacionam a "Força de atrito" (no eixo vertical) com o "Tempo" (no eixo horizontal). 
+- Gráfico A: A curva inicia com um valor alto de força de atrito, decresce linearmente até um ponto mínimo e depois cresce linearmente até um patamar constante onde permanece horizontal.
+- Gráfico B: A curva inicia com um valor intermediário, cresce linearmente até um pico, decresce linearmente e depois se estabiliza em um patamar horizontal inferior.
+- Gráfico C: A curva apresenta uma linha reta perfeitamente horizontal, indicando força de atrito constante ao longo de todo o tempo.
+- Gráfico D: A curva inicia em um patamar elevado constante, mantém-se horizontal por um período e depois decresce linearmente até o final.
+- Gráfico E: A curva inicia com um valor baixo, cresce linearmente até atingir um pico e depois decresce linearmente até o final do tempo.]**
+
+A) **[FIGURA: Gráfico A - curva decrescente, depois crescente, estabilizando-se em patamar constante]**
+B) **[FIGURA: Gráfico B - curva crescente, depois decrescente, estabilizando-se em patamar constante inferior]**
+C) **[FIGURA: Gráfico C - linha reta horizontal constante]**
+D) **[FIGURA: Gráfico D - patamar inicial constante seguido de decrescimento linear]**
+E) **[FIGURA: Gráfico E - curva crescente seguida de decrescimento linear]**

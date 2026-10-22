@@ -1,0 +1,20 @@
+QUESTÃO 158
+
+*Pace* é um termo usado por um corredor para denominar o seu ritmo médio em uma corrida. Representa o tempo médio, em segundo, que esse corredor leva para percorrer $1\text{ km}$.
+
+O esquema apresenta o tempo, em segundo, que um corredor levou para cruzar as marcas que definem os quatro primeiros trechos de $1\text{ km}$, em uma corrida de $5\text{ km}$, e o tempo gasto para percorrer cada trecho de $1\text{ km}$.
+
+[FIGURA: Esquema gráfico horizontal dividido em três seções principais alinhadas verticalmente. 
+Na terceira seção inferior, o "Comprimento do percurso" mostra uma linha horizontal com marcos em 0 km, 1 km, 2 km, 3 km, 4 km e 5 km, dividida em 5 trechos iguais: 1º trecho (0 a 1 km), 2º trecho (1 a 2 km), 3º trecho (2 a 3 km), 4º trecho (3 a 4 km) e 5º trecho (4 a 5 km). 
+Na seção intermediária, o "Tempo gasto em cada trecho de 1 km" indica setas verdes com os valores: 272 s para o 1º trecho, 284 s para o 2º trecho, 288 s para o 3º trecho, e 288 s para o 4º trecho. Há o desenho silhuetado de um corredor logo após a marca de 4 km.
+Na primeira seção superior, o "Tempo de corrida" indica o tempo total acumulado em cada marca: 0 s em 0 km, 272 s em 1 km, 556 s em 2 km, 844 s em 3 km, e 1 132 s em 4 km.]
+
+O melhor *pace* que esse corredor alcançou em corridas de $5\text{ km}$ foi $281\text{ s/km}$.
+
+Para que consiga repetir nessa corrida seu melhor *pace* em corridas de $5\text{ km}$, seu tempo, no $5º$ trecho, deve ser quantos segundos menor do que o que ele gastou para percorrer o $4º$ trecho?
+
+Ⓐ 1  
+Ⓑ 2  
+Ⓒ 8  
+Ⓓ 9  
+Ⓔ 15

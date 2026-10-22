@@ -1,0 +1,17 @@
+QUESTÃO 93
+
+A produção de vacinas exige uma sequência de procedimentos, além do cumprimento estrito de verificações de segurança. No esquema, estão demonstradas as etapas básicas realizadas para a fabricação de uma vacina utilizando a tecnologia tradicional e o efeito dela no organismo.
+
+[FIGURA: Esquema em formato de fluxograma ilustrando o processo de fabricação de uma vacina tradicional e sua ação no organismo. O fluxograma é composto por 4 etapas principais numeradas: 
+1. Apresenta um microscópio analisando uma "Cultura de células infectadas com vírus", apontando por uma seta (1) para o "Isolamento dos vírus", representado por partículas virais roxas e detalhadas.
+2. A partir do isolamento, uma seta (2) indica a "Inativação dos vírus pelo calor ou por ação química", resultando em partículas virais em preto e branco (inativadas).
+3. Uma seta (3) aponta para a "Aplicação da vacina" em uma pessoa (ilustrada por uma mulher usando máscara recebendo uma injeção no braço).
+4. A partir da pessoa vacinada, uma seta (4) aponta para baixo mostrando a resposta imunológica: partículas virais inativadas sendo cercadas e ligadas por anticorpos em formato de "Y" verde, neutralizando o antígeno.]
+
+O antígeno utilizado na vacina causa um efeito protetor contra o vírus porque
+
+A mata o vírus pela ligação.
+B aglutina o vírus por associação.
+C contém imunoglobulinas de defesa.
+D induz a produção de proteínas neutralizadoras.
+E mantém a quantidade de anticorpos preexistentes.

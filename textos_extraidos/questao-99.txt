@@ -1,0 +1,13 @@
+QUESTÃO 99
+
+A deficiência da enzima lipase ácida causa uma doença em que o portador apresenta células que não degradam colesterol esterificado nem triglicerídeos, resultando no depósito desses compostos em diversos órgãos, principalmente no fígado.
+
+ANDERSON, R. A. et al. In Situ Localization of the Genetic Locus Encoding [...]. **Genomics**, n. 1, jan. 1993 (adaptado).
+
+Essa doença resulta da insuficiência funcional de qual estrutura celular?
+
+A) Lisossomos.
+B) Ribossomos.
+C) Mitocôndrias.
+D) Peroxissomos.
+E) Retículo endoplasmático liso.

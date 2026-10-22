@@ -1,0 +1,15 @@
+QUESTÃO 149
+
+Uma escola de idiomas oferece cursos de inglês, espanhol, francês e alemão. Os gráficos apresentam a distribuição percentual das matrículas, por idioma, em 2023, e a distribuição da quantidade de matrículas, por idioma, em 2024.
+
+**[FIGURA: O primeiro gráfico é um gráfico de pizza intitulado "Porcentagem de matrículas por idioma - 2023" que mostra a distribuição percentual dividida nas cores laranja (Inglês: 60%), amarelo (Espanhol: 25%), verde (Francês: 10%) e roxo (Alemão: 5%). Abaixo da pizza há uma legenda correspondente. O segundo gráfico é um gráfico de barras verticais intitulado "Quantidade de matrículas por idioma - 2024" com as barras: Inglês na cor laranja com altura representando o valor 280, Espanhol na cor amarela representando 80, Francês na cor verde representando 20, e Alemão na cor roxa representando 20.]**
+
+Para planejar as atividades de 2025, o gerente da escola estimou que o total de matrículas será o mesmo de 2024, e a distribuição percentual das matrículas, por idioma, será igual à registrada em 2023.
+
+Segundo essa estimativa, o número de matrículas no curso de francês para o ano de 2025 será
+
+A 2.
+B 12.
+C 20.
+D 22.
+E 40.

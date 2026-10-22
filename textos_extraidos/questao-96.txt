@@ -1,0 +1,11 @@
+QUESTÃO 96
+
+Existe um processo de purificação de água em que são removidos os sais dissolvidos. A água que passa por esse processo é muito utilizada em laboratórios de química, em indústrias (como solvente), em baterias de carros etc. Entretanto, esse tipo de água não é adequado para ingestão, pois pode causar problemas de saúde, como carência iônica e diarreia.
+
+Essa água é chamada de
+
+A dura.
+B pesada.
+C sanitária.
+D destilada.
+E oxigenada.

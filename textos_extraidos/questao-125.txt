@@ -1,0 +1,24 @@
+QUESTÃO 125
+
+Em uma comunidade rural, os moradores utilizam uma bomba-d'água alimentada por 100 V de tensão contínua, podendo variar em até 5 V. Um eletrotécnico pretende instalar placas fotovoltaicas para alimentar essa bomba. As placas são idênticas e cada uma apresenta tensão de operação igual a 34 V com corrente de 7,5 A. Além disso, cada placa apresenta 40 V de tensão elétrica, quando em circuito aberto. Assim, considerando que a placa descrita é um gerador não ideal, em circuito aberto ela pode ser representada conforme a figura:
+
+**[FIGURA: Diagrama esquemático de um gerador não ideal, composto por uma fonte de força eletromotriz de valor $\varepsilon = 40\text{ V}$ (representada por placas paralelas longa e curta, com polos negativo e positivo indicados) associada em série com uma resistência interna representada pela letra $r$.]**
+
+O eletrotécnico construiu um circuito que permite à bomba-d'água operar corretamente com o menor número possível de placas conectadas. Para isso, desenhou um diagrama no qual todas essas placas são representadas como um único gerador não ideal, com a especificação das correspondentes características elétricas.
+
+O diagrama que representa o circuito construído pelo eletrotécnico é:
+
+**[FIGURA: Alternativa A mostrando um circuito fechado com uma fonte de $136\text{ V}$, um resistor de $3,2\ \Omega$ e um componente rotulado "Bomba".]**
+A) 
+
+**[FIGURA: Alternativa B mostrando um circuito fechado com uma fonte de $120\text{ V}$, um resistor de $2,4\ \Omega$ e um componente rotulado "Bomba".]**
+B) 
+
+**[FIGURA: Alternativa C mostrando um circuito fechado com uma fonte de $120\text{ V}$, um resistor de $5,3\ \Omega$ e um componente rotulado "Bomba".]**
+C) 
+
+**[FIGURA: Alternativa D mostrando um circuito fechado com uma fonte de $102\text{ V}$, um resistor de $2,4\ \Omega$ e um componente rotulado "Bomba".]**
+D) 
+
+**[FIGURA: Alternativa E mostrando um circuito fechado com uma fonte de $102\text{ V}$, um resistor de $5,3\ \Omega$ e um componente rotulado "Bomba".]**
+E)

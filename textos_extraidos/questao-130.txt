@@ -1,0 +1,13 @@
+QUESTÃO 130
+
+A resistência de um fio de platina pode ser usada para medir temperaturas entre $0^\circ\text{C}$ e $100^\circ\text{C}$ e já foi utilizada como referência para a escala internacional de temperatura. Para um sensor feito de platina, a relação entre a resistência e a temperatura pode ser descrita por uma equação do tipo $R(T) = A + BT$, em que $T$ é a temperatura e $A$ e $B$ são constantes. O gráfico apresenta a dependência da resistência em função da temperatura para cinco diferentes sensores.
+
+**[FIGURA: Gráfico de linha cartesiano bidimensional intitulado com as curvas de resistência em função da temperatura para cinco sensores. O eixo vertical (ordenada) representa a "Resistência (ohm)", com valores variando de 50 a 250 em incrementos de 25. O eixo horizontal (abscissa) representa a "Temperatura ($^\circ\text{C}$)", com valores variando de $-100$ a $350$ em incrementos de $50$. O gráfico exibe cinco retas coloridas rotuladas como Sensor 1 (laranja, praticamente horizontal e próxima ao valor 225), Sensor 2 (verde, com inclinação acentuada subindo de 75 a cerca de 225), Sensor 3 (roxo escuro, com inclinação suave subindo de cerca de 145 a 170), Sensor 4 (azul claro, com inclinação moderada subindo de cerca de 90 a 145) e Sensor 5 (roxo magenta, com inclinação similar à do Sensor 4, subindo de cerca de 65 a 145). Linhas tracejadas horizontais partem dos valores do eixo vertical para facilitar a leitura.]**
+
+Os sensores que apresentam maior sensibilidade são
+
+A) 1 e 2.  
+B) 1 e 3.  
+C) 2 e 3.  
+D) 2 e 4.  
+E) 2 e 5.

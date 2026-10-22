@@ -1,0 +1,13 @@
+QUESTÃO 131
+
+O ácido úsnico é retirado de líquens e foi testado contra diversas espécies, conforme o quadro.
+
+**[FIGURA: Tabela com duas colunas principais, "Teste" e "Resultado", contendo cinco linhas de dados sobre a eficácia do ácido úsnico. Linha 1: "Aedes aegypti (larvas)" / "Baixa eficiência". Linha 2: "Bacilo de Koch" / "Média eficiência". Linha 3: "Moluscos aquáticos (adultos)" / "Alta eficiência". Linha 4: "Pernilongo (larvas)" / "Média eficiência". Linha 5: "Vermes platelmintos" / "Ineficiente".]**
+
+O ácido úsnico mostrou-se mais indicado para o controle da
+
+A esquistossomose.
+B febre amarela.
+C coqueluche.
+D tuberculose.
+E dengue.

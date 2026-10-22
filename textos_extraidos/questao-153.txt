@@ -1,0 +1,18 @@
+QUESTÃO 153
+
+Para acompanhar o fluxo de visitantes em seu prédio, uma empresa estabeleceu um código de identificação para a visitação. De acordo com a regra estabelecida, cada visitante será identificado com um código sequencial numérico com 7 dígitos, determinado, da esquerda para a direita, da seguinte forma:
+
+- o primeiro dígito indica o andar ao qual o visitante se dirige, que é um número de 1 a 4;
+- os dois próximos dígitos correspondem ao número do setor da empresa ao qual o visitante se destina. Esse número varia de 01 a 20;
+- os três dígitos seguintes correspondem ao número do funcionário da empresa com quem o visitante irá se reunir. Esse número varia de 001 a 135;
+- o último dígito indica se o visitante chegou à empresa pela manhã, dígito 0, ou à tarde, dígito 1.
+
+Um visitante chegou à empresa às 10 horas da manhã para se reunir com o funcionário identificado pelo número 109, que trabalha no setor 08 da empresa, localizado no 2º andar.
+
+O código de identificação desse visitante é
+
+A) 0109082.
+B) 0281090.
+C) 1010982.
+D) 2081090.
+E) 2810910.

@@ -1,0 +1,15 @@
+QUESTÃO 147
+
+Em um jogo digital, há três personagens: um herói e dois vilões. A programação é feita de tal forma que o herói sempre será atacado pelo vilão que estiver mais próximo dele. Uma das maneiras de "confundir" os vilões é movimentar o herói por trajetórias que o mantenha equidistante dos vilões, gerando indefinição entre eles e, com isso, não sendo atacado.
+
+Para a programação de uma das etapas desse jogo, o programador considerou, no plano cartesiano, o quadrado $STUV$ como a região de movimentação dos personagens, onde $V$ e $T$ representam as posições fixas dos vilões, e $S$, a posição inicial do herói, como apresentado na figura.
+
+**[FIGURA: Plano cartesiano com os eixos x e y indicados. Há um quadrado azul inclinado, rotulado como STUV. Os vértices possuem as seguintes posições identificadas por pontos pretos e coordenadas/rótulos: vértice S com coordenadas (6; 2), vértice V com coordenadas (8; 6), vértice T à esquerda, e vértice U no topo.]**
+
+Qual é a equação da trajetória em que o herói poderá se movimentar sem ser atacado?
+
+A) $y = -3x + 20$  
+B) $y = -3x + 16$  
+C) $y = -3x - 20$  
+D) $y = 3x + 16$  
+E) $y = 3x - 16$

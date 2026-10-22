@@ -1,0 +1,13 @@
+QUESTÃO 160
+
+Os quadrados em cinza na figura representam os quarteirões de uma parte do bairro onde moram João e seu amigo. O quadrado pequeno (A), pintado em preto e localizado no canto superior esquerdo de um quadrado maior, indica a casa do amigo de João. João também mora em uma casa de esquina, mas na extremidade nordeste de um quarteirão. Para chegar à casa de seu amigo, ao sair de casa, João deve caminhar pelo quarteirões onde mora na direção oeste, dobrar à direita, caminhar por três quarteirões na direção norte e dobrar à esquerda. A casa de seu amigo fica no segundo quarteirão a oeste.
+
+**[FIGURA: Malha quadriculada 6x6 composta por quarteirões cinzas, com letras indicativas em alguns deles. Na linha superior, o quinto quarteirão contém a letra "Q". Na quarta linha, o terceiro quarteirão contém a letra "A" (que representa a casa do amigo) e o quinto quarteirão contém a letra "S". Na linha inferior, o primeiro quarteirão contém a letra "R", o quinto contém a letra "P" e o sexto contém a letra "T". À direita da malha, há uma rosa dos ventos indicando as direções: N (Norte para cima), S (Sul para baixo), L (Leste para a direita) e O (Oeste para a esquerda).]**
+
+O quarteirão onde se encontra a casa de João é representado pelo quadrado com a letra
+
+A P.
+B Q.
+C R.
+D S.
+E T.

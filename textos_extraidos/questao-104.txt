@@ -1,0 +1,19 @@
+QUESTÃO 104
+
+A Figura 1 apresenta o esquema de um tubo de imagem em que um filamento, na posição A, libera elétrons por efeito termiônico. Esses elétrons formam um feixe estreito, que é acelerado por campos elétricos em direção à parte interna da tela. Nesse caminho, o feixe de elétrons passa por outro campo elétrico, na região B, atingindo, em seguida, a parte interna da tela do tubo, a qual é recoberta por um material que emite luz ao receber o impacto dos elétrons.
+
+[FIGURA: Figura 1 - Esquema de um tubo de raios catódicos. Mostra um filamento na posição A gerando um feixe de elétrons que passa por anéis aceleradores, seguido por placas de deflexão na região B, e projeta-se em uma tela curva interna marcada com os números 1, 2, 3, 4 e 5. A linha tracejada central passa pelo número 5, enquanto 1 e 2 estão na parte superior e inferior da tela, respectivamente, e 3 e 4 estão nas extremidades horizontalmente.]
+
+Na Figura 2, a carga negativa representa o feixe de elétrons que é acelerado e, posteriormente, atinge um ponto da tela. O campo elétrico na região B apresenta a seguinte configuração:
+
+[FIGURA: Figura 2 - Ilustração do campo elétrico uniforme na região B. Duas placas paralelas horizontalmente geram um campo elétrico vertical E apontando para cima (setas azuis verticais). Uma carga pontual amarela com sinal negativo (-) move-se da esquerda para a direita com uma velocidade vetorial v (seta vermelha horizontal).]
+
+Grupo de Reelaboração do Ensino de Física. **Física 3: eletromagnetismo**. São Paulo: Edusp, 2000 (adaptado).
+
+Nessa situação, qual ponto da tela será atingido pelo feixe de elétrons?
+
+A 1
+B 2
+C 3
+D 4
+E 5

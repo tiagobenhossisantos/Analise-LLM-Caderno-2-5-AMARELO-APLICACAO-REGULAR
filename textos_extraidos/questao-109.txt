@@ -1,0 +1,15 @@
+QUESTÃO 109
+
+O fruto do cajueiro é um aquênio repleto de um líquido escuro, quase preto, cáustico e inflamável. Esse líquido da casca da castanha do caju (LCC) representa aproximadamente 25% da massa da castanha e é um subproduto de agronegócio do caju. Quando submetido a altas temperaturas, o ácido anacárdico presente no LCC é convertido a cardanol, que recebe a denominação de LCC técnico, conforme o esquema:
+
+**[FIGURA: Esquema de reação química mostrando a conversão do ácido anacárdico em cardanol. À esquerda, a estrutura molecular do ácido anacárdico: um anel benzênico ligado a um grupo hidroxila (-OH) na posição 1, um grupo carboxílico (-COOH) na posição 2 e uma cadeia carbônica saturada ou insaturada (-C15H31) na posição 6. Sobre a seta da reação, há os símbolos de aquecimento (delta) e a faixa de temperatura de "180 °C a 200 °C". À direita, o produto da reação, o cardanol, acompanhado da liberação de gás carbônico (+ CO2): a estrutura mostra um anel benzênico ligado a um grupo hidroxila (-OH) na posição 1 e a cadeia carbônica (-C15H31) na posição 3, indicando a perda do grupo -COOH original em forma de CO2.]**
+
+MAZZETTO, S. E.; LOMONACO, D.; MELE, G. Óleo da castanha de caju: oportunidades e desafios no contexto do desenvolvimento e sustentabilidade industrial. **Química Nova**, n. 3, 2009 (adaptado).
+
+O LCC técnico é produzido por meio de uma reação orgânica do tipo
+
+A hidrólise.
+B fenilação.
+C esterificação.
+D hidrogenação.
+E descarboxilação.

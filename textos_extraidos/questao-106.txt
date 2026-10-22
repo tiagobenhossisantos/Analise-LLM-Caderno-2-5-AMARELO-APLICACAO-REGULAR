@@ -1,0 +1,15 @@
+QUESTÃO 106
+
+Em uma aula prática de química orgânica, um professor identificou os frascos de várias substâncias apenas por suas fórmulas moleculares. Em seguida, apresentou a representação tridimensional da molécula do borneol, um álcool secundário, conforme a figura. Ele explicou que, quando oxidado, o borneol dá origem à cânfora, uma cetona usada desde a Antiguidade como incenso e no preparo de medicamentos. Finalmente, o professor solicitou que os alunos identificassem o frasco contendo a substância cânfora.
+
+[FIGURA: Representação estrutural tridimensional da molécula de borneol. Trata-se de um sistema bicíclico (cânfano) contendo um grupo hidroxila (-OH) ligado a um dos carbonos do anel, dois grupos metila (-CH3) presos a um carbono em ponte, e um terceiro grupo metila (-CH3) ligado a outra posição do sistema bicíclico. Abaixo da estrutura consta o rótulo "Borneol".]
+
+SANTOS, A. P. B. et al. Oxidação do borneol à cânfora com água sanitária: um experimento simples de baixo custo e limpo. **Química Nova**, n. 6, 2009 (adaptado).
+
+O frasco contendo cânfora apresenta a fórmula molecular:
+
+A) C₉H₁₆O
+B) C₉H₁₇O
+C) C₁₀H₁₆O
+D) C₁₀H₁₆O₂
+E) C₁₀H₁₈O₂

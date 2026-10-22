@@ -1,0 +1,17 @@
+QUESTÃO 102
+
+A figura apresenta a herança genética de uma característica a partir do cruzamento de insetos de uma mesma espécie.
+
+**[FIGURA: Diagrama de cruzamento genético representado por ilustrações de joaninhas. Na seção "Parentais", há um macho com quatro pontos pretos nas asas (dois de cada lado) e uma fêmea com uma linha preta longitudinal contínua nas asas. Abaixo, na "Primeira geração", há um macho e uma fêmea, ambos com quatro pontos pretos e uma linha longitudinal nas asas.]**
+
+Qual alternativa representa a proporção fenotípica da prole resultante do cruzamento entre indivíduos da primeira geração?
+
+**A)** **[FIGURA: Quatro joaninhas ilustrando a proporção fenotípica, todas com quatro pontos pretos nas asas, sem a linha longitudinal, indicando machos e fêmeas]**
+
+**B)** **[FIGURA: Quatro joaninhas ilustrando a proporção fenotípica, todas com uma linha preta longitudinal nas asas, sem pontos, indicando machos e fêmeas]**
+
+**C)** **[FIGURA: Quatro joaninhas ilustrando a proporção fenotípica, todas com quatro pontos pretos e uma linha longitudinal nas asas, indicando machos e fêmeas]**
+
+**D)** **[FIGURA: Quatro joaninhas ilustrando a proporção fenotípica em proporção 3:1, onde três joaninhas possuem quatro pontos pretos e uma não possui, indicando machos e fêmeas]**
+
+**E)** **[FIGURA: Quatro joaninhas ilustrando a proporção fenotípica variada: uma com quatro pontos, uma com linha longitudinal, e duas com quatro pontos e linha longitudinal, indicando machos e fêmeas]**

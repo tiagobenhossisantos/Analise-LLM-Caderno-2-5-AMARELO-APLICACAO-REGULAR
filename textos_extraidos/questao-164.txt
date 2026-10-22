@@ -1,0 +1,17 @@
+QUESTÃO 164
+
+O cortisol é um hormônio produzido pelas glândulas adrenais e pode ser considerado um importante marcador do estresse fisiológico. Em um estudo desenvolvido com enfermeiros, foi verificado que a concentração de cortisol salivar em um dia de trabalho, denotada por $T$, era, em média, 1,59 vezes a concentração de cortisol salivar em um dia de folga, denotada por $F$.
+
+ROCHA, M. C. P. et al. Estresse em enfermeiros: o uso do cortisol salivar no dia de trabalho e de folga. **Rev. Esc. Enferm. USP**, n. 5, 2013 (adaptado).
+
+Nesse estudo, a relação obtida entre $T$ e $F$ foi
+
+A $T = 1,59 + F$
+
+B $F = 1,59 + T$
+
+C $\frac{T}{F} = 1,59$
+
+D $\frac{F}{T} = 1,59$
+
+E $F \cdot T = 1,59$

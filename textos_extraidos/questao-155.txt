@@ -1,0 +1,13 @@
+QUESTÃO 155
+
+Em uma escola, todos os estudantes do ensino médio praticam uma das três modalidades esportivas oferecidas como atividade física, e cada um deles pratica somente uma dessas atividades. Os gráficos trazem alguns dados relativos aos quantitativos de estudantes que praticam essas modalidades esportivas nessa escola, apesar de algumas quantidades não terem sido informadas.
+
+[FIGURA: O primeiro gráfico é de colunas agrupadas, intitulado "Modalidades esportivas no ensino médio, por série". No eixo vertical, tem-se a "Quantidade de estudantes" e, no horizontal, as séries: "1ª série", "2ª série" e "3ª série". Para cada série, há três colunas coloridas correspondentes às legendas: azul para "Futebol", laranja para "Vôlei" e roxo para "Basquete". Na 1ª série, a coluna de Futebol é alta, Vôlei tem altura intermediária e Basquete é baixa. Na 2ª série, Futebol é alta, Vôlei e Basquete têm a mesma altura intermediária. Na 3ª série, Futebol tem altura intermediária, enquanto Vôlei e Basquete têm alturas menores e iguais entre si, idênticas às alturas de Vôlei e Basquete da 2ª série. O segundo gráfico é um gráfico de pizza (setores circulares), intitulado "Quantidade de estudantes, por modalidade esportiva". Ele é dividido em três fatias correspondentes às legendas: azul para "Futebol", representando metade do círculo; laranja para "Vôlei", representando pouco mais de um quarto; e roxo para "Basquete", representando o restante, com o valor numérico "80" escrito na fatia roxa.]
+
+Qual é a quantidade de estudantes no ensino médio dessa escola?
+
+A) 720
+B) 360
+C) 320
+D) 288
+E) 240

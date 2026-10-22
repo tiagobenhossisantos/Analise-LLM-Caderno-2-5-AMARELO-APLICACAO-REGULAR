@@ -1,0 +1,15 @@
+QUESTÃO 163
+
+Um artista, que costuma fazer desenhos com areia na praia, pediu a um banhista que fizesse um pequeno desenho, que serviria de esboço para uma grande obra de arte a ser feita na areia. Esse desenho está representado na figura.
+
+[FIGURA: Ilustração de um sol estilizado em cor amarela, composto por um círculo central cercado por oito pontas triangulares dispostas simetricamente ao redor. Há linhas de cota indicando as dimensões totais da figura: uma linha horizontal na parte inferior medindo 20 cm e uma linha vertical no lado direito medindo também 20 cm, delimitando a largura e a altura máximas do desenho.]
+
+Após a conclusão, a obra de arte obtida manteve as mesmas proporções do desenho feito pelo banhista, sendo que as medidas indicadas na figura foram ampliadas para 30 m.
+
+Em qual escala esse desenho representa a obra de arte?
+
+A) $1 : 1,5$
+B) $1 : 2,25$
+C) $1 : 10$
+D) $1 : 100$
+E) $1 : 150$

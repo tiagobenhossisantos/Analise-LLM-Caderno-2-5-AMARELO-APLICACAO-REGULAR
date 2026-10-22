@@ -1,0 +1,11 @@
+QUESTÃO 124
+
+A laje de um depósito de bebidas tem $50\text{ m}^2$ de área útil de armazenamento e foi projetada para suportar pressões de até $10^4\text{ Pa}$. O gerente do estabelecimento pretende armazenar um produto cuja densidade é $1\mathbf{ }250\text{ kg/m}^3$. Considere a aceleração da gravidade igual a $10\text{ m/s}^2$.
+
+A altura máxima, em metro, de empilhamento do produto que essa laje é capaz de suportar é
+
+A) $0,16\text{ m}$.  
+B) $0,50\text{ m}$.  
+C) $0,80\text{ m}$.  
+D) $1,60\text{ m}$.  
+E) $8,00\text{ m}$.

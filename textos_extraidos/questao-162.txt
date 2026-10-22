@@ -1,0 +1,11 @@
+QUESTÃO 162
+
+Dez casais fundaram um grupo de dança e decidiram constituir uma diretoria com três cargos: presidente, secretário e tesoureiro. Para maior representatividade, decidiu-se que no máximo uma pessoa por casal poderá ocupar um cargo nessa diretoria.
+
+Quantas diretorias diferentes podem ser constituídas por esses 10 casais?
+
+A) $10 \times 9 \times 8$
+B) $20 \times 18 \times 16$
+C) $20 \times 19 \times 18$
+D) $10 \times 9 \times 8 \times 2$
+E) $20 \times 18 \times 16 \times 2$

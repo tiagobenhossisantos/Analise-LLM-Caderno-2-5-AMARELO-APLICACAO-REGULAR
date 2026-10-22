@@ -1,0 +1,20 @@
+QUESTÃO 117
+
+Alguns hormônios sexuais têm ganhado notável atenção nos últimos anos por suas concentrações cada vez maiores no solo e na água em todo o mundo. O motivo da preocupação é porque, em níveis poluentes, eles têm sido associados ao câncer de mama e ao câncer de próstata, além de perturbarem a fisiologia dos peixes, podendo, ainda, afetarem o desenvolvimento reprodutivo de animais domésticos e selvagens. Assim, o descarte inadequado desses hormônios representa uma série ameaça ao solo, plantas, recursos hídricos e humanos. De baixa polaridade, eles apresentam uma solubilidade pequena e variável em água, dependendo dos grupos presentes em suas estruturas, representando um grande risco para os ambientes aquáticos. As figuras a seguir apresentam as estruturas de alguns desses hormônios.
+
+**[FIGURA: Fórmulas estruturais de cinco hormônios esteroides. 
+1. Estradiol: Possui um anel aromático com um grupo hidroxila (-OH) na extremidade esquerda, seguido por três anéis cicloalifáticos fusionados e um grupo metila (-CH3) e uma hidroxila (-OH) ligados ao carbono superior do anel final à direita.
+2. Estriol: Similar ao estradiol, porém o anel cicloalifático final à direita possui dois grupos hidroxila (-OH) acoplados.
+3. Estrona: Similar ao estradiol, porém o carbono superior do anel final à direita possui uma carbonila (=O) em vez de uma hidroxila e um grupo metila.
+4. Novestrol (etinilestradiol): Apresenta o núcleo esteroidal com o anel aromático hidroxilado à esquerda e, no anel final à direita, um grupo metila (-CH3), uma hidroxila (-OH) e um grupo etinila (-C≡CH) ligados ao mesmo carbono.
+5. Noretindrona: Apresenta uma cetona (=O) e uma insaturação (dupla ligação) no primeiro anel à esquerda (convertendo-o em um anel não aromático), e no anel final à direita apresenta um grupo metila (-CH3), uma hidroxila (-OH) e um grupo etinila (-C≡CH).]**
+
+MUHAMMAD, A. et al. Environmental Impact of Estrogens on Human, Animal and Plant Life: a Critical Review. **Environment International**, n. 99, 2017 (adaptado).
+
+Do ponto de vista das interações químicas, qual desses hormônios apresenta maior solubilidade em ambientes aquáticos?
+
+A) Estradiol.
+B) Estriol.
+C) Estrona.
+D) Novestrol.
+E) Noretindrona.

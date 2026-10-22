@@ -1,0 +1,13 @@
+QUESTÃO 133
+
+A maioria dos seres vivos tem um relógio biológico (ciclo circadiano), que regula as mudanças metabólicas e comportamentais de acordo com o ciclo de 24 horas de rotação da Terra. Em 2015, um artigo publicado na revista *Science Advantage* mostrou ser possível a transferência dos genes do relógio circadiano da cianobactéria *Synechococcus elongatus* para o genoma da bactéria *Escherichia coli*, um organismo não circadiano.
+
+CHEN, A. H. et al. Transplantability of a Circardian Lock to Noncircardian Organism. *Science Advantage*, n. 1, 2015 (adaptado).
+
+Estarão presentes no organismo geneticamente modificado os genes do
+
+A metabolismo de *E. coli*, apenas.
+B ciclo circadiano de *E. coli*, apenas.
+C metabolismo de *S. elongatus* e do ciclo circadiano de *E. coli*.
+D ciclo circadiano de *S. elongatus* e do metabolismo de *E. coli*.
+E ciclo circadiano de *S. elongatus* e do ciclo circadiano de *E. coli*.

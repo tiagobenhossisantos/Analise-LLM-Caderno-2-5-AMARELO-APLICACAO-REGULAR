@@ -1,0 +1,11 @@
+QUESTÃO 137
+
+Em um laboratório, um recipiente contém 10 litros de uma solução composta apenas pelas substâncias $S_1$ e $S_2$. Dessa solução, $99,95\%$ é de $S_1$. Uma quantidade de $S_1$ será retirada dessa solução, mantendo a quantidade inicial de $S_2$, de modo que $99,90\%$ da nova solução seja de $S_1$.
+
+Qual é a quantidade de $S_1$, em litro, que será retirada?
+
+A) 0,0050
+B) 0,0100
+C) 0,5000
+D) 4,9775
+E) 5,0000

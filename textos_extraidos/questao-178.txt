@@ -1,0 +1,15 @@
+QUESTÃO 178
+
+Um carro que custa 60 mil reais é comercializado por uma revendedora que oferece duas opções de pagamento, todas sem entrada e sem juros:
+• opção 1: pagamento em $n$ parcelas iguais;
+• opção 2: pagamento em 6 parcelas a mais do que na opção 1 e, com isso, o valor de cada parcela se torna R$ 500,00 menor que o valor da parcela na opção 1.
+
+Nas duas opções de pagamento, o valor total a ser pago pelo carro é o mesmo.
+
+Qual é a quantidade $n$ de parcelas contidas na opção 1 de pagamento?
+
+A 18
+B 24
+C 30
+D 42
+E 48

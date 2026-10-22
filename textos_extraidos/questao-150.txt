@@ -1,0 +1,18 @@
+QUESTÃO 150
+
+O controle remoto de um carrinho de brinquedo vem equipado com uma tela que ajusta automaticamente a escala empregada na exibição de cada deslocamento. A tela apresenta a imagem do deslocamento, a escala utilizada na geração dessa imagem e o comprimento desse deslocamento, em centímetro, em conformidade com a escala empregada. As figuras representam a tela do controle remoto exibindo os dados de cinco deslocamentos realizados por esse carrinho.
+
+**[FIGURA: Cinco telas de controle remoto enumeradas de I a V, contendo representações de segmentos de reta orientados que indicam deslocamentos:
+- Tela I: Segmento inclinado de A a B, com comprimento de 9 cm na tela e escala 1 : 100.
+- Tela II: Segmento inclinado de C a B, com comprimento de 5 cm na tela e escala 1 : 300.
+- Tela III: Segmento inclinado de D a C, com comprimento de 5 cm na tela e escala 1 : 600.
+- Tela IV: Segmento vertical de D a E, com comprimento de 3 cm na tela e escala 1 : 700.
+- Tela V: Segmento inclinado de E a F, com comprimento de 2 cm na tela e escala 1 : 1 000.]**
+
+A opção que indica o deslocamento de maior comprimento realizado pelo carrinho de brinquedo é
+
+A I.
+B II.
+C III.
+D IV.
+E V.

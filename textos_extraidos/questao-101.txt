@@ -1,0 +1,25 @@
+QUESTÃO 101
+
+A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com um método de fototerapia conhecido como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento.
+
+O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor, colado na fralda do bebê 
+
+**[FIGURA: Gráfico cartesiano de "Fotoluminescência (u.a.)" versus "Comprimento de onda (nm)", mostrando um pico de emissão em torno de 600 nm para o início do tratamento.]**
+
+**(Figura 1)**, luminesce na região do vermelho-laranja (~600 nm). A Figura 2 apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul.
+
+**[FIGURA: Figura 1 mostra um recém-nascido deitado sob fototerapia, com um sensor em forma de coração vermelho colado na fralda. Figura 2 mostra uma barra vertical preta indicando o tempo de exposição de 0 h a 12 h e o aumento correspondente da frequência, com corações que mudam de cor de vermelho (0 h, 3 h), passando por laranja (6 h), amarelo-esverdeado (9 h) até verde (12 h).]**
+
+SILVA, M. M. et al. Fabricação de sensor orgânico flexível para aplicação em terapia com luz azul. **Tecnol. Metal. Mater. Miner.**, n. 3, jul.-set. 2011 (adaptado).
+
+Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico:
+
+A) **[FIGURA: Gráfico de Fotoluminescência (u.a.) vs Comprimento de onda (nm) contendo duas curvas: uma contínua indicando "No início do tratamento" (pico em 600 nm) e uma tracejada indicando "No final do tratamento" (pico deslocado para cerca de 550 nm).]**
+
+B) **[FIGURA: Gráfico de Fotoluminescência (u.a.) vs Comprimento de onda (nm) contendo duas curvas: uma contínua "No início do tratamento" (pico em 600 nm) e uma tracejada "No final do tratamento" (pico deslocado para cerca de 630-640 nm).]**
+
+C) **[FIGURA: Gráfico de Fotoluminescência (u.a.) vs Comprimento de onda (nm) contendo duas curvas: uma contínua "No início do tratamento" (pico em 600 nm) e uma tracejada "No final do tratamento" (mesmo pico em 600 nm, com menor intensidade).]**
+
+D) **[FIGURA: Gráfico de Fotoluminescência (u.a.) vs Comprimento de onda (nm) contendo duas curvas: uma contínua "No início do tratamento" (pico em 600 nm) e uma tracejada "No final do tratamento" (mesmo pico em 600 nm, com maior intensidade).]**
+
+E) **[FIGURA: Gráfico de Fotoluminescência (u.a.) vs Comprimento de onda (nm) contendo duas curvas sobrepostas (contínua e tracejada) "No início do tratamento" e "No final do tratamento" perfeitamente coincidentes com pico em 600 nm.]**

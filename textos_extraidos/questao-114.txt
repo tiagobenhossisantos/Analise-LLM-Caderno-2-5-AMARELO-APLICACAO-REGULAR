@@ -1,0 +1,17 @@
+QUESTÃO 114
+
+O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g mol⁻¹), metal utilizado na fabricação de vários tipos de aço: automotivos, estruturais e inoxidáveis. O processo utilizado na produção do nióbio é a redução aluminotérmica de Nb₂O₅ com excesso de 10% de Al (massa molar = 27 g mol⁻¹), em relação à quantidade estequiométrica da reação, representada pela equação química:
+
+$3\text{ Nb}_2\text{O}_5\text{ (s)} + 10\text{ Al (s)} \longrightarrow 6\text{ Nb (s)} + 5\text{ Al}_2\text{O}_3\text{ (s)}$
+
+Uma engenheira metalúrgica estimou a massa de alumínio necessária para produzir 9,3 kg de nióbio, nas condições descritas, para a produção de um lote de peças de aço encomendado por uma indústria, considerando um rendimento de 100%.
+
+Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado).
+
+A massa de alumínio, em quilograma, estimada pela engenheira é mais próxima de
+
+A 2,7 kg.
+B 3,0 kg.
+C 4,1 kg.
+D 4,5 kg.
+E 5,0 kg.

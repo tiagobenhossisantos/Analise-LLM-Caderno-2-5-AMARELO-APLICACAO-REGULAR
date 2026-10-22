@@ -1,0 +1,19 @@
+QUESTÃO 145
+
+A reportagem de uma revista abordou o uso de redes sociais pelos internautas brasileiros. Alguns dos dados apurados pela reportagem estão apresentados no infográfico.
+
+[FIGURA: Infográfico com fundo cinza intitulado "Perfil dos brasileiros nas redes sociais". Na parte superior, há um destaque informando que "90% dos internautas brasileiros acessam redes sociais", acompanhado por uma ilustração de um grupo de pessoas em estilo de ícone. Abaixo, há uma seção pontilhada com o título "MULHERES × HOMENS", que traz o dado de que "60% da quantidade de internautas brasileiros que acessam redes sociais são mulheres", acompanhado por uma representação gráfica de 10 ícones de pessoas (sendo 6 femininos preenchidos e 4 masculinos em contorno cinza).]
+
+Disponível em: http://revistagalileu.globo.com. Acesso em: 22 out. 2015 (adaptado).
+
+Segundo os dados do infográfico, ao se escolher aleatoriamente um internauta brasileiro no período ao qual se refere a reportagem, a probabilidade de ele ser um homem que acessa alguma rede social é
+
+A $\frac{30}{90}$
+
+B $\frac{36}{100}$
+
+C $\frac{40}{100}$
+
+D $\frac{40}{90}$
+
+E $\frac{46}{90}$

@@ -1,0 +1,22 @@
+QUESTÃO 148
+
+Uma livraria comercializa livros dos seguintes gêneros literários: ficção científica, autoajuda, romance e biografia. O gráfico apresenta o estoque dos livros que essa livraria tem, por gênero literário e por nacionalidade do autor, bem como a demanda por gênero literário, obtida por meio de uma enquete feita com seus clientes habituais.
+
+Estoque e demanda por livros
+
+**[FIGURA: Gráfico misto de colunas e linhas intitulado "Estoque e demanda por livros". O eixo vertical (Y) representa a quantidade, variando de 0 a 170 em intervalos de 10. O eixo horizontal (X) apresenta quatro gêneros literários: Ficção, Autoajuda, Romance e Biografia. Para cada gênero, há duas colunas verticais lado a lado e um ponto conectado por uma linha azul:
+- Ficção: Coluna vermelha (Autor brasileiro) com valor 80; coluna verde escura (Autor estrangeiro) com valor 120 (totalizando 200 em estoque); ponto da linha azul (Demanda) em 160.
+- Autoajuda: Coluna vermelha (Autor brasileiro) com valor 50; coluna verde escura (Autor estrangeiro) com valor 80 (totalizando 130 em estoque); ponto da linha azul (Demanda) em 135.
+- Romance: Coluna vermelha (Autor brasileiro) com valor 40; coluna verde escura (Autor estrangeiro) com valor 105 (totalizando 145 em estoque); ponto da linha azul (Demanda) em 140.
+- Biografia: Coluna vermelha (Autor brasileiro) com valor 46 (aproximadamente); coluna verde escura (Autor estrangeiro) com valor 50 (totalizando 96 em estoque); ponto da linha azul (Demanda) em 80.
+Legenda abaixo do gráfico: [Retângulo vermelho] Autor brasileiro | [Retângulo verde escuro] Autor estrangeiro | [Linha com quadrado azul] Demanda]**
+
+O gerente da livraria fará a encomenda de novos exemplares somente do gênero cuja quantidade em estoque seja insuficiente para atender a demanda constatada pela enquete.
+
+O gênero de livro do qual o gerente deverá encomendar mais exemplares é
+
+A ficção, pois é o que apresenta maior demanda.
+B biografia, pois é o gênero que tem a menor demanda.
+C autoajuda, pois a quantidade em estoque é inferior à demanda.
+D biografia, pois é o gênero que tem a menor quantidade de livros em estoque.
+E romance, pois é o que apresenta o menor estoque de livros de autores brasileiros.
