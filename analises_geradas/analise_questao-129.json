@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 129,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-129.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H17",
+            "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H14",
+                "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+            },
+            {
+                "id": "H24",
+                "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Cinética Química",
+        "conteudos_relacionados": [
+            "Catálise Enzimática",
+            "Energia de Ativação",
+            "Gráficos de Perfil Reacional",
+            "Bioquímica (Enzimas)"
+        ],
+        "assunto": "Ação de catalisadores e perfil energético de reações",
+        "objeto_de_analise": "Representação gráfica do efeito de uma enzima sobre a energia de ativação de uma reação química",
+        "fenomeno_conceito": "Catálise enzimática e diminuição da energia de ativação"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "status": "Incorreta",
+            "justificativa": "Apresenta os reagentes com energias iniciais diferentes na presença e ausência da enzima, além de mostrar a mesma energia de ativação (mesmo pico máximo), o que contraria o papel do catalisador."
+        },
+        {
+            "letra": "B",
+            "status": "Incorreta",
+            "justificativa": "Mostra o mesmo pico energético (mesma energia de ativação) e altera o nível energético final dos produtos (variação de entalpia), o que não condiz com a atuação de um catalisador enzimático."
+        },
+        {
+            "letra": "C",
+            "status": "Correta",
+            "justificativa": "Demonstra corretamente que tanto a reação não catalisada (linha contínua) quanto a catalisada por enzima (linha pontilhada) possuem os mesmos níveis energéticos iniciais (reagente A) e finais (produto B), mas a via enzimática apresenta menor barreira energética (menor energia de ativação, pico mais baixo)."
+        },
+        {
+            "letra": "D",
+            "status": "Incorreta",
+            "justificativa": "Indica erroneamente que a presença da enzima (linha pontilhada) aumentaria a energia de ativação (pico mais alto) em relação à reação não catalisada."
+        },
+        {
+            "letra": "E",
+            "status": "Incorreta",
+            "justificativa": "Altera as energias dos reagentes e produtos entre as duas condições e mantém o mesmo pico de transição, contrariando o princípio termodinâmico e cinético da catálise."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-10-23T13:42:11.307489",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando da questão exige associar uma descrição conceitual da ação de uma enzima (cinética química) a uma representação gráfica de perfil de reação.",
+            "As enzimas agem diminuindo a energia de ativação sem alterar a entalpia dos reagentes e produtos, o que é expresso unicamente no gráfico da alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-129.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

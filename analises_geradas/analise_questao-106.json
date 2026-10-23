@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 106,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-106.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Química Orgânica",
+        "conteudos_relacionados": [
+            "Fórmula molecular",
+            "Reações orgânicas de oxidação",
+            "Funções oxigenadas (álcoois e cetonas)"
+        ],
+        "assunto": "Oxidação de álcoois e determinação de fórmulas moleculares",
+        "objeto_de_analise": "Transformação do borneol (álcool secundário terpênico) em cânfora (cetona)",
+        "fenomeno_conceito": "Oxidação de álcool secundário a cetona com perda de dois átomos de hidrogênio (desidrogenação formal)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "C₉H₁₆O",
+            "correta": false,
+            "justificativa": "Incorreta, pois a estrutura do borneol/cânfora possui 10 átomos de carbono (um esqueleto terpênico bicíclico com 7 carbonos nos ciclos e 3 grupos metila), não 9."
+        },
+        {
+            "letra": "B",
+            "texto": "C₉H₁₇O",
+            "correta": false,
+            "justificativa": "Incorreta, pois além de ter 10 carbonos, uma substância neutra estável de fórmula C₉H₁₇O teria número ímpar de hidrogênios (radical)."
+        },
+        {
+            "letra": "C",
+            "texto": "C₁₀H₁₆O",
+            "correta": true,
+            "justificativa": "Correta. A molécula de borneol possui a fórmula molecular C₁₀H₁₈O. Ao sofrer oxidação de álcool secundário para cetona (cânfora), perde-se dois átomos de hidrogênio (formando a carbonila C=O), resultando na fórmula C₁₀H₁₆O."
+        },
+        {
+            "letra": "D",
+            "texto": "C₁₀H₁₆O₂",
+            "correta": false,
+            "justificativa": "Incorreta, pois a oxidação de álcool secundário a cetona não adiciona um segundo átomo de oxigênio à molécula."
+        },
+        {
+            "letra": "E",
+            "texto": "C₁₀H₁₈O₂",
+            "correta": false,
+            "justificativa": "Incorreta, pois a cânfora é uma monocetona com apenas 1 átomo de oxigênio e possui 16 hidrogênios, não 18."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-10-23T14:21:17.775833",
+        "confianca": "alta",
+        "evidencias": [
+            "O borneol é um álcool secundário com fórmula molecular C10H18O.",
+            "A oxidação de um álcool secundário resulta na formação de uma cetona por eliminação de 2 átomos de hidrogênio (R-CHOH-R' -> R-CO-R' + 2H), levando à fórmula C10H16O.",
+            "O gabarito oficial C coincide com C10H16O."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-106.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

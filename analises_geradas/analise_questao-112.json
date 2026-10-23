@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 112,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-112.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos."
+        },
+        "habilidade_principal": {
+            "id": "H11",
+            "descricao": "Reconhecer benefícios, limitações e aspectos éticos da biotecnologia, considerando estruturas e processos biológicos envolvidos em produtos biotecnológicos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H2",
+                "descricao": "Associar a solução de problemas de comunicação, transporte, saúde ou outro, com o correspondente desenvolvimento científico e tecnológico."
+            },
+            {
+                "id": "H14",
+                "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Vitaminas e Avitaminoses",
+        "conteudos_relacionados": [
+            "Biotecnologia e Organismos Geneticamente Modificados (OGMs)",
+            "Fisiologia Humana (Sentido da Visão)",
+            "Nutrição e Saúde Pública"
+        ],
+        "assunto": "Deficiência de Vitamina A e Biotecnologia de Alimentos",
+        "objeto_de_analise": "O uso do Golden Rice (arroz dourado) como intervenção biotecnológica para prevenção de hipovitaminose A",
+        "fenomeno_conceito": "Cegueira noturna (nictalopia) decorrente da carência de vitamina A (retinol)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Hemofilia.",
+            "correta": false,
+            "justificativa": "A hemofilia é um distúrbio genético e hereditário da coagulação sanguínea ligado ao cromossomo X, não tendo relação com a deficiência nutricional de vitamina A."
+        },
+        {
+            "letra": "B",
+            "texto": "Escorbuto.",
+            "correta": false,
+            "justificativa": "O escorbuto é causado pela deficiência crônica de vitamina C (ácido ascórbico), e não de vitamina A."
+        },
+        {
+            "letra": "C",
+            "texto": "Raquitismo.",
+            "correta": false,
+            "justificativa": "O raquitismo é uma doença óssea associada à deficiência de vitamina D (calciferol) e cálcio, não de vitamina A."
+        },
+        {
+            "letra": "D",
+            "texto": "Cegueira noturna.",
+            "correta": true,
+            "justificativa": "A vitamina A (retinol) é fundamental para a síntese da rodopsina, pigmento fotossensível dos bastonetes na retina. Sua carência leva à nictalopia (cegueira noturna) e à xeroftalmia, que podem ser combatidas pelo consumo do arroz dourado enriquecido com betacaroteno."
+        },
+        {
+            "letra": "E",
+            "texto": "Anemia perniciosa.",
+            "correta": false,
+            "justificativa": "A anemia perniciosa é uma condição autoimune decorrente da má absorção de vitamina B12 (cobalamina) por deficiência do fator intrínseco gástrico, não tendo ligação com a vitamina A."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T14:36:29.119208",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita que o 'Golden Rice' foi enriquecido com betacaroteno, precursor da vitamina A, por meio de engenharia genética.",
+            "A carência de vitamina A (avitaminose) manifesta-se tipicamente como problemas visuais, como cegueira noturna e xeroftalmia.",
+            "A matriz contempla aplicações de biotecnologia na saúde e nos alimentos na habilidade H11."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-112.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

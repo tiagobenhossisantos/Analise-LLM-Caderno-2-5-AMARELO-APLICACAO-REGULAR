@@ -1,0 +1,109 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "105",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-105.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade."
+        },
+        "habilidade_principal": {
+            "id": "H1",
+            "descricao": "Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Ondulatória e Acústica",
+        "conteudos_relacionados": [
+            "Fenômenos ondulatórios",
+            "Ressonância mecânica/acústica",
+            "Qualidades fisiológicas do som",
+            "Frequência e altura do som"
+        ],
+        "assunto": "Ressonância e características das ondas sonoras",
+        "objeto_de_analise": "Tirinha ilustrando a quebra de taças de cristal por meio de emissão sonora",
+        "fenomeno_conceito": "Ressonância"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "reflexão e comprimento de onda.",
+            "correta": false,
+            "justificativa": "A quebra das taças não decorre da reflexão da onda sonora, mas sim da ressonância."
+        },
+        {
+            "letra": "B",
+            "texto": "ressonância e frequência.",
+            "correta": true,
+            "justificativa": "O fenômeno em que um corpo passa a oscilar com amplitudes crescentes devido à excitação por uma onda externa com frequência igual ou muito próxima à sua frequência natural de vibração é a ressonância. A característica associada à ressonância nesse caso é a frequência."
+        },
+        {
+            "letra": "C",
+            "texto": "interferência e velocidade.",
+            "correta": false,
+            "justificativa": "O fenômeno não é interferência nem é condicionado pela velocidade de propagação do som no meio."
+        },
+        {
+            "letra": "D",
+            "texto": "ressonância e timbre.",
+            "correta": false,
+            "justificativa": "Embora o fenômeno seja a ressonância, a característica determinante para igualar a oscilação natural da taça é a frequência (altura do som), não o formato da onda sonora (timbre)."
+        },
+        {
+            "letra": "E",
+            "texto": "reflexão e amplitude.",
+            "correta": false,
+            "justificativa": "O fenômeno não é a reflexão, e o enunciado ressalta expressamente que a quebra das taças não decorre primordialmente da intensidade (relacionada à amplitude) do grito."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T14:16:57.597245",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e o comando associam a vibração e o estilhaçamento do cristal por som ao fenômeno de ressonância.",
+            "O fenômeno requer o ajuste da frequência emitida à frequência natural de vibração do objeto.",
+            "Gabarito oficial é B, corroborando ressonância e frequência."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-105.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

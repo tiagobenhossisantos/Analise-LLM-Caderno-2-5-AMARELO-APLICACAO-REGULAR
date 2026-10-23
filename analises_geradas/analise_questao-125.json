@@ -1,0 +1,110 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "125",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-125.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H5",
+            "descricao": "Dimensionar circuitos ou dispositivos elétricos de uso cotidiano."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletrodinâmica",
+        "conteudos_relacionados": [
+            "Gerador elétrico não ideal (real)",
+            "Equação do gerador",
+            "Associação de geradores em série",
+            "Circuitos elétricos de corrente contínua"
+        ],
+        "assunto": "Dimensionamento de circuito elétrico com placas fotovoltaicas associadas em série",
+        "objeto_de_analise": "Representação de placas fotovoltaicas por gerador equivalente",
+        "fenomeno_conceito": "Equação do gerador e associação em série de geradores"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Diagrama com fonte de 136 V e resistor de 3,2 Ω.",
+            "correta": false,
+            "justificativa": "Incorreta. O valor de 136 V corresponderia a 4 placas considerando a tensão de operação (4 × 34 V = 136 V), o que não representa a força eletromotriz total em circuito aberto (que seria 4 × 40 V = 160 V) nem atende à faixa de tensão requerida pela bomba (100 ± 5 V)."
+        },
+        {
+            "letra": "B",
+            "texto": "Diagrama com fonte de 120 V e resistor de 2,4 Ω.",
+            "correta": true,
+            "justificativa": "Correta. Cada placa possui fem ε = 40 V. Da equação do gerador (U = ε - r·i), obtém-se 34 = 40 - r·(7,5), logo r = 0,8 Ω. Para que a bomba opere na faixa de 95 V a 105 V com a tensão de operação das placas (34 V cada), o menor número de placas em série é 3 (pois 3 × 34 V = 102 V). O gerador equivalente terá ε_eq = 3 × 40 V = 120 V e resistência interna r_eq = 3 × 0,8 Ω = 2,4 Ω."
+        },
+        {
+            "letra": "C",
+            "texto": "Diagrama com fonte de 120 V e resistor de 5,3 Ω.",
+            "correta": false,
+            "justificativa": "Incorreta. Embora a fem equivalente para 3 placas seja 120 V, a resistência equivalente de 3 placas com r = 0,8 Ω associadas em série é 2,4 Ω, e não 5,3 Ω."
+        },
+        {
+            "letra": "D",
+            "texto": "Diagrama com fonte de 102 V e resistor de 2,4 Ω.",
+            "correta": false,
+            "justificativa": "Incorreta. O valor de 102 V é a tensão útil de operação de 3 placas (3 × 34 V), mas o gerador ideal no modelo esquemático deve indicar a força eletromotriz (fem) equivalente em circuito aberto, que é 3 × 40 V = 120 V."
+        },
+        {
+            "letra": "E",
+            "texto": "Diagrama com fonte de 102 V e resistor de 5,3 Ω.",
+            "correta": false,
+            "justificativa": "Incorreta. Apresenta a tensão de operação (102 V) no lugar da fem em circuito aberto (120 V) e calcula incorretamente a resistência equivalente interna (5,3 Ω em vez de 2,4 Ω)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-10-23T13:27:28.407971",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão fornece tensão de circuito aberto ε = 40 V e ponto de operação U = 34 V a i = 7,5 A.",
+            "Cálculo da resistência interna por placa: r = (40 - 34) / 7,5 = 0,8 Ω.",
+            "Para alimentar a bomba a 100 ± 5 V: 3 placas em operação fornecem 3 × 34 V = 102 V, atendendo à condição de menor número possível de placas.",
+            "O gerador equivalente de 3 placas em série possui fem = 3 × 40 V = 120 V e resistência interna = 3 × 0,8 Ω = 2,4 Ω, correspondendo perfeitamente ao gabarito B."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-125.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

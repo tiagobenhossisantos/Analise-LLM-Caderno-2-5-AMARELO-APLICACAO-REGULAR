@@ -1,0 +1,109 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "122",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-122.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Biogeografia e Adaptação",
+        "conteudos_relacionados": [
+            "Endemismo",
+            "Ecologia",
+            "Seleção natural",
+            "Ecossistemas brasileiros"
+        ],
+        "assunto": "Adaptações ecológicas e distribuição de espécies em ecossistemas sob condições ambientais extremas",
+        "objeto_de_analise": "Ocorrência e distribuição restrita de espécies nos ambientes de cangas",
+        "fenomeno_conceito": "Endemismo"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "exóticas.",
+            "correta": false,
+            "justificativa": "Espécies exóticas são aquelas introduzidas fora de sua área de distribuição natural, não sendo o foco de uma seleção adaptativa histórica de milhões de anos descrita no texto."
+        },
+        {
+            "letra": "B",
+            "texto": "migratórias.",
+            "correta": false,
+            "justificativa": "Espécies migratórias deslocam-se periodicamente entre diferentes regiões geográficas, o que contraria o padrão descrito de espécies de distribuição restrita adaptadas às condições locais estritas."
+        },
+        {
+            "letra": "C",
+            "texto": "endêmicas.",
+            "correta": true,
+            "justificativa": "Espécies endêmicas são aquelas restritas a uma área geográfica ou a um tipo de ambiente muito específico. A seleção adaptativa às condições severas e peculiares das cangas favorece linhagens especializadas e com distribuição restrita a esses ambientes."
+        },
+        {
+            "letra": "D",
+            "texto": "dominantes.",
+            "correta": false,
+            "justificativa": "Espécies dominantes exercem forte controle ecológico sobre a comunidade devido à sua biomassa ou abundância, o que não necessariamente reflete a restrição geográfica e a especialização a esse nicho singular."
+        },
+        {
+            "letra": "E",
+            "texto": "generalistas.",
+            "correta": false,
+            "justificativa": "Espécies generalistas toleram ampla variedade de condições ambientais e dietas, ocupando áreas extensas, diferentemente das espécies de cangas que possuem adaptações especializadas e distribuição restrita."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-23T13:18:53.300888",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto menciona 'comunidades de plantas e animais com elevado número de espécies e distribuição restrita'.",
+            "Distribuição geográfica restrita a um ambiente com pressões seletivas extremas e únicas define o conceito de espécie endêmica.",
+            "O gabarito oficial da questão 122 é a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-122.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

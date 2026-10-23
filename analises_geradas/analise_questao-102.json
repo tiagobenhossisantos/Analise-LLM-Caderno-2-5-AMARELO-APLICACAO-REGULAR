@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 102,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-102.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H13",
+            "descricao": "Reconhecer mecanismos de transmissão da vida, prevendo ou explicando a manifestação de características dos seres vivos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Genética Clássica",
+        "conteudos_relacionados": [
+            "Codominância",
+            "Primeira Lei de Mendel",
+            "Proporções fenotípicas e genotípicas"
+        ],
+        "assunto": "Padrões de Herança Monogênica e Codominância",
+        "objeto_de_analise": "Cruzamento genético entre joaninhas com padrões de coloração distintos",
+        "fenomeno_conceito": "Expressão simultânea de alelos no heterozigoto (codominância) e segregação fenotípica na proporção 1:2:1"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Quatro joaninhas ilustrando a proporção fenotípica, todas com quatro pontos pretos nas asas, sem a linha longitudinal, indicando machos e fêmeas",
+            "correta": false,
+            "justificativa": "Incorreta. Uma prole 100% homogênea com apenas pontos pretos só ocorreria se ambos os progenitores fossem homozigotos para essa característica, o que não corresponde ao cruzamento F1 x F1 entre heterozigotos codominantes."
+        },
+        {
+            "letra": "B",
+            "texto": "Quatro joaninhas ilustrando a proporção fenotípica, todas com uma linha preta longitudinal nas asas, sem pontos, indicando machos e fêmeas",
+            "correta": false,
+            "justificativa": "Incorreta. Proporção 100% de indivíduos com apenas listra não ocorre na autofecundação ou cruzamento entre heterozigotos, pois há segregação alélica."
+        },
+        {
+            "letra": "C",
+            "texto": "Quatro joaninhas ilustrando a proporção fenotípica, todas com quatro pontos pretos e uma linha longitudinal nas asas, indicando machos e fêmeas",
+            "correta": false,
+            "justificativa": "Incorreta. O resultado 100% heterozigoto (pontos e linha) corresponde à geração F1 obtida do cruzamento de parentais homozigotos puros, não ao cruzamento F1 x F1."
+        },
+        {
+            "letra": "D",
+            "texto": "Quatro joaninhas ilustrando a proporção fenotípica em proporção 3:1, onde três joaninhas possuem quatro pontos pretos e uma não possui, indicando machos e fêmeas",
+            "correta": false,
+            "justificativa": "Incorreta. A proporção 3:1 é típica de herança mendeliana com dominância completa, o que não se aplica ao caso, onde a manifestação conjunta das características na F1 evidencia codominância."
+        },
+        {
+            "letra": "E",
+            "texto": "Quatro joaninhas ilustrando a proporção fenotípica variada: uma com quatro pontos, uma com linha longitudinal, e duas com quatro pontos e linha longitudinal, indicando machos e fêmeas",
+            "correta": true,
+            "justificativa": "Correta. Como a primeira geração (F1) expressa os dois fenótipos parentais simultaneamente (pontos e linha contínua), trata-se de codominância. No cruzamento entre indivíduos F1 (heterozigotos), a segregação genotípica é 1:2:1, resultando na proporção fenotípica de 1 com apenas pontos : 2 com pontos e linha : 1 com apenas linha."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-10-22T19:44:51.269550",
+        "confianca": "alta",
+        "evidencias": [
+            "A geração F1 exibe simultaneamente as características de ambos os parentais (pontos e linha longitudinal), caracterizando codominância.",
+            "O cruzamento F1 x F1 em codominância gera proporção fenotípica 1:2:1, representada na alternativa E por 1 joaninha com pontos, 2 com pontos e linha, e 1 com linha."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-102.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

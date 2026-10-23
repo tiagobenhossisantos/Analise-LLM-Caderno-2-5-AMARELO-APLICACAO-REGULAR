@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 110,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-110.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H17",
+            "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H2",
+                "descricao": "Associar a solução de problemas de comunicação, transporte, saúde ou outro, com o correspondente desenvolvimento científico e tecnológico."
+            },
+            {
+                "id": "H25",
+                "descricao": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Química Nuclear e Radioatividade",
+        "conteudos_relacionados": [
+            "Cinética do decaimento radioativo",
+            "Meia-vida ou período de semidesintegração",
+            "Aplicações dos radioisótopos na medicina"
+        ],
+        "assunto": "Decaimento radioativo e tempo de meia-vida",
+        "objeto_de_analise": "Amostra de cobalto-60 sob decaimento radioativo ao longo de 26,5 anos",
+        "fenomeno_conceito": "Desintegração radioativa de primeira ordem (meia-vida)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "2,00 mg.",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor corresponde à massa inicial do radioisótopo, o que significaria que nenhuma desintegração radioativa ocorreu ao longo dos 26,5 anos."
+        },
+        {
+            "letra": "B",
+            "texto": "1,00 mg.",
+            "correta": false,
+            "justificativa": "Incorreta. Este seria o valor restante após apenas 1 período de meia-vida (5,3 anos), pois 2,00 mg / 2 = 1,00 mg, mas o tempo transcorrido foi de 26,5 anos."
+        },
+        {
+            "letra": "C",
+            "texto": "0,40 mg.",
+            "correta": false,
+            "justificativa": "Incorreta. Resultado obtido por uma divisão linear arbitrária (por exemplo, dividindo 2,00 mg pelo número de períodos de meia-vida, 5), desconsiderando a natureza exponencial da desintegração radioativa."
+        },
+        {
+            "letra": "D",
+            "texto": "0,13 mg.",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor (aproximadamente 0,125 mg) corresponderia à massa remanescente após 4 meias-vidas (21,2 anos), e não 5."
+        },
+        {
+            "letra": "E",
+            "texto": "0,06 mg.",
+            "correta": true,
+            "justificativa": "Correta. O número de meias-vidas decorridas é dado por n = 26,5 / 5,3 = 5 períodos. A massa final remanescente é m = m₀ / (2^n) = 2,00 mg / (2^5) = 2,00 mg / 32 = 0,0625 mg, que é mais próxima de 0,06 mg."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2025-05",
+        "datetime": "2026-10-23T14:30:55.416222",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão fornece a massa inicial de 2,00 mg, a meia-vida de 5,3 anos e o tempo total de 26,5 anos.",
+            "O cálculo matemático consiste em determinar o número de meias-vidas (26,5 / 5,3 = 5) e aplicar a redução exponencial: 2,00 / 32 = 0,0625 mg.",
+            "O gabarito oficial é a alternativa E (0,06 mg)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-110.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

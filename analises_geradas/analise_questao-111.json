@@ -1,0 +1,118 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "111",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-111.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "natureza",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos."
+        },
+        "habilidade_principal": {
+            "id": "H10",
+            "descricao": "Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H4",
+                "descricao": "Avaliar propostas de intervenção no ambiente, considerando a qualidade da vida humana ou medidas de conservação, recuperação ou utilização sustentável da biodiversidade."
+            },
+            {
+                "id": "H8",
+                "descricao": "Identificar etapas em processos de obtenção, transformação, utilização ou reciclagem de recursos naturais, energéticos ou matérias-primas, considerando processos biológicos, químicos ou físicos neles envolvidos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Impactos ambientais e poluição hídrica",
+        "conteudos_relacionados": [
+            "Eutrofização",
+            "Biodigestores e biogás",
+            "Destinação de resíduos orgânicos",
+            "Ciclos biogeoquímicos"
+        ],
+        "assunto": "Eutrofização e manejo sustentável de dejetos agropecuários",
+        "objeto_de_analise": "O processo de biodigestão e a destinação das sobras sólidas como biofertilizante",
+        "fenomeno_conceito": "Eutrofização artificial de ecossistemas aquáticos por matéria orgânica"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "bioacumulação de toxinas em plantas.",
+            "correta": false,
+            "justificativa": "A bioacumulação decorre do acúmulo de substâncias não biodegradáveis ou metais pesados ao longo da cadeia alimentar (como pesticidas organoclorados), não sendo a principal perturbação ambiental associada ao descarte incorreto de matéria orgânica/excrementos animais."
+        },
+        {
+            "letra": "B",
+            "texto": "eutrofização dos corpos de água.",
+            "correta": true,
+            "justificativa": "O descarte inadequado de excrementos animais e restos orgânicos ricos em nutrientes (como nitrogênio e fósforo) em corpos hídricos gera proliferação excessiva de algas e microrganismos, culminando na depleção de oxigênio (eutrofização). Dar um destino controlado e sustentável a esses resíduos evita essa poluição aquática."
+        },
+        {
+            "letra": "C",
+            "texto": "destruição da camada de ozônio.",
+            "correta": false,
+            "justificativa": "A destruição da camada de ozônio está associada à liberação de gases contendo halogênios, como os clorofluorcarbonetos (CFCs), não tendo relação com o acúmulo direto de sobras de resíduos orgânicos."
+        },
+        {
+            "letra": "D",
+            "texto": "ocorrência de inversão térmica.",
+            "correta": false,
+            "justificativa": "A inversão térmica é um fenômeno meteorológico natural no qual o ar frio fica retido próximo à superfície sob uma camada de ar quente, dificultando a dispersão de poluentes atmosféricos em centros urbanos, sem relação com os dejetos da agropecuária."
+        },
+        {
+            "letra": "E",
+            "texto": "produção de chuva ácida.",
+            "correta": false,
+            "justificativa": "A chuva ácida é causada primariamente pela emissão de óxidos de enxofre (SOx) e óxidos de nitrogênio (NOx) originados da queima de combustíveis fósseis em indústrias e veículos, não sendo a consequência direta do descarte de dejetos orgânicos em rios."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T14:33:51.310973",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda o destino de resíduos orgânicos da agropecuária por meio de biodigestão.",
+            "A etapa 4 refere-se às sobras ricas em matéria orgânica e minerais que servem como fertilizante.",
+            "O descarte in natura desses resíduos no ambiente causa a eutrofização de corpos hídricos devido ao excesso de matéria orgânica e nutrientes (N e P)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-111.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

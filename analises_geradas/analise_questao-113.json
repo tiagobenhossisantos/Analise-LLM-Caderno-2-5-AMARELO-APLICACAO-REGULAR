@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 113,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-113.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H5",
+            "descricao": "Dimensionar circuitos ou dispositivos elétricos de uso cotidiano."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletrodinâmica",
+        "conteudos_relacionados": [
+            "Primeira Lei de Ohm",
+            "Associação de resistores em série",
+            "Divisor de tensão"
+        ],
+        "assunto": "Circuitos Elétricos",
+        "objeto_de_analise": "Dimensionamento de um resistor de proteção para redução de sobretensão em um equipamento",
+        "fenomeno_conceito": "Divisão de tensão em circuito em série e Primeira Lei de Ohm"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Circuito com associação em paralelo entre RC e RP = 0,2 RC.",
+            "justificativa": "Incorreta. Em uma ligação em paralelo, todos os ramos ficam submetidos à mesma tensão da fonte (120% da nominal), de modo que o equipamento continuaria sofrendo sobretensão e o resistor não cumpriria a função de proteção.",
+            "correta": false
+        },
+        {
+            "letra": "B",
+            "texto": "Circuito com associação em paralelo entre RC e RP = 1,2 RC.",
+            "justificativa": "Incorreta. A associação em paralelo mantém a mesma ddp da fonte sobre o equipamento, não dividindo a tensão para protegê-lo.",
+            "correta": false
+        },
+        {
+            "letra": "C",
+            "texto": "Circuito com associação em série entre RP = 1,2 RC e RC.",
+            "justificativa": "Incorreta. Embora a configuração em série esteja correta para dividir a tensão, com RP = 1,2 RC a queda de tensão sobre o equipamento seria menor do que a sua tensão nominal.",
+            "correta": false
+        },
+        {
+            "letra": "D",
+            "texto": "Circuito com associação em série entre RP = 2,2 RC e RC.",
+            "justificativa": "Incorreta. O valor de RP = 2,2 RC é incorreto para reter a sobretensão de 20%, resultando em uma tensão no equipamento muito abaixo da necessária.",
+            "correta": false
+        },
+        {
+            "letra": "E",
+            "texto": "Circuito com associação em série entre RP = 0,2 RC e RC.",
+            "justificativa": "Correta. Para atuar como divisor de tensão, o resistor RP deve ser ligado em série com RC. Sendo a corrente I a mesma em ambos, para que a tensão sobre RC seja V e a tensão total seja 1,2 V, a queda de tensão em RP deve ser 0,2 V. Pela Lei de Ohm, RP / RC = VP / VC = 0,2 V / V = 0,2, logo RP = 0,2 RC.",
+            "correta": true
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "deepseek-r1",
+        "datetime": "2026-10-23T16:26:15.546223",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige dimensionar um circuito elétrico para alimentar um equipamento sob tensão adequada, o que se enquadra perfeitamente na habilidade H5: 'Dimensionar circuitos ou dispositivos elétricos de uso cotidiano'.",
+            "A fonte fornece 20% a mais da tensão recomendada (Vfonte = 1,2 V). Para dividir a tensão e proteger o circuito, o resistor deve estar em série.",
+            "A queda de tensão necessária em RP é 0,2 V, o que resulta em RP = 0,2 RC."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-113.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

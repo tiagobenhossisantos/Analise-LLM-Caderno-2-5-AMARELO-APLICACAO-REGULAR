@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "108",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-108.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Fórmulas Químicas e Notação Científica Histórica",
+        "conteudos_relacionados": [
+            "Funções inorgânicas (ácidos e sais)",
+            "Nomenclatura química",
+            "História da química"
+        ],
+        "assunto": "Linguagem e representação das substâncias químicas",
+        "objeto_de_analise": "Representação de fórmulas no início do século XX",
+        "fenomeno_conceito": "Representação simbólica de substâncias químicas e convenções de notação"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "HAzO³ e CaCl²",
+            "correta": true,
+            "justificativa": "O ácido nítrico atualmente possui a fórmula HNO₃; substituindo o símbolo N por Az e grafando o índice atômico como expoente sobrescrito (conforme o padrão histórico demonstrado no texto e na lousa), obtém-se HAzO³. O cloreto de cálcio possui a fórmula CaCl₂, que na mesma convenção é grafado como CaCl²."
+        },
+        {
+            "letra": "B",
+            "texto": "HAz³O e Ca²Cl",
+            "correta": false,
+            "justificativa": "Inverte a posição dos índices atômicos dos elementos oxigênio e nitrogênio, bem como do cloro e cálcio, além de atribuir índices incorretos à composição química do ácido nítrico e do cloreto de cálcio."
+        },
+        {
+            "letra": "C",
+            "texto": "H³AzO⁴ e CaCl",
+            "correta": false,
+            "justificativa": "Apresenta a fórmula correspondente ao ácido ortofosfórico adaptada (H₃PO₄ -> H³AzO⁴) em vez de ácido nítrico, e a estequiometria do cloreto de cálcio está incorreta (CaCl em vez de CaCl₂)."
+        },
+        {
+            "letra": "D",
+            "texto": "HAz³O e KCl²",
+            "correta": false,
+            "justificativa": "A fórmula do ácido nítrico apresenta atomicidade incorreta e o cloreto de cálcio foi substituído erroneamente pelo símbolo do potássio (K)."
+        },
+        {
+            "letra": "E",
+            "texto": "HAzO² e KCl",
+            "correta": false,
+            "justificativa": "HAzO² corresponderia ao ácido nitroso (HNO₂), não ao ácido nítrico, e utiliza o símbolo do potássio (K) em vez de cálcio (Ca)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T14:27:04.012656",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e o quadro mostram a representação do nitrogênio pelo símbolo Az e os índices estequiométricos posicionados como expoentes sobrescritos (ex: AzO², NaAzO³, MgCl²).",
+            "Ácido nítrico = HNO3 -> HAzO³",
+            "Cloreto de cálcio = CaCl2 -> CaCl²",
+            "A alternativa A corresponde diretamente à aplicação dessa regra de representação."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-108.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

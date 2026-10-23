@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "107",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-107.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C3",
+            "descricao": "Associar intervenções que resultam em degradação ou conservação ambiental a processos produtivos e sociais e a instrumentos ou ações científico-tecnológicos."
+        },
+        "habilidade_principal": {
+            "id": "H10",
+            "descricao": "Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Avaliar impactos em ambientes naturais decorrentes de atividades sociais ou econômicas, considerando interesses contraditórios."
+            },
+            {
+                "id": "H26",
+                "descricao": "Avaliar implicações sociais, ambientais e/ou econômicas na produção ou no consumo de recursos energéticos ou minerais, identificando transformações químicas ou de energia envolvidas nesses processos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Poluição térmica",
+        "conteudos_relacionados": [
+            "Solubilidade de gases em líquidos",
+            "Impactos ambientais da geração de energia",
+            "Ecossistemas aquáticos e oxigênio dissolvido"
+        ],
+        "assunto": "Impactos ambientais e solubilidade de gases",
+        "objeto_de_analise": "Efeito da poluição térmica provocada por usina termonuclear na solubilidade do oxigênio em ecossistemas aquáticos",
+        "fenomeno_conceito": "Relação inversa entre temperatura da água e solubilidade de gases dissolvidos"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "diminuição do pH.",
+            "correta": false,
+            "justificativa": "O aumento da temperatura da água devido à poluição térmica não tem como efeito primário a diminuição direta do pH aquático."
+        },
+        {
+            "letra": "B",
+            "texto": "liberação de gases poluentes.",
+            "correta": false,
+            "justificativa": "O sistema de água de refrigeração realiza apenas troca térmica (calor) e não gera nem descarrega diretamente gases poluentes no meio aquático."
+        },
+        {
+            "letra": "C",
+            "texto": "contaminação por combustíveis.",
+            "correta": false,
+            "justificativa": "A água de refrigeração circula em um circuito isolado e não entra em contato com o combustível nuclear (urânio) presente no circuito primário."
+        },
+        {
+            "letra": "D",
+            "texto": "liberação de elementos radioativos.",
+            "correta": false,
+            "justificativa": "Nas usinas termonucleares normais, o circuito de refrigeração externa é fisicamente separado do circuito primário onde se encontra o material radioativo, evitando o contato e a contaminação radioativa."
+        },
+        {
+            "letra": "E",
+            "texto": "diminuição da solubilidade do gás oxigênio.",
+            "correta": true,
+            "justificativa": "A dissolução de gases em líquidos é um processo exotérmico. Portanto, a elevação da temperatura das águas causada pela ineficiência ou descarte térmico da água de resfriamento reduz a concentração de gás oxigênio dissolvido (O2), prejudicando a respiração e sobrevivência de organismos aquáticos aeróbios."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-23T14:25:09.765137",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e a questão associam o funcionamento ineficiente do sistema de água de refrigeração à 'poluição térmica'.",
+            "A consequência biológica e físico-química direta da poluição térmica na água é a menor solubilidade do oxigênio dissolvido devido ao aumento da temperatura.",
+            "O gabarito oficial E coincide com o fenômeno físico-químico abordado."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-107.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

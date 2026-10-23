@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "103",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-103.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H20",
+            "descricao": "Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Dinâmica e Força de Atrito",
+        "conteudos_relacionados": [
+            "Leis de Newton",
+            "Atrito Cinético",
+            "Plano Inclinado",
+            "Força Normal"
+        ],
+        "assunto": "Força de atrito cinético sobre plano inclinado",
+        "objeto_de_analise": "Gráfico da força de atrito cinético em função do tempo para um corpo em movimento ao longo de um plano inclinado",
+        "fenomeno_conceito": "A intensidade da força de atrito cinético depende unicamente do coeficiente de atrito cinético e da força normal (Fat = μ * N), permanecendo constante independentemente da força aplicada paralela à superfície ou da variação de velocidade do corpo."
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Gráfico A - curva decrescente, depois crescente, estabilizando-se em patamar constante",
+            "correta": false,
+            "justificativa": "Incorreta, pois sugere variações não físicas na força de atrito ao longo do tempo no plano inclinado, quando na verdade o atrito cinético permanece constante."
+        },
+        {
+            "letra": "B",
+            "texto": "Gráfico B - curva crescente, depois decrescente, estabilizando-se em patamar constante inferior",
+            "correta": false,
+            "justificativa": "Incorreta, pois a força de atrito cinético não varia com a velocidade nem oscila durante a subida pelo plano inclinado constante."
+        },
+        {
+            "letra": "C",
+            "texto": "Gráfico C - linha reta horizontal constante",
+            "correta": true,
+            "justificativa": "Correta. Durante todo o percurso no plano inclinado, a caixa se encontra em movimento relativo à superfície, atuando o atrito cinético (Fat = μ * N). Como a força aplicada é paralela ao deslocamento, a força normal é N = m * g * cos(θ), que é constante, e o coeficiente de atrito cinético μ também é constante; assim, a força de atrito não varia no tempo, sendo representada por uma reta horizontal."
+        },
+        {
+            "letra": "D",
+            "texto": "Gráfico D - patamar inicial constante seguido de decrescimento linear",
+            "correta": false,
+            "justificativa": "Incorreta, pois assume erroneamente que a redução da força aplicada pelo trabalhador causaria um decrescimento direto no valor da força de atrito cinético."
+        },
+        {
+            "letra": "E",
+            "texto": "Gráfico E - curva crescente seguida de decrescimento linear",
+            "correta": false,
+            "justificativa": "Incorreta, pois sugere que a força de atrito cinético aumentaria e diminuiria ao longo do percurso no plano inclinado."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-23T14:08:22.870829",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando restringe a análise à força de atrito 'no plano inclinado'.",
+            "A rugosidade é constante e a caixa permanece em movimento (atrito puramente cinético/dinâmico).",
+            "A força exercida pelo trabalhador é paralela ao deslocamento, não interferindo na componente normal da força peso.",
+            "A força de atrito cinético depende exclusivamente de μ e N, sendo invariável com o tempo e com a velocidade."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-103.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

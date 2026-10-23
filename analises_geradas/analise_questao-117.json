@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 117,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-117.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H10",
+                "descricao": "Analisar perturbações ambientais, identificando fontes, transporte e(ou) destino dos poluentes ou prevendo efeitos em sistemas naturais, produtivos ou sociais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Interações intermoleculares e solubilidade de compostos orgânicos",
+        "conteudos_relacionados": [
+            "Funções orgânicas oxigenadas",
+            "Ligações de hidrogênio",
+            "Polaridade molecular",
+            "Contaminação de recursos hídricos por micropoluentes"
+        ],
+        "assunto": "Propriedades físicas dos compostos orgânicos (solubilidade e forças intermoleculares)",
+        "objeto_de_analise": "Fórmulas estruturais de hormônios esteroides e sua solubilidade em água",
+        "fenomeno_conceito": "Formação de ligações de hidrogênio entre grupos hidroxila (-OH) e moléculas de água"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Estradiol.",
+            "correta": false,
+            "justificativa": "O estradiol apresenta dois grupos hidroxila (-OH), estabelecendo menor número de ligações de hidrogênio com a água em comparação ao estriol, que possui três grupos hidroxila."
+        },
+        {
+            "letra": "B",
+            "texto": "Estriol.",
+            "correta": true,
+            "justificativa": "O estriol possui três grupos hidroxila (-OH) em sua estrutura molecular (um fenol e dois álcoois), permitindo a formação de uma quantidade maior de ligações de hidrogênio com as moléculas de água, conferindo-lhe maior caráter hidrofílico e, portanto, a maior solubilidade em meio aquoso entre as opções apresentadas."
+        },
+        {
+            "letra": "C",
+            "texto": "Estrona.",
+            "correta": false,
+            "justificativa": "A estrona possui apenas um grupo hidroxila (-OH) e um grupo carbonila (=O), resultando em menor capacidade de formar ligações de hidrogênio como doador e menor polaridade do que compostos com mais hidroxilas."
+        },
+        {
+            "letra": "D",
+            "texto": "Novestrol.",
+            "correta": false,
+            "justificativa": "O novestrol (etinilestradiol) possui dois grupos hidroxila (-OH) e um grupo etinila apolar (-C≡CH), tendo menor solubilidade aquosa do que o estriol."
+        },
+        {
+            "letra": "E",
+            "texto": "Noretindrona.",
+            "correta": false,
+            "justificativa": "A noretindrona apresenta apenas um grupo hidroxila (-OH), um grupo carbonila (=O) e uma cadeia carbônica apolar extensa com grupo etinila, apresentando menor polaridade e menor solubilidade em água em relação ao estriol."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-23T16:29:26.229737",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão exige correlacionar o número de grupos polares (hidroxilas capazes de fazer ligação de hidrogênio) com a solubilidade em água.",
+            "A estrutura do estriol apresenta 3 grupos -OH, sendo a mais hidrofílica entre os cinco hormônios apresentados.",
+            "O gabarito oficial é B, plenamente compatível com a análise estrutural química."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-117.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

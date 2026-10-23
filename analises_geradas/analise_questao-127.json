@@ -1,0 +1,117 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 127,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-127.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "natureza",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            },
+            {
+                "id": "H24",
+                "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Estequiometria",
+        "conteudos_relacionados": [
+            "Equação de Clapeyron (Gases Ideais)",
+            "Rendimento de reações químicas",
+            "Decomposição térmica de sais"
+        ],
+        "assunto": "Cálculo estequiométrico envolvendo gases e rendimento reacional",
+        "objeto_de_analise": "Massa necessária de bicarbonato de amônio para produção de um volume de gases sob condições fixadas de temperatura, pressão e rendimento",
+        "fenomeno_conceito": "Decomposição térmica do bicarbonato de amônio e aplicação da lei dos gases ideais associada ao rendimento estequiométrico"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "2,3 g.",
+            "correta": false,
+            "justificativa": "Corresponde ao valor obtido ao desconsiderar o rendimento de 80% (considerando 100% de rendimento, isto é, m ≈ 3,54 g * 0,80 ≈ 2,8 g ou erro aproximado de proporção direta errônea do rendimento)."
+        },
+        {
+            "letra": "B",
+            "texto": "3,5 g.",
+            "correta": true,
+            "justificativa": "Pela equação dos gases ideais ($P \\cdot V = n \\cdot R \\cdot T$), temos $n_{gases} = (1,00 \\times 4,00) / (0,082 \\times 453) \\approx 0,1077\\text{ mol}$. A estequiometria indica que 1 mol de $\\text{NH}_4\\text{HCO}_3$ gera 3 mols de gases. Com rendimento de 80%, 1 mol gera $3 \\times 0,80 = 2,40\\text{ mols}$ de gases. Logo, a quantidade em mols de reagente necessária é $0,1077 / 2,40 \\approx 0,04486\\text{ mol}$. Multiplicando pela massa molar ($79\\text{ g/mol}$), obtém-se $m \\approx 3,54\\text{ g}$, cujo valor mais próximo é 3,5 g."
+        },
+        {
+            "letra": "C",
+            "texto": "5,9 g.",
+            "correta": false,
+            "justificativa": "Valor obtido caso se considere que apenas 1 ou 2 gases foram produzidos ou erro no cômputo da estequiometria gasosa total."
+        },
+        {
+            "letra": "D",
+            "texto": "6,8 g.",
+            "correta": false,
+            "justificativa": "Resultado decorrente de erro no cálculo da estequiometria ou inversão das proporções dos gases gerados."
+        },
+        {
+            "letra": "E",
+            "texto": "8,9 g.",
+            "correta": false,
+            "justificativa": "Resultado obtido se considerado apenas 1 mol de gás gerado por mol de bicarbonato e sem aplicar a proporção estequiométrica correta (3 mols de gases por mol de sal)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T13:38:12.780991",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda a decomposição térmica do bicarbonato de amônio envolvendo rendimento de 80% e aplicação da lei dos gases ideais.",
+            "O gabarito oficial fornecido indica a alternativa B.",
+            "O cálculo estequiométrico resulta em aproximadamente 3,54 g, correspondendo com precisão à alternativa B (3,5 g)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-127.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

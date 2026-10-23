@@ -27,6 +27,7 @@ DADOS_ESTUDANTE = {
 DADOS_CADERNO = {
     "ano": 2025,
     "dia": 2,                     # Ajuste para o dia correto (1 ou 2)
+    "numero": 5,
     "cor": "AMARELO",
     "aplicacao": "REGULAR"        # Ex: REGULAR, PPL, etc.
 }
@@ -148,6 +149,7 @@ def main():
             # Injetar os dados da identificação do caderno
             dados_analise['questao']['identificacao_caderno']['ano'] = DADOS_CADERNO['ano']
             dados_analise['questao']['identificacao_caderno']['dia'] = DADOS_CADERNO['dia']
+            dados_analise['questao']['identificacao_caderno']['numero'] = DADOS_CADERNO['numero']
             dados_analise['questao']['identificacao_caderno']['cor'] = DADOS_CADERNO['cor']
             dados_analise['questao']['identificacao_caderno']['aplicacao'] = DADOS_CADERNO['aplicacao']
             

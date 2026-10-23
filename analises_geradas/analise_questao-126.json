@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "126",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-126.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletroquímica",
+        "conteudos_relacionados": [
+            "Potencial-padrão de redução",
+            "Diferença de potencial (ddp)",
+            "Reações de oxirredução",
+            "Espontaneidade de reações químicas"
+        ],
+        "assunto": "Cálculo da diferença de potencial-padrão em processos redox espontâneos",
+        "objeto_de_analise": "Processos de escurecimento e clareamento de objetos de prata",
+        "fenomeno_conceito": "Oxirredução e diferença de potencial elétrico"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "+0,54 V e +2,37 V.",
+            "correta": false,
+            "justificativa": "Incorreta. Esses valores decorrem de combinações incorretas dos potenciais das semirreações (por exemplo, subtração direta de potenciais sem considerar as espécies que oxidam e reduzem em cada etapa)."
+        },
+        {
+            "letra": "B",
+            "texto": "+1,92 V e +0,99 V.",
+            "correta": true,
+            "justificativa": "No escurecimento, a prata metálica sofre oxidação (Ag -> Ag2S, com E°ox = +0,69 V) e o oxigênio sofre redução (E°red = +1,23 V), resultando em Delta E° = +1,23 V - (-0,69 V) = +1,92 V. No clareamento, o sulfeto de prata sofre redução (Ag2S -> Ag, E°red = -0,69 V) e o alumínio metálico sofre oxidação (Al -> Al3+, E°red = -1,68 V), resultando em Delta E° = -0,69 V - (-1,68 V) = +0,99 V."
+        },
+        {
+            "letra": "C",
+            "texto": "-0,15 V e +5,43 V.",
+            "correta": false,
+            "justificativa": "Incorreta. Erro decorrente de multiplicar os potenciais pelos coeficientes estequiométricos no clareamento (o que é conceitualmente incorreto para potenciais de redução, que são propriedades intensivas) e de inverter indevidamente os sinais no escurecimento."
+        },
+        {
+            "letra": "D",
+            "texto": "+2,61 V e +1,29 V.",
+            "correta": false,
+            "justificativa": "Incorreta. Valores resultantes de erros algébricos na determinação dos ânodos e cátodos dos dois processos redox."
+        },
+        {
+            "letra": "E",
+            "texto": "+0,15 V e -1,29 V.",
+            "correta": false,
+            "justificativa": "Incorreta. O clareamento espontâneo deve ter Delta E° positivo (+0,99 V), e os valores propostos não correspondem à diferença correta entre os potenciais padrão das semirreações envolvidas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-23T13:34:00.070985",
+        "confianca": "alta",
+        "evidencias": [
+            "A semirreação de escurecimento envolve a oxidação da prata metálica acoplada à redução do O2: Delta E° = 1,23 - (-0,69) = +1,92 V.",
+            "A semirreação de clareamento envolve a redução de Ag2S acoplada à oxidação do Al: Delta E° = -0,69 - (-1,68) = +0,99 V.",
+            "O gabarito oficial fornecido indica a alternativa B como correta."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-126.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

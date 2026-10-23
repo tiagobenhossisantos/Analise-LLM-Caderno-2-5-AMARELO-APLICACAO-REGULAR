@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "104",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-104.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H20",
+                "descricao": "Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletrostática e Campo Elétrico",
+        "conteudos_relacionados": [
+            "Força elétrica sobre cargas puntiformes",
+            "Cinemática e dinâmica de partículas carregadas em campos elétricos uniformes",
+            "Tubo de raios catódicos"
+        ],
+        "assunto": "Força elétrica e deflexão de cargas em campo elétrico uniforme",
+        "objeto_de_analise": "Trajetória de um feixe de elétrons sob a ação de um campo elétrico vertical",
+        "fenomeno_conceito": "Força elétrica em carga negativa em sentido oposto ao vetor campo elétrico"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1",
+            "correta": false,
+            "justificativa": "O ponto 1 situa-se na parte superior da tela. Para atingi-lo, a força elétrica deveria apontar para cima, o que ocorreria apenas se a carga elétrica fosse positiva, já que o campo elétrico aponta para cima."
+        },
+        {
+            "letra": "B",
+            "texto": "2",
+            "correta": true,
+            "justificativa": "Como o feixe é constituído de elétrons (cargas elétricas negativas, q < 0), a força elétrica (F = q·E) tem sentido oposto ao vetor campo elétrico (E). Sendo o campo elétrico vertical e voltado para cima, a força elétrica atua para baixo, defletindo o feixe verticalmente para baixo e fazendo-o colidir na região inferior da tela, correspondente ao ponto 2."
+        },
+        {
+            "letra": "C",
+            "texto": "3",
+            "correta": false,
+            "justificativa": "O ponto 3 está deslocado horizontalmente (lateralmente). Como o campo elétrico aplicado atua exclusivamente no eixo vertical, não há aceleração lateral responsável por defletir os elétrons nessa direção."
+        },
+        {
+            "letra": "D",
+            "texto": "4",
+            "correta": false,
+            "justificativa": "O ponto 4 está situado na lateral oposta (eixo horizontal). O campo elétrico ilustrado na Figura 2 é puramente vertical, de modo que a força elétrica resultante não possui componente horizontal perpendicular ao movimento inicial."
+        },
+        {
+            "letra": "E",
+            "texto": "5",
+            "correta": false,
+            "justificativa": "O ponto 5 corresponde ao centro da tela, que seria atingido caso o feixe não sofresse nenhuma deflexão transversal (ausência de campo elétrico ou força resultante nula)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "r1",
+        "datetime": "2026-10-23T14:12:14.213272",
+        "confianca": "alta",
+        "evidencias": [
+            "O feixe é composto por elétrons, que possuem carga elétrica de sinal negativo.",
+            "A Figura 2 estabelece que o campo elétrico E aponta verticalmente para cima.",
+            "Pela definição da força eletrostática F = q·E, com q < 0, a força elétrica sobre os elétrons possui sentido contrário ao campo, logo, para baixo.",
+            "A deflexão vertical para baixo conduz o feixe ao ponto 2 da tela do tubo de raios catódicos."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-104.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

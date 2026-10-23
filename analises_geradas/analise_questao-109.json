@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 109,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-109.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H24",
+            "descricao": "Utilizar códigos e nomenclatura da química para caracterizar materiais, substâncias ou transformações químicas."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H25",
+                "descricao": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "I",
+            "nome": "Dominar linguagens (DL)",
+            "descricao": "dominar a norma culta da Língua Portuguesa e fazer uso das linguagens matemática, artística e científica e das línguas espanhola e inglesa."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Reações Orgânicas",
+        "conteudos_relacionados": [
+            "Funções orgânicas",
+            "Descarboxilação térmica",
+            "Ácidos carboxílicos",
+            "Fenóis"
+        ],
+        "assunto": "Reação de descarboxilação térmica em compostos orgânicos",
+        "objeto_de_analise": "Conversão química do ácido anacárdico em cardanol por aquecimento",
+        "fenomeno_conceito": "Eliminação do grupo carboxila na forma de dióxido de carbono (CO2)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "hidrólise.",
+            "correta": false,
+            "justificativa": "A hidrólise consiste na quebra de ligações químicas mediada pela água, o que não ocorre na conversão direta por aquecimento apresentada."
+        },
+        {
+            "letra": "B",
+            "texto": "fenilação.",
+            "correta": false,
+            "justificativa": "Fenilação corresponderia à inserção de um grupo fenil em uma estrutura, processo não observado na transformação esquematizada."
+        },
+        {
+            "letra": "C",
+            "texto": "esterificação.",
+            "correta": false,
+            "justificativa": "A esterificação é a reação entre um ácido carboxílico e um álcool com formação de éster e água, o que não corresponde à eliminação de dióxido de carbono observada."
+        },
+        {
+            "letra": "D",
+            "texto": "hidrogenação.",
+            "correta": false,
+            "justificativa": "A hidrogenação consiste na adição de gás hidrogênio (H2) a insaturações da cadeia, o que não representa a perda do grupo carboxila."
+        },
+        {
+            "letra": "E",
+            "texto": "descarboxilação.",
+            "correta": true,
+            "justificativa": "A reação apresentada no esquema mostra a perda do grupo funcional carboxila (-COOH) do ácido anacárdico na forma de gás carbônico (CO2) sob aquecimento (180 °C a 200 °C), caracterizando tipicamente uma descarboxilação."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-22T19:46:01.624919",
+        "confianca": "alta",
+        "evidencias": [
+            "O esquema mostra o ácido anacárdico perdendo seu grupo -COOH e liberando CO2 sob aquecimento (180 °C a 200 °C).",
+            "A eliminação do grupo carboxila com liberação de dióxido de carbono é a definição clássica de descarboxilação.",
+            "O gabarito oficial indicado é E."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-109.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

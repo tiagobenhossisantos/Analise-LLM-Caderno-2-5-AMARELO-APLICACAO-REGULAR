@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "123",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-123.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Equilíbrio Químico e Princípio de Le Chatelier",
+        "conteudos_relacionados": [
+            "Fatores que alteram o equilíbrio químico",
+            "Pressão parcial de gases",
+            "Termoquímica e efeito da temperatura no equilíbrio"
+        ],
+        "assunto": "Deslocamento de Equilíbrio Químico",
+        "objeto_de_analise": "Reação de cloração do dióxido de titânio em equilíbrio químico",
+        "fenomeno_conceito": "Princípio de Le Chatelier aplicado à adição de reagente gasoso para favorecer a formação de produtos"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Aumentando a pressão total do sistema.",
+            "correta": false,
+            "justificativa": "A reação apresenta 2 mols de substâncias no estado gasoso nos reagentes (2 Cl2) e 2 mols de gases nos produtos (1 TiCl4 + 1 O2). Como a variação do número de mols gasosos é nula (Δn = 0), a alteração da pressão total não desloca o equilíbrio."
+        },
+        {
+            "letra": "B",
+            "texto": "Diminuindo a temperatura do sistema.",
+            "correta": false,
+            "justificativa": "A reação é endotérmica (ΔH = +175 kJ/mol). Diminuir a temperatura desloca o equilíbrio no sentido exotérmico (para a esquerda), diminuindo a formação de TiCl4."
+        },
+        {
+            "letra": "C",
+            "texto": "Aumentando a pressão parcial de O2.",
+            "correta": false,
+            "justificativa": "O gás oxigênio (O2) é um dos produtos da reação. O aumento de sua pressão parcial desloca o equilíbrio químico para a esquerda (sentido inverso), diminuindo a quantidade de TiCl4 formada."
+        },
+        {
+            "letra": "D",
+            "texto": "Aumentando a pressão parcial de Cl2.",
+            "correta": true,
+            "justificativa": "De acordo com o Princípio de Le Chatelier, o aumento da concentração ou da pressão parcial de um reagente gasoso (Cl2) perturba o sistema em equilíbrio, deslocando-o no sentido direto (para a direita) para consumi-lo, favorecendo a formação de TiCl4."
+        },
+        {
+            "letra": "E",
+            "texto": "Variando a quantidade de TiO2.",
+            "correta": false,
+            "justificativa": "O TiO2 é um sólido puro; portanto, sua atividade/concentração é constante e alterações na sua quantidade não alteram a posição do equilíbrio químico."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-23T13:22:29.337926",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda o Princípio de Le Chatelier aplicado ao rendimento da reação industrial de obtenção de titânio.",
+            "Aumentar a pressão parcial de um reagente gasoso (Cl2) desloca o equilíbrio no sentido dos produtos.",
+            "O gabarito oficial é a alternativa D."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-123.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

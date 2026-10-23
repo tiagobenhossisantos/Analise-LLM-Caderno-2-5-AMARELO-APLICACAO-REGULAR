@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "124",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-124.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H18",
+            "descricao": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Hidrostática e Mecânica dos Fluidos",
+        "conteudos_relacionados": [
+            "Conceito de Pressão",
+            "Pressão Hidrostática",
+            "Massa específica e densidade",
+            "Equilíbrio Estático"
+        ],
+        "assunto": "Cálculo da pressão exercida por uma coluna de material e dimensionamento de carga máxima sobre uma superfície",
+        "objeto_de_analise": "Empilhamento de um produto sobre a laje de um depósito",
+        "fenomeno_conceito": "Pressão exercida pelo peso de um sólido/fluido em função de sua densidade, gravidade e altura de empilhamento (P = ρ·g·h)"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "0,16 m.",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorre de erros operacionais de cálculo ou manipulação incorreta dos dados numéricos (como dividir 10.000 por valores que não correspondem a ρ·g)."
+        },
+        {
+            "letra": "B",
+            "texto": "0,50 m.",
+            "correta": false,
+            "justificativa": "Incorreta. O valor não satisfaz a equação de pressão P = ρ·g·h para os dados fornecidos."
+        },
+        {
+            "letra": "C",
+            "texto": "0,80 m.",
+            "correta": true,
+            "justificativa": "Correta. A pressão exercida pelo produto sobre a laje é dada por P = F/A = (m·g)/A = (ρ·V·g)/A = ρ·g·h. Igualando à pressão máxima suportada pela laje (10⁴ Pa), temos: 10⁴ = 1 250 · 10 · h => 10 000 = 12 500 · h => h = 10 000 / 12 500 = 0,80 m."
+        },
+        {
+            "letra": "D",
+            "texto": "1,60 m.",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de um erro aritmético, como dobrar indevidamente o valor de h ou inverter fatores na razão."
+        },
+        {
+            "letra": "E",
+            "texto": "8,00 m.",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de um erro de ordem de grandeza (fator 10) decorrente de erro no cancelamento ou na consideração da gravidade ou da pressão máxima."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-08-06",
+        "datetime": "2026-10-23T13:23:53.238225",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão fornece pressão limite, densidade e gravidade para determinar a altura máxima de empilhamento de um produto sobre uma laje.",
+            "A relação matemática direta decorre de P = ρ·g·h, resultando exatamente em h = 0,80 m, em conformidade com o gabarito oficial C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-124.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}
