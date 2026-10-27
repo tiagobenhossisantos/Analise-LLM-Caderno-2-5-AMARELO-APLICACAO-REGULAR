@@ -1,0 +1,106 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 137,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-137.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "matematica",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Porcentagem",
+        "conteudos_relacionados": [
+            "Razões e proporções",
+            "Equações de primeiro grau"
+        ],
+        "assunto": "Cálculo de concentração e porcentagem",
+        "objeto_de_analise": "Variação de concentração volumétrica de uma mistura após retirada de substância",
+        "fenomeno_conceito": "Diluição e concentração por invariância da quantidade de um dos componentes"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "0,0050",
+            "correta": false,
+            "justificativa": "Corresponde ao volume absoluto da substância $S_2$ na solução (0,05% de 10 L = 0,005 L), e não à quantidade retirada de $S_1$."
+        },
+        {
+            "letra": "B",
+            "texto": "0,0100",
+            "correta": false,
+            "justificativa": "Corresponde a uma interpretação errônea da variação percentual absoluta (99,95% - 99,90% = 0,05%), multiplicada incorretamente ou associada diretamente à nova proporção."
+        },
+        {
+            "letra": "C",
+            "texto": "0,5000",
+            "correta": false,
+            "justificativa": "Erro de ordem de grandeza ou de cálculo na divisão dos volumes percentuais."
+        },
+        {
+            "letra": "D",
+            "texto": "4,9775",
+            "correta": false,
+            "justificativa": "Resultado obtido ao aplicar incorretamente os percentuais sobre bases trocadas ou desconsiderando a constância do volume absoluto de $S_2$."
+        },
+        {
+            "letra": "E",
+            "texto": "5,0000",
+            "correta": true,
+            "justificativa": "Inicialmente, a solução tem 10 L, sendo 0,05% de $S_2$, ou seja, $10 \\times 0,0005 = 0,005$ L de $S_2$. Na nova solução, $S_2$ deve representar 0,10% (100% - 99,90%) do volume total $V_f$. Assim, $0,0010 \\times V_f = 0,005 \\implies V_f = 5$ L. Como o volume inicial era 10 L e o final é 5 L, a quantidade retirada de $S_1$ é $10 - 5 = 5,0000$ L."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-27T18:16:44.679586",
+        "confianca": "alta",
+        "evidencias": [
+            "O cálculo envolve determinar a quantidade absoluta inalterada de $S_2$ e achar o novo volume total por meio de porcentagem, deduzindo o volume retirado.",
+            "A operação encaixa-se diretamente em H3 da competência C1 de Matemática."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-137.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

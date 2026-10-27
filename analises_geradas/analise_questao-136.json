@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 136,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-136.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H8",
+            "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H12",
+                "descricao": "Resolver situação-problema que envolva medidas de grandezas."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Plana",
+        "conteudos_relacionados": [
+            "Comprimento da circunferência",
+            "Conversão de unidades de medida de comprimento",
+            "Divisão e proporcionalidade"
+        ],
+        "assunto": "Comprimento da circunferência e cobertura de perímetro",
+        "objeto_de_analise": "Determinação do número mínimo de policiais para cobrir o perímetro de uma ciclovia circular",
+        "fenomeno_conceito": "Cálculo do comprimento da circunferência ($C = 2\\pi R$) e alcance linear de vigilância"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "4",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor pode decorrer de equívocos graves no cálculo do perímetro ou na interpretação do alcance de cobertura de cada policial."
+        },
+        {
+            "letra": "B",
+            "texto": "8",
+            "correta": false,
+            "justificativa": "Incorreta. Considera incorretamente que cada policial cobriria uma extensão muito maior ou comete erro ao relacionar o raio/diâmetro com o alcance."
+        },
+        {
+            "letra": "C",
+            "texto": "15",
+            "correta": true,
+            "justificativa": "Correta. O raio da ciclovia mede $1\\text{ km} = 1000\\text{ m}$. O comprimento da ciclovia é $C = 2 \\cdot \\pi \\cdot R = 2 \\cdot 3 \\cdot 1000\\text{ m} = 6000\\text{ m}$. Cada policial posicionado na ciclovia protege até $200\\text{ m}$ à sua esquerda e $200\\text{ m}$ à sua direita ao longo da pista, cobrindo assim um segmento de arco de $400\\text{ m}$. Logo, o número mínimo de policiais necessários para patrulhar toda a ciclovia é $\\frac{6000\\text{ m}}{400\\text{ m}} = 15$ policiais."
+        },
+        {
+            "letra": "D",
+            "texto": "30",
+            "correta": false,
+            "justificativa": "Incorreta. Ocorre se o estudante considerar que cada policial cobre apenas $200\\text{ m}$ de extensão total (e não $200\\text{ m}$ para cada lado, ou seja, $400\\text{ m}$ no total): $\\frac{6000}{200} = 30$."
+        },
+        {
+            "letra": "E",
+            "texto": "60",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de erros adicionais na conversão de unidades ou na consideração do diâmetro em vez do raio combinados com alcance unilateral de $100\\text{ m}$."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-27T18:14:26.475556",
+        "confianca": "alta",
+        "evidencias": [
+            "O raio da pista circular é de 1 km (1000 m).",
+            "A aproximação de pi dada é 3, resultando no comprimento da ciclovia de 6000 m.",
+            "Cada policial posicionado na ciclovia cobre pontos até 200 m de distância, logo uma faixa de 400 m de comprimento.",
+            "A divisão de 6000 m por 400 m resulta exatamente em 15 policiais, compatível com a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-136.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

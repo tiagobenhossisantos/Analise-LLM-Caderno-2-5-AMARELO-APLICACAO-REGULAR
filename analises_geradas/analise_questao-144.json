@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "144",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-144.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Utilizar o conhecimento geométrico para realizar a leitura e a representação da realidade e agir sobre ela."
+        },
+        "habilidade_principal": {
+            "id": "H6",
+            "descricao": "Interpretar a localização e a movimentação de pessoas/objetos no espaço tridimensional e sua representação no espaço bidimensional."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H7",
+                "descricao": "Identificar características de figuras planas ou espaciais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Espacial e Geometria Analítica Tridimensional",
+        "conteudos_relacionados": [
+            "Sistema de coordenadas cartesianas no espaço tridimensional",
+            "Projeções ortogonais nos planos coordenados",
+            "Translação de figuras no espaço tridimensional"
+        ],
+        "assunto": "Geometria Espacial: Projeção Ortogonal e Posição no Espaço Tridimensional",
+        "objeto_de_analise": "Deslocamento de um cubo em relação aos planos coordenados e suas respectivas projeções ortogonais",
+        "fenomeno_conceito": "Variação de coordenadas e projeção ortogonal em planos bidimensionais"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "[FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz.]",
+            "correta": false,
+            "justificativa": "Incorreta. A posição das projeções nos planos coordenados não corresponde à combinação correta de deslocamentos: aproximação de 3 unidades do plano yz (redução da coordenada x), afastamento de 5 unidades do plano xz (aumento da coordenada y) e aproximação de 4 unidades do plano xy (redução da coordenada z)."
+        },
+        {
+            "letra": "B",
+            "texto": "[FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes da alternativa A.]",
+            "correta": false,
+            "justificativa": "Incorreta. Não representa adequadamente o posicionamento das projeções resultantes das translações nos três eixos coordenados descritas no enunciado."
+        },
+        {
+            "letra": "C",
+            "texto": "[FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]",
+            "correta": false,
+            "justificativa": "Incorreta. Apresenta incongruências nas posições relativas das projeções sobre os planos coordenados xz, yz ou xy em relação aos deslocamentos sofridos."
+        },
+        {
+            "letra": "D",
+            "texto": "[FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]",
+            "correta": false,
+            "justificativa": "Incorreta. Os quadrados nos planos coordenados não refletem simultaneamente a redução da distância a yz, o aumento da distância a xz e a redução da distância a xy."
+        },
+        {
+            "letra": "E",
+            "texto": "[FIGURA: Sistema de eixos cartesianos tridimensionais (x, y, z) mostrando três quadrados vermelhos representando as projeções ortogonais de um cubo nos planos xy, xz e yz, com posições diferentes das alternativas anteriores.]",
+            "correta": true,
+            "justificativa": "Correta. Como a distância ao plano yz é dada pela coordenada x, aproximar-se 3 unidades significa reduzir x em 3; a distância ao plano xz é dada por y, logo afastar-se 5 unidades significa aumentar y em 5; e a distância ao plano xy é dada por z, logo aproximar-se 4 unidades significa reduzir z em 4. A alternativa E apresenta com precisão as três projeções ortogonais correspondentes a essas novas coordenadas nos respectivos planos coordenados."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-27T18:24:22.781403",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda a movimentação de um cubo no espaço tridimensional com análise de suas projeções ortogonais nos planos coordenados, o que é o núcleo exato da habilidade H6 da competência C2 de Matemática.",
+            "Gabarito oficial correspondente à alternativa E."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-144.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

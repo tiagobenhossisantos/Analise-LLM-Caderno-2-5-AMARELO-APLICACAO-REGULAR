@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 147,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-147.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Modelar e resolver problemas que envolvem variáveis socioeconômicas ou técnico-científicas, usando representações algébricas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Resolver situação-problema cuja modelagem envolva conhecimentos algébricos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H8",
+                "descricao": "Resolver situação-problema que envolva conhecimentos geométricos de espaço e forma."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Geometria Analítica",
+        "conteudos_relacionados": [
+            "Equação fundamental da reta",
+            "Mediatriz de um segmento",
+            "Propriedades das diagonais do quadrado",
+            "Perpendicularismo entre retas"
+        ],
+        "assunto": "Equação da reta e lugares geométricos no plano cartesiano",
+        "objeto_de_analise": "Trajetória equidistante dos vilões posicionados nos vértices de um quadrado",
+        "fenomeno_conceito": "Lugar geométrico dos pontos equidistantes (mediatriz) coincidente com a diagonal do quadrado"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "y = -3x + 20",
+            "correta": true,
+            "justificativa": "Para ficar equidistante dos vilões posicionados em V e T, o herói deve se mover sobre a mediatriz do segmento VT. Em um quadrado STUV, a mediatriz da diagonal VT é a reta suporte da outra diagonal, SU, que passa por S(6, 2). Sendo V(8, 6), o vetor SV é (2, 4). Como ST é perpendicular a SV com mesmo módulo e T está à esquerda no plano, o vetor ST é (-4, 2), logo T = (2, 4) e o vértice U = V + ST = (4, 8). A reta que passa por S(6, 2) e U(4, 8) tem coeficiente angular m = (8 - 2) / (4 - 6) = -3. Sua equação é y - 2 = -3(x - 6), ou seja, y = -3x + 20."
+        },
+        {
+            "letra": "B",
+            "texto": "y = -3x + 16",
+            "correta": false,
+            "justificativa": "Incorreta. Essa equação possui coeficiente angular correto (-3), mas termo linear incorreto (+16), não passando pelo ponto S(6, 2), visto que -3(6) + 16 = -2 != 2."
+        },
+        {
+            "letra": "C",
+            "texto": "y = -3x - 20",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de erro de sinal ao isolar a equação da reta a partir de y - 2 = -3(x - 6)."
+        },
+        {
+            "letra": "D",
+            "texto": "y = 3x + 16",
+            "correta": false,
+            "justificativa": "Incorreta. Apresenta coeficiente angular positivo (+3), incompatível com a inclinação da diagonal decrescente SU."
+        },
+        {
+            "letra": "E",
+            "texto": "y = 3x - 16",
+            "correta": false,
+            "justificativa": "Incorreta. Embora a reta passe por S(6, 2) (já que 3*6 - 16 = 2), o coeficiente angular utilizado foi +3 em vez de -3, invertendo a inclinação da trajetória."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-27T18:29:23.678086",
+        "confianca": "alta",
+        "evidencias": [
+            "O conjunto de pontos equidistantes de T e V é a mediatriz do segmento TV.",
+            "As diagonais de um quadrado são perpendiculares e cortam-se ao meio, portanto a reta SU é a mediatriz de TV.",
+            "Com as coordenadas de S(6, 2) e V(8, 6), determina-se U(4, 8) e a equação da reta y = -3x + 20, condizente com o gabarito oficial A."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-147.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

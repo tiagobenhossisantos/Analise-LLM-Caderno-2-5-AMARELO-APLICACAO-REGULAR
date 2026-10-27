@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "143",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-143.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "MT",
+            "nome": "Matemática e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Construir significados para os números naturais, inteiros, racionais e reais."
+        },
+        "habilidade_principal": {
+            "id": "H3",
+            "descricao": "Resolver situação-problema envolvendo conhecimentos numéricos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H1",
+                "descricao": "Reconhecer, no contexto social, diferentes significados e representações dos números e operações - naturais, inteiros, racionais ou reais."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Operações com números racionais decimais",
+        "conteudos_relacionados": [
+            "Subtração com números decimais",
+            "Sistemas de medidas de tempo"
+        ],
+        "assunto": "Aritmética básica",
+        "objeto_de_analise": "Diferença entre dois tempos em segundos expressos na forma decimal",
+        "fenomeno_conceito": "Subtração de números decimais"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "0,02",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor decorre de erro conceitual ou operacional no algoritmo de subtração (por exemplo, subtrair equivocadamente os centésimos 10 - 8 = 2 e desconsiderar o valor posicional dos décimos)."
+        },
+        {
+            "letra": "B",
+            "texto": "0,42",
+            "correta": true,
+            "justificativa": "Correta. A diferença é obtida pela subtração direta entre a marca de referência (10,00 s) e o tempo obtido por Usain Bolt (9,58 s): 10,00 - 9,58 = 0,42 segundo."
+        },
+        {
+            "letra": "C",
+            "texto": "0,52",
+            "correta": false,
+            "justificativa": "Incorreta. Ocorre ao errar o empréstimo na ordem dos décimos ao subtrair 9,58 de 10,00 (subtraindo 9 de 9 mas deixando 5 na ordem dos décimos)."
+        },
+        {
+            "letra": "D",
+            "texto": "1,02",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de erro ao operar as ordens das unidades e centésimos sem realizar adequadamente a troca/empréstimo de base."
+        },
+        {
+            "letra": "E",
+            "texto": "1,42",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de erro no alinhamento das casas decimais ou na subtração das unidades inteiras (10 - 9 = 1 em vez de considerar o empréstimo para os décimos)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-07-18",
+        "datetime": "2026-10-27T18:22:27.890815",
+        "confianca": "alta",
+        "evidencias": [
+            "O comando pede explicitamente a diferença em segundos entre 10,00 e 9,58.",
+            "10,00 - 9,58 = 0,42, correspondendo exatamente à alternativa B e ao gabarito oficial.",
+            "A operação envolve diretamente a habilidade H3 da competência 1 da área de Matemática e suas Tecnologias."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-143.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

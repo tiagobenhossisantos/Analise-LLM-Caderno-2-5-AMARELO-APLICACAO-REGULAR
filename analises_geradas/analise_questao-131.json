@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "131",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-131.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "natureza",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H30",
+            "descricao": "Avaliar propostas de alcance individual ou coletivo, identificando aquelas que visam à preservação e a implementação da saúde individual, coletiva ou do ambiente."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H14",
+                "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Parasitologia e Saúde Pública",
+        "conteudos_relacionados": [
+            "Ciclo biológico da esquistossomose",
+            "Métodos de profilaxia e controle de endemias",
+            "Hospedeiros intermediários e vetores de doenças"
+        ],
+        "assunto": "Doenças parasitárias e métodos de controle profilático",
+        "objeto_de_analise": "Tabela de eficiência do ácido úsnico contra diferentes organismos",
+        "fenomeno_conceito": "Controle biológico/químico do hospedeiro intermediário (caramujo) no ciclo da esquistossomose"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "esquistossomose.",
+            "correta": true,
+            "justificativa": "O quadro indica que o ácido úsnico possui 'Alta eficiência' contra moluscos aquáticos adultos. Como caramujos do gênero Biomphalaria atuam como hospedeiros intermediários obrigatórios no ciclo do Schistosoma mansoni, o combate a esses moluscos é uma estratégia clássica de prevenção e controle da esquistossomose."
+        },
+        {
+            "letra": "B",
+            "texto": "febre amarela.",
+            "correta": false,
+            "justificativa": "A transmissão da febre amarela em meio urbano envolve o mosquito Aedes aegypti, contra o qual o ácido úsnico apresentou apenas 'Baixa eficiência' nas fases larvais."
+        },
+        {
+            "letra": "C",
+            "texto": "coqueluche.",
+            "correta": false,
+            "justificativa": "A coqueluche é causada pela bactéria Bordetella pertussis, que não foi objeto de teste no quadro e cuja transmissão não envolve moluscos ou insetos vetores."
+        },
+        {
+            "letra": "D",
+            "texto": "tuberculose.",
+            "correta": false,
+            "justificativa": "Embora o Bacilo de Koch (Mycobacterium tuberculosis) conste no quadro, a substância demonstrou apenas 'Média eficiência', não sendo a mais indicada em comparação à 'Alta eficiência' obtida contra moluscos aquáticos."
+        },
+        {
+            "letra": "E",
+            "texto": "dengue.",
+            "correta": false,
+            "justificativa": "O controle da dengue depende do combate ao mosquito Aedes aegypti, em relação ao qual o ácido úsnico apresentou 'Baixa eficiência' em larvas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-27T17:59:28.182159",
+        "confianca": "alta",
+        "evidencias": [
+            "A tabela indica alta eficiência unicamente contra 'Moluscos aquáticos (adultos)'.",
+            "O conhecimento biológico associa moluscos aquáticos (gênero Biomphalaria) como hospedeiros intermediários da esquistossomose.",
+            "O gabarito oficial marca a alternativa A."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-131.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

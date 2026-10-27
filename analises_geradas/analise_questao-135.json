@@ -1,0 +1,110 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "135",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-135.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H5",
+            "descricao": "Dimensionar circuitos ou dispositivos elétricos de uso cotidiano."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletrodinâmica",
+        "conteudos_relacionados": [
+            "Potência elétrica",
+            "Corrente elétrica",
+            "Dispositivos de proteção (fusíveis)",
+            "Associação de aparelhos em paralelo"
+        ],
+        "assunto": "Potência e dimensionamento de circuitos elétricos residenciais",
+        "objeto_de_analise": "Régua elétrica e fusível de segurança sob sobrecarga de potência",
+        "fenomeno_conceito": "Relação P = U * i e limite de corrente elétrica por fusível"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "conteudo": "4",
+            "correta": false,
+            "justificativa": "Incorreta. A estudante não consegue realizar as quatro atividades, pois ao tentar a 2ª atividade (cafeteira), a potência total atinge 2250 W, ultrapassando a potência máxima de 2200 W (20 A x 110 V), rompendo o fusível e inutilizando a régua."
+        },
+        {
+            "letra": "B",
+            "conteudo": "3",
+            "correta": false,
+            "justificativa": "Incorreta. Como o fusível se rompe logo na 2ª tentativa e inutiliza a régua para as tentativas posteriores, a estudante não chega a realizar três atividades."
+        },
+        {
+            "letra": "C",
+            "conteudo": "2",
+            "correta": false,
+            "justificativa": "Incorreta. Seria o valor caso a 2ª tentativa não tivesse queimado o fusível, mas a cafeteira consome 900 W, totalizando 2250 W com os aparelhos já ligados (1350 W), o que excede os 2200 W permitidos e queima o fusível na 2ª tentativa."
+        },
+        {
+            "letra": "D",
+            "conteudo": "1",
+            "correta": true,
+            "justificativa": "Correta. A régua suporta uma potência máxima de P = U * I = 110 V * 20 A = 2200 W. A potência base permanente é de 250 W (computador) + 1100 W (ar-condicionado) = 1350 W. Na 1ª tentativa, ao ligar a impressora (660 W), a potência total é 1350 + 660 = 2010 W <= 2200 W (sucesso). Na 2ª tentativa, ao ligar a cafeteira (900 W), a potência total seria 1350 + 900 = 2250 W > 2200 W, rompendo o fusível e inutilizando a régua. Portanto, apenas 1 atividade foi realizada."
+        },
+        {
+            "letra": "E",
+            "conteudo": "0",
+            "correta": false,
+            "justificativa": "Incorreta. A primeira atividade (imprimir trabalho escolar) totaliza 2010 W, que está abaixo do limite de 2200 W suportado pelo fusível, tendo sido realizada com sucesso."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T18:11:54.118035",
+        "confianca": "alta",
+        "evidencias": [
+            "A régua opera a 110 V com corrente máxima de 20 A, resultando em potência máxima de 2200 W.",
+            "Aparelhos permanentemente ligados: 250 W + 1100 W = 1350 W.",
+            "1ª atividade: 1350 W + 660 W = 2010 W (suporta, 1ª atividade realizada).",
+            "2ª atividade: 1350 W + 900 W = 2250 W > 2200 W (fusível se rompe, interrompendo as atividades)."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-135.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

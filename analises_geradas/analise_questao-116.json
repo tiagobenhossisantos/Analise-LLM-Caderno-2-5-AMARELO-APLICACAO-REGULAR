@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 116,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-116.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H18",
+            "descricao": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H27",
+                "descricao": "Avaliar propostas de intervenção no meio ambiente aplicando conhecimentos químicos, observando riscos ou benefícios."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Química dos Materiais e Interações Intermoleculares",
+        "conteudos_relacionados": [
+            "Surfactantes e Tensão Superficial",
+            "Separação de Misturas",
+            "Química Ambiental",
+            "Polímeros e Nanotecnologia"
+        ],
+        "assunto": "Separação de misturas e materiais nanoestruturados",
+        "objeto_de_analise": "Dispositivo multicamadas para remediação de derramamento de óleo em ambientes marinhos",
+        "fenomeno_conceito": "Interação de superfície e funcionalização química de membranas filtrantes"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "no surfactante.",
+            "correta": true,
+            "justificativa": "O surfactante constitui a camada mais externa do dispositivo, apresentando grupos químicos e características de superfície capazes de interagir preferencialmente e promover a retenção/separação do óleo em relação à água."
+        },
+        {
+            "letra": "B",
+            "texto": "na camada superior de polímero.",
+            "correta": false,
+            "justificativa": "A camada superior de polímero atua como intermediária de fixação eletrostática para o surfactante, não sendo a camada exposta diretamente à retenção do óleo."
+        },
+        {
+            "letra": "C",
+            "texto": "nas nanopartículas de sílica.",
+            "correta": false,
+            "justificativa": "As nanopartículas de sílica compõem uma camada intermediária estrutural (estabilidade e rugosidade) entre as camadas poliméricas, não estando em contato primário com o meio de retenção."
+        },
+        {
+            "letra": "D",
+            "texto": "na camada inferior de polímero.",
+            "correta": false,
+            "justificativa": "A camada inferior de polímero tem como função a ancoragem do arranjo sobre a malha de aço, não sendo o sítio de separação/retenção do óleo."
+        },
+        {
+            "letra": "E",
+            "texto": "na malha de aço.",
+            "correta": false,
+            "justificativa": "A malha de aço serve como substrato mecânico de sustentação para as camadas nanoestruturadas funcionais, não sendo responsável pela retenção seletiva do óleo."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "v3",
+        "datetime": "2026-10-25T12:57:55.820171",
+        "confianca": "alta",
+        "evidencias": [
+            "O esquema mostra o surfactante na camada superior, em contato direto com a fase fluida a ser tratada.",
+            "A função de um surfactante em membranas de separação é modular a molhabilidade e a interação interfacial com o óleo.",
+            "O gabarito oficial aponta a alternativa A."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-116.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

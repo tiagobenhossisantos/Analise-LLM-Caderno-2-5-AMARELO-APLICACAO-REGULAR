@@ -1,0 +1,114 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "115",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-115.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C1",
+            "descricao": "Compreender as ciências naturais e as tecnologias a elas associadas como construções humanas, percebendo seus papéis nos processos de produção e no desenvolvimento econômico e social da humanidade."
+        },
+        "habilidade_principal": {
+            "id": "H1",
+            "descricao": "Reconhecer características ou propriedades de fenômenos ondulatórios ou oscilatórios, relacionando-os a seus usos em diferentes contextos."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Ondulatória",
+        "conteudos_relacionados": [
+            "Acústica",
+            "Nível de intensidade sonora",
+            "Escala decibel",
+            "Superposição de ondas sonoras"
+        ],
+        "assunto": "Acústica e nível sonoro",
+        "objeto_de_analise": "Nível de intensidade sonora gerado por múltiplas fontes sonoras em um estádio",
+        "fenomeno_conceito": "Nível sonoro em decibel (dB)"
+    },
+    "analise_alternativas": [
+        {
+            "alternativa": "A",
+            "texto": "60 dB.",
+            "correta": true,
+            "justificativa": "Assinalada como correta em conformidade estrita com o Gabarito Oficial fornecido como fonte prioritária (embora a resolução física teórica padrão para superposição de 10 000 fontes independentes resulte em acréscimo de 40 dB, perfazendo 140 dB)."
+        },
+        {
+            "alternativa": "B",
+            "texto": "104 dB.",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta de um erro conceitual de somar o expoente da potência de dez (10^4) diretamente ao nível sonoro pré-existente (100 + 4)."
+        },
+        {
+            "alternativa": "C",
+            "texto": "140 dB.",
+            "correta": false,
+            "justificativa": "Incorreta segundo o gabarito oficial fornecido, embora seja o valor obtido pela dedução matemática da intensidade combinada: I_total = 10^4 * I_1, logo n_total = 100 dB + 10*log(10^4) = 140 dB."
+        },
+        {
+            "alternativa": "D",
+            "texto": "400 dB.",
+            "correta": false,
+            "justificativa": "Incorreta. Resulta da multiplicação indevida do valor de 100 dB pelo expoente 4 da potência de 10 000 (10^4)."
+        },
+        {
+            "alternativa": "E",
+            "texto": "800 dB.",
+            "correta": false,
+            "justificativa": "Incorreta. Valor desprovido de fundamento físico para o problema proposto, decorrente de operações proporcionais equivocadas."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-25T12:54:10.412232",
+        "confianca": "media",
+        "evidencias": [
+            "O texto da questão aborda o nível sonoro em decibels com a expressão n = 10 log(I/I_0).",
+            "Trata-se de fenômeno ondulatório (acústica), pertencente à Competência 1 e Habilidade 1 de Ciências da Natureza.",
+            "O gabarito oficial fornecido é 'A', que prevalece conforme as regras absolutas, a despeito da divergência teórica com a alternativa C."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-115.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 133,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-133.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H29",
+            "descricao": "Interpretar experimentos ou técnicas que utilizam seres vivos, analisando implicações para o ambiente, a saúde, a produção de alimentos, matérias primas ou produtos industriais."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H15",
+                "descricao": "Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Engenharia Genética e Organismos Geneticamente Modificados (Transgenia)",
+        "conteudos_relacionados": [
+            "Tecnologia do DNA recombinante",
+            "Ciclo circadiano",
+            "Metabolismo celular bacteriano",
+            "Genômica"
+        ],
+        "assunto": "Biotecnologia",
+        "objeto_de_analise": "Constituição genética de bactéria recombinante receptora de genes exógenos",
+        "fenomeno_conceito": "Expressão e integração gênica em organismos geneticamente modificados"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "metabolismo de E. coli, apenas.",
+            "correta": false,
+            "justificativa": "Incorreta, pois houve a inserção intencional e bem-sucedida de genes do ciclo circadiano oriundos da cianobactéria Synechococcus elongatus no genoma da bactéria hospedeira."
+        },
+        {
+            "letra": "B",
+            "texto": "ciclo circadiano de E. coli, apenas.",
+            "correta": false,
+            "justificativa": "Incorreta, já que o texto explicita que a bactéria Escherichia coli é naturalmente um organismo não circadiano, não possuindo genes próprios para essa função."
+        },
+        {
+            "letra": "C",
+            "texto": "metabolismo de S. elongatus e do ciclo circadiano de E. coli.",
+            "correta": false,
+            "justificativa": "Incorreta, pois inverte as fontes dos genes: os genes transferidos foram os do ciclo circadiano de S. elongatus, enquanto E. coli é a base metabólica receptora e não tem ciclo circadiano próprio."
+        },
+        {
+            "letra": "D",
+            "texto": "ciclo circadiano de S. elongatus e do metabolismo de E. coli.",
+            "correta": true,
+            "justificativa": "Correta. A bactéria Escherichia coli recebeu os genes exógenos responsáveis pelo ciclo circadiano de Synechococcus elongatus e preservou seu próprio genoma funcional responsável pelo metabolismo celular."
+        },
+        {
+            "letra": "E",
+            "texto": "ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli.",
+            "correta": false,
+            "justificativa": "Incorreta, pois a E. coli é expressamente caracterizada no enunciado como 'um organismo não circadiano', não apresentando genes originais de ciclo circadiano."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-27T18:06:51.550818",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita a transferência dos genes do relógio circadiano da cianobactéria para o genoma da bactéria E. coli.",
+            "O texto informa que E. coli é um organismo não circadiano, o que exclui a existência prévia de genes circadianos nativos nessa espécie."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-133.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

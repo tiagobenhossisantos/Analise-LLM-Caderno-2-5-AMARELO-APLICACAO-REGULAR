@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 119,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-119.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "natureza",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H27",
+            "descricao": "Avaliar propostas de intervenção no meio ambiente aplicando conhecimentos químicos, observando riscos ou benefícios."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H19",
+                "descricao": "Avaliar métodos, processos ou procedimentos das ciências naturais que contribuam para diagnosticar ou solucionar problemas de ordem social, econômica ou ambiental."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "V",
+            "nome": "Elaborar propostas (EP)",
+            "descricao": "recorrer aos conhecimentos desenvolvidos na escola para elaboração de propostas de intervenção solidária na realidade, respeitando os valores humanos e considerando a diversidade sociocultural."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Reações ácido-base e funções orgânicas",
+        "conteudos_relacionados": [
+            "Propriedades físico-químicas dos compostos orgânicos",
+            "Aminas e caráter básico",
+            "Neutralização e formação de sais",
+            "Pressão de vapor e volatilidade"
+        ],
+        "assunto": "Química Orgânica e Reações de Neutralização",
+        "objeto_de_analise": "Tratamento para conter a volatilização e dispersão de um vazamento de dimetilamina no ambiente",
+        "fenomeno_conceito": "Neutralização de uma base orgânica volátil por um ácido carboxílico gerando uma espécie iônica não volátil"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "água.",
+            "correta": false,
+            "justificativa": "Embora a dimetilamina possa se dissolver parcialmente em água, ela continuaria em sua maior parte como espécie molecular em equilíbrio, não impedindo sua rápida evaporação com a elevação da temperatura ao longo do dia."
+        },
+        {
+            "letra": "B",
+            "texto": "vinagre.",
+            "correta": true,
+            "justificativa": "A dimetilamina é uma amina secundária de caráter básico. O vinagre contém ácido acético (ácido etanoico), que reage em uma reação de neutralização ácido-base com a amina, formando um sal de amônio quaternário solúvel (acetato de dimetilamônio). Sais iônicos possuem forças eletrostáticas intensas e pressão de vapor desprezível, impedindo a evaporação do composto tóxico."
+        },
+        {
+            "letra": "C",
+            "texto": "óleo de soja.",
+            "correta": false,
+            "justificativa": "O óleo de soja é composto predominantemente por triglicerídeos (espécies apolares), que não realizam neutralização ácido-base com a amina e não impedem sua volatilização."
+        },
+        {
+            "letra": "D",
+            "texto": "sal de cozinha.",
+            "correta": false,
+            "justificativa": "O cloreto de sódio (NaCl) é um sal neutro que não reage quimicamente com a dimetilamina para formar espécies não voláteis."
+        },
+        {
+            "letra": "E",
+            "texto": "bicarbonato de sódio.",
+            "correta": false,
+            "justificativa": "O bicarbonato de sódio (NaHCO3) possui caráter básico (hidrólise alcalina), portanto não neutraliza a dimetilamina, que também é uma substância de caráter básico."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.0",
+        "datetime": "2026-10-27T17:53:27.299062",
+        "confianca": "alta",
+        "evidencias": [
+            "A dimetilamina é caracterizada por ser uma base de Lewis/Brønsted-Lowry devido ao par eletrônico não ligante do nitrogênio.",
+            "O vinagre consiste em uma solução aquosa de ácido acético.",
+            "A reação ácido-base produz um sal de amônio, espécie iônica que não sofre evaporação nas temperaturas ambientes.",
+            "A habilidade H27 aborda diretamente a avaliação de intervenções no ambiente mediante aplicação de conhecimentos químicos."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-119.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

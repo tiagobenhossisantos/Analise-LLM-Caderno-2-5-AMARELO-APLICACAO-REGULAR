@@ -1,0 +1,107 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "120",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-120.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H21",
+            "descricao": "Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Indução Eletromagnética",
+        "conteudos_relacionados": [
+            "Lei de Faraday-Lenz",
+            "Correntes parasitas (Correntes de Foucault)",
+            "Efeito Joule"
+        ],
+        "assunto": "Eletromagnetismo",
+        "objeto_de_analise": "Princípio de funcionamento do fogão por indução",
+        "fenomeno_conceito": "Indução de correntes parasitas e dissipação térmica por efeito Joule"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "imantar o material da panela por indução.",
+            "correta": false,
+            "justificativa": "O objetivo de um campo magnético alternado não é magnetizar permanentemente a panela, mas sim induzir correntes elétricas que realizem aquecimento."
+        },
+        {
+            "letra": "B",
+            "texto": "movimentar os átomos de ferro concentrados no fundo da panela.",
+            "correta": false,
+            "justificativa": "O campo magnético variável atua induzindo corrente elétrica (fluxo de elétrons livres), e não realizando translação de átomos de ferro."
+        },
+        {
+            "letra": "C",
+            "texto": "emitir radiação eletromagnética, aquecendo a panela através do vidro cerâmico.",
+            "correta": false,
+            "justificativa": "O fogão por indução não funciona por aquecimento radiativo (como lâmpadas de infravermelho), mas por indução eletromagnética diretamente na estrutura metálica da panela."
+        },
+        {
+            "letra": "D",
+            "texto": "induzir corrente elétrica na parte inferior da panela, aquecendo-a por efeito Joule.",
+            "correta": true,
+            "justificativa": "A variação do fluxo magnético gera correntes induzidas (correntes de Foucault) na base condutora da panela. Pela resistência elétrica do metal, essas correntes dissipam energia térmica por efeito Joule."
+        },
+        {
+            "letra": "E",
+            "texto": "gerar um fluxo de corrente de convecção no ar contido entre a região da bobina e o vidro cerâmico.",
+            "correta": false,
+            "justificativa": "O aquecimento não ocorre por correntes de convecção térmicas de ar abaixo do vidro cerâmico; inclusive, o vidro permanece relativamente frio, aquecendo-se apenas secundariamente pelo contato com a própria panela quente."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-27T16:55:51.048154",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e a imagem abordam explicitamente o aquecimento por indução via campo magnético variável e bobina.",
+            "A Lei de Faraday explica a indução de corrente elétrica (correntes de Foucault) e a Lei de Joule explica a geração de calor associada à resistência do material."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-120.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

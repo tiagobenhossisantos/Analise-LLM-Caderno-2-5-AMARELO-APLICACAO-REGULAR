@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "121",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-121.txt",
+            "gabarito": "A"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C4",
+            "descricao": "Compreender interações entre organismos e ambiente, em particular aquelas relacionadas à saúde humana, relacionando conhecimentos científicos, aspectos culturais e características individuais."
+        },
+        "habilidade_principal": {
+            "id": "H14",
+            "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H15",
+                "descricao": "Interpretar modelos e experimentos para explicar fenômenos ou processos biológicos em qualquer nível de organização dos sistemas biológicos."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Metabolismo energético",
+        "conteudos_relacionados": [
+            "Fotossíntese oxigênica",
+            "Fotossíntese anoxigênica",
+            "Bioenergética celular"
+        ],
+        "assunto": "Fotossíntese",
+        "objeto_de_analise": "Comparação entre os doadores de elétrons e processos da fotossíntese oxigênica e anoxigênica",
+        "fenomeno_conceito": "Fotofosforilação e doação de elétrons no metabolismo fotossintético"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "ATP.",
+            "correta": true,
+            "justificativa": "Marcada como correta de acordo com a chave do gabarito oficial fornecida, embora no contexto estrito do mecanismo fotoquímico o ATP atue como moeda energética celular e carreador de fosfato na fase escura/química."
+        },
+        {
+            "letra": "B",
+            "texto": "NADPH.",
+            "correta": false,
+            "justificativa": "Incorreta. O NADPH é uma coenzima carreadora de elétrons e prótons reduzida na etapa fotoquímica, não correspondendo ao doador original de elétrons como o H2S."
+        },
+        {
+            "letra": "C",
+            "texto": "Oxigênio.",
+            "correta": false,
+            "justificativa": "Incorreta. O oxigênio (O2) é o produto residual liberado na fotólise da água na fotossíntese oxigênica, equivalendo ao enxofre elementar liberado a partir da oxidação do H2S na fotossíntese anoxigênica."
+        },
+        {
+            "letra": "D",
+            "texto": "Clorofila.",
+            "correta": false,
+            "justificativa": "Incorreta. A clorofila é o pigmento fotorreceptor equivalente funcional à bacterioclorofila, e não ao reagente H2S."
+        },
+        {
+            "letra": "E",
+            "texto": "Água.",
+            "correta": false,
+            "justificativa": "Incorreta segundo o gabarito oficial de referência fornecido para este registro, embora quimicamente e biologicamente a água (H2O) atue como doadora primária de hidrogênios e elétrons de forma análoga ao H2S da fotossíntese anoxigênica."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T17:00:45.081152",
+        "confianca": "media",
+        "evidencias": [
+            "O comando compara os processos fotossintéticos oxigênico e anoxigênico em relação aos reagentes que participam da síntese de matéria orgânica.",
+            "O gabarito oficial fornecido indica a alternativa A como correta, que tem precedência estrita pelas regras de auditoria, a despeito do consenso biológico que costuma associar o papel do H2S ao da água."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-121.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

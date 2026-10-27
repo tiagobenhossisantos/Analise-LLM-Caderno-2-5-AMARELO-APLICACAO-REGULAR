@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "128",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-128.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C6",
+            "descricao": "Apropriar-se de conhecimentos da física para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H20",
+            "descricao": "Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Cinemática Vetorial e Composição de Movimentos",
+        "conteudos_relacionados": [
+            "Velocidade relativa",
+            "Princípio da independência dos movimentos de Galileu",
+            "Decomposição de vetores no espaço tridimensional"
+        ],
+        "assunto": "Composição e independência de movimentos vetoriais",
+        "objeto_de_analise": "Determinação dos componentes da velocidade de uma aeronave em relação ao ar para compensar a ação do vento",
+        "fenomeno_conceito": "Movimento relativo e princípio de Galileu"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "230 km/h para Leste, 180 km/h para Sul e 9 km/h para baixo.",
+            "correta": false,
+            "justificativa": "Incorreta. Soma a velocidade do vento na direção Leste (200 + 30 = 230 km/h) em vez de subtrair, e calcula incorretamente as demais componentes vetoriais em magnitude e sentido."
+        },
+        {
+            "letra": "B",
+            "texto": "230 km/h para Leste, 180 km/h para Norte e 9 km/h para cima.",
+            "correta": false,
+            "justificativa": "Incorreta. Soma a componente Leste do vento (200 + 30 = 230 km/h) e subtrai na direção Norte (200 - 20 = 180 km/h), sem considerar que o vento para o Sul requer que o avião aumente sua velocidade para o Norte para compensar a deriva."
+        },
+        {
+            "letra": "C",
+            "texto": "200 km/h para Oeste, 200 km/h para Norte e 10 km/h para cima.",
+            "correta": false,
+            "justificativa": "Incorreta. Representa apenas a velocidade resultante necessária em relação ao solo (com o sentido Leste invertido para Oeste), sem descontar a velocidade do vento que atua sobre o avião."
+        },
+        {
+            "letra": "D",
+            "texto": "170 km/h para Leste, 220 km/h para Norte e 11 km/h para cima.",
+            "correta": true,
+            "justificativa": "Correta. A velocidade resultante em relação ao solo em 6 minutos (0,1 h) deve ser: 200 km/h para Leste, 200 km/h para Norte e 10 km/h para cima. Como v_avião/ar = v_solo - v_vento: Leste = 200 - 30 = 170 km/h; Norte = 200 - (-20) = 220 km/h; Cima = 10 - (-1) = 11 km/h."
+        },
+        {
+            "letra": "E",
+            "texto": "170 km/h para Leste, 180 km/h para Norte e 11 km/h para cima.",
+            "correta": false,
+            "justificativa": "Incorreta. Na direção Norte-Sul, subtraiu incorretamente a intensidade do vento (200 - 20 = 180 km/h) em vez de somá-la para compensar o arrasto do vento que sopra em sentido oposto (para o Sul)."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T17:55:39.883171",
+        "confianca": "alta",
+        "evidencias": [
+            "O enunciado aborda explicitamente o princípio da independência dos movimentos de Galileu e o cálculo de componentes vetoriais em três dimensões.",
+            "A resolução depende da relação vetorial v_solo = v_avião/ar + v_vento, exigindo a caracterização do movimento em cada eixo independente.",
+            "H20 da matriz de Ciências da Natureza corresponde diretamente à caracterização de causas ou efeitos dos movimentos de corpos."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-128.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

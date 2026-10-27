@@ -1,0 +1,112 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "118",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-118.txt",
+            "gabarito": "B"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C2",
+            "descricao": "Identificar a presença e aplicar as tecnologias associadas às ciências naturais em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H6",
+            "descricao": "Relacionar informações para compreender manuais de instalação ou utilização de aparelhos, ou sistemas tecnológicos de uso comum."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H20",
+                "descricao": "Caracterizar causas ou efeitos dos movimentos de partículas, substâncias, objetos ou corpos celestes."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Cinemática escalar",
+        "conteudos_relacionados": [
+            "Movimento Uniforme (MU)",
+            "Corpos extensos",
+            "Sensores e tecnologias de segurança"
+        ],
+        "assunto": "Velocidade média e tempo de travessia de corpo extenso",
+        "objeto_de_analise": "Manual de instalação de sensor de barreira ativo para detecção de movimento",
+        "fenomeno_conceito": "Travessia de um feixe óptico por um corpo extenso em movimento uniforme"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "30 ms.",
+            "correta": false,
+            "justificativa": "Incorreta. Este valor é obtido se for considerado apenas o feixe de 15 cm percorrido na velocidade de 5 m/s (Δt = 0,15 / 5 = 0,03 s = 30 ms), desconsiderando a espessura do corpo do invasor."
+        },
+        {
+            "letra": "B",
+            "texto": "70 ms.",
+            "correta": true,
+            "justificativa": "Correta. Para que o corpo de perfil (espessura L = 20 cm = 0,20 m) atravesse completamente o feixe (diâmetro d = 15 cm = 0,15 m), a distância total percorrida durante a interrupção do feixe é Δs = d + L = 15 + 20 = 35 cm = 0,35 m. Para garantir a detecção mesmo na situação mais rápida (v = 5,0 m/s), o tempo de resposta mínimo deve ser Δt = Δs / v = 0,35 / 5,0 = 0,07 s = 70 ms."
+        },
+        {
+            "letra": "C",
+            "texto": "300 ms.",
+            "correta": false,
+            "justificativa": "Incorreta. Ocorre ao cometer erros de cálculo de potências de 10 na conversão de unidades ou ao associar a velocidade de 1,0 m/s com o feixe isolado e o corpo."
+        },
+        {
+            "letra": "D",
+            "texto": "400 ms.",
+            "correta": false,
+            "justificativa": "Incorreta. Resultaria da consideração de uma velocidade inadequada ou do cálculo de 20 cm / 0,5 m/s."
+        },
+        {
+            "letra": "E",
+            "texto": "700 ms.",
+            "correta": false,
+            "justificativa": "Incorreta. Resultaria da utilização da menor velocidade (0,5 m/s) em vez da maior para garantir a detecção, gerando Δt = 0,35 / 0,5 = 0,7 s = 700 ms. Se o alarme for regulado com 700 ms, um invasor correndo passará em 70 ms e não será detectado."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2024-11-20",
+        "datetime": "2026-10-27T17:48:57.086217",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e a referência tratam explicitamente de um manual de instalação de um sensor de alarme, associando-se diretamente à H6 da competência C2.",
+            "O cálculo envolve a soma do diâmetro do feixe com a espessura do invasor (corpo extenso) e a velocidade máxima apresentada na figura (5,0 m/s), resultando em 70 ms, conforme o gabarito oficial B."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-118.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

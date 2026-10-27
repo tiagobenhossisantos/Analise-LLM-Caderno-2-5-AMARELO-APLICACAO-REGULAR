@@ -1,0 +1,113 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "134",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros/questao-134.txt",
+            "gabarito": "C"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C8",
+            "descricao": "Apropriar-se de conhecimentos da biologia para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H28",
+            "descricao": "Associar características adaptativas dos organismos com seu modo de vida ou com seus limites de distribuição em diferentes ambientes, em especial em ambientes brasileiros."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H14",
+                "descricao": "Identificar padrões em fenômenos e processos vitais dos organismos, como manutenção do equilíbrio interno, defesa, relações com o ambiente, sexualidade, entre outros."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Fisiologia e Anatomia de Aves",
+        "conteudos_relacionados": [
+            "Adaptações dos animais ao meio aquático",
+            "Lipídios e impermeabilização",
+            "Glândula uropigial"
+        ],
+        "assunto": "Zoologia de vertebrados e adaptações anatômicas das aves",
+        "objeto_de_analise": "Mecanismo de impermeabilização de penas em aves aquáticas",
+        "fenomeno_conceito": "Impermeabilização tegumentar por secreção lipídica"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "dilatação do papo.",
+            "correta": false,
+            "justificativa": "O papo é uma dilatação do esôfago relacionada ao armazenamento e amolecimento de alimentos, não interferindo na impermeabilidade das penas ou na flutuação das aves aquáticas."
+        },
+        {
+            "letra": "B",
+            "texto": "reposição de penas das asas.",
+            "correta": false,
+            "justificativa": "Embora a muda de penas afete a capacidade de voo, o problema relatado é especificamente o encharcamento das penas com água, que ocorre pela falta de substância hidrofóbica e não pela taxa de reposição das penas."
+        },
+        {
+            "letra": "C",
+            "texto": "secreção da glândula uropigial.",
+            "correta": true,
+            "justificativa": "A glândula uropigial, localizada na base da cauda das aves, secreta uma substância oleosa que o animal espalha sobre a plumagem com o bico. Essa secreção lipídica confere impermeabilidade às penas, retendo ar e garantindo a flutuabilidade das aves aquáticas. Sua redução leva ao encharcamento e ao afogamento."
+        },
+        {
+            "letra": "D",
+            "texto": "formação da membrana natatória.",
+            "correta": false,
+            "justificativa": "A membrana natatória entre os dedos auxilia na propulsão na água (natação), mas não evita o encharcamento da plumagem nem afeta diretamente a retenção de ar nas penas."
+        },
+        {
+            "letra": "E",
+            "texto": "largura das cavidades de ossos pneumáticos.",
+            "correta": false,
+            "justificativa": "Os ossos pneumáticos contribuem para a redução do peso corpóreo das aves, mas não têm relação causal direta com o encharcamento das penas observado pelos biólogos."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T18:10:27.229414",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto explicita que a causa da perda de flutuação foi o encharcamento das penas com água.",
+            "Em aves aquáticas, a impermeabilização das penas depende fundamentalmente do óleo secretado pela glândula uropigial.",
+            "A correlação com a habilidade H28 decorre da identificação de uma adaptação morfofisiológica de aves ao ambiente aquático."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-134.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

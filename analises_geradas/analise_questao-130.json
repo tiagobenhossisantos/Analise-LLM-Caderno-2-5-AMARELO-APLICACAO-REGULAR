@@ -1,0 +1,119 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": "130",
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-130.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H17",
+            "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H18",
+                "descricao": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+            },
+            {
+                "id": "H21",
+                "descricao": "Utilizar leis físicas e (ou) químicas para interpretar processos naturais ou tecnológicos inseridos no contexto da termodinâmica e(ou) do eletromagnetismo."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Eletrodinâmica e Termometria",
+        "conteudos_relacionados": [
+            "Resistência elétrica",
+            "Variação da resistência com a temperatura",
+            "Interpretação de gráficos cartesianos",
+            "Sensibilidade de sensores"
+        ],
+        "assunto": "Dependência da resistência elétrica em função da temperatura e sensibilidade de sensores",
+        "objeto_de_analise": "Gráfico de calibração de sensores de platina (R versus T)",
+        "fenomeno_conceito": "Sensibilidade do sensor associada à taxa de variação (inclinação/coeficiente angular) da resistência em função da temperatura"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "1 e 2.",
+            "correta": false,
+            "justificativa": "O sensor 1 possui a curva com a menor inclinação (praticamente nula), o que significa que sua resistência quase não varia com a temperatura, conferindo-lhe a menor sensibilidade entre todos os sensores apresentados."
+        },
+        {
+            "letra": "B",
+            "texto": "1 e 3.",
+            "correta": false,
+            "justificativa": "O sensor 1 apresenta a menor inclinação (e, portanto, a menor sensibilidade) do conjunto, e o sensor 3 tem uma inclinação baixa se comparado aos sensores 2 e 5."
+        },
+        {
+            "letra": "C",
+            "texto": "2 e 3.",
+            "correta": false,
+            "justificativa": "Embora o sensor 2 tenha elevada sensibilidade por ter grande inclinação, o sensor 3 apresenta inclinação suave, inferior às dos sensores 4 e 5."
+        },
+        {
+            "letra": "D",
+            "texto": "2 e 4.",
+            "correta": false,
+            "justificativa": "O sensor 2 é um dos mais sensíveis, mas o sensor 5 apresenta variação de resistência por unidade de temperatura maior que a do sensor 4 no intervalo operacional."
+        },
+        {
+            "letra": "E",
+            "texto": "2 e 5.",
+            "correta": true,
+            "justificativa": "A sensibilidade de um sensor de temperatura cuja resposta é descrita por R(T) = A + BT corresponde à taxa de variação da resistência em relação à temperatura (coeficiente angular B = ΔR/ΔT). Quanto maior a inclinação da reta no gráfico, maior a variação de resistência para uma mesma variação de temperatura. No gráfico, as retas associadas aos sensores 2 e 5 possuem as maiores inclinações, sendo, portanto, os sensores mais sensíveis."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T17:57:18.869327",
+        "confianca": "alta",
+        "evidencias": [
+            "A relação matemática linear R(T) = A + BT define o coeficiente B como a derivada/taxa de variação dR/dT.",
+            "A sensibilidade de um instrumento de medição é definida pela razão entre a variação da grandeza de saída e a variação da grandeza de entrada (ΔR/ΔT).",
+            "A análise gráfica direta das inclinações identifica os sensores 2 e 5 como aqueles que exibem os maiores coeficientes angulares.",
+            "Correspondência exata com o gabarito oficial E."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-130.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

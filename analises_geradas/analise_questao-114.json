@@ -1,0 +1,115 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 114,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-114.txt",
+            "gabarito": "E"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C7",
+            "descricao": "Apropriar-se de conhecimentos da química para, em situações problema, interpretar, avaliar ou planejar intervenções científico- tecnológicas."
+        },
+        "habilidade_principal": {
+            "id": "H25",
+            "descricao": "Caracterizar materiais ou substâncias, identificando etapas, rendimentos ou implicações biológicas, sociais, econômicas ou ambientais de sua obtenção ou produção."
+        },
+        "habilidades_relacionadas": [
+            {
+                "id": "H17",
+                "descricao": "Relacionar informações apresentadas em diferentes formas de linguagem e representação usadas nas ciências físicas, químicas ou biológicas, como texto discursivo, gráficos, tabelas, relações matemáticas ou linguagem simbólica."
+            }
+        ],
+        "eixo_cognitivo": {
+            "id": "III",
+            "nome": "Enfrentar situações-problema (SP)",
+            "descricao": "selecionar, organizar, relacionar, interpretar dados e informações representados de diferentes formas, para tomar decisões e enfrentar situações-problema."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Cálculo Estequiométrico",
+        "conteudos_relacionados": [
+            "Reagente em excesso",
+            "Massa molar e quantidade de matéria",
+            "Metalurgia e processos de redução aluminotérmica"
+        ],
+        "assunto": "Aspectos quantitativos das transformações químicas",
+        "objeto_de_analise": "Determinação da massa de reagente com excesso para a produção de nióbio",
+        "fenomeno_conceito": "Relação estequiométrica em reações químicas e cálculo com reagente em excesso"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "2,7 kg.",
+            "correta": false,
+            "justificativa": "Corresponde apenas à massa equivalente a 100 mol de Al (2,7 kg) desconsiderando a proporção estequiométrica correta com o nióbio."
+        },
+        {
+            "letra": "B",
+            "texto": "3,0 kg.",
+            "correta": false,
+            "justificativa": "Resultado de um erro de proporcionalidade na relação molar entre Al e Nb na equação balanceada."
+        },
+        {
+            "letra": "C",
+            "texto": "4,1 kg.",
+            "correta": false,
+            "justificativa": "Resultado obtido ao aplicar incorretamente um desconto de 10% sobre a quantidade estequiométrica em vez de somar o excesso de 10% (4,5 - 0,45 = 4,05 kg)."
+        },
+        {
+            "letra": "D",
+            "texto": "4,5 kg.",
+            "correta": false,
+            "justificativa": "Representa a massa puramente estequiométrica de alumínio necessária (10 mol de Al / 6 mol de Nb = 4,5 kg de Al para 9,3 kg de Nb), esquecendo de adicionar o excesso de 10% exigido pelo enunciado."
+        },
+        {
+            "letra": "E",
+            "texto": "5,0 kg.",
+            "correta": true,
+            "justificativa": "Pela estequiometria, 10 mol de Al (270 g) produzem 6 mol de Nb (558 g). Para 9,3 kg (9300 g) de Nb, a quantidade estequiométrica de Al é (10 × 27 × 9,3) / (6 × 93) = 4,5 kg. Com o excesso de 10%, a massa necessária é 4,5 kg × 1,10 = 4,95 kg, cujo valor mais próximo é 5,0 kg."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "1.0",
+        "datetime": "2026-10-25T12:47:55.315101",
+        "confianca": "alta",
+        "evidencias": [
+            "A questão aborda uma reação química de obtenção industrial de um metal (nióbio por aluminotermia) e solicita o cálculo da massa de um dos reagentes considerando excesso.",
+            "A equação química balanceada é 3 Nb2O5 + 10 Al -> 6 Nb + 5 Al2O3.",
+            "A razão molar Al:Nb é de 10:6.",
+            "Para 9,3 kg de Nb (100 mol de Nb), são estequiometricamente necessários (10/6) * 100 = 166,67 mol de Al = 4,5 kg.",
+            "Com 10% de excesso: 4,5 kg * 1,10 = 4,95 kg ~ 5,0 kg."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-114.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": false,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}

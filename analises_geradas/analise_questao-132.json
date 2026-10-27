@@ -1,0 +1,108 @@
+{
+    "questao": {
+        "identificacao_caderno": {
+            "ano": 2025,
+            "dia": 2,
+            "numero": 5,
+            "cor": "AMARELO",
+            "aplicacao": "REGULAR"
+        },
+        "identificacao_questao": {
+            "numero": 132,
+            "espanhol": false,
+            "ingles": false
+        },
+        "conteudo_questao": {
+            "link_imagem": null,
+            "caminho_texto": "erros\\questao-132.txt",
+            "gabarito": "D"
+        }
+    },
+    "classificacao_matriz": {
+        "area": {
+            "id": "CN",
+            "nome": "Ciências da Natureza e suas Tecnologias"
+        },
+        "competencia": {
+            "id": "C5",
+            "descricao": "Entender métodos e procedimentos próprios das ciências naturais e aplicá-los em diferentes contextos."
+        },
+        "habilidade_principal": {
+            "id": "H18",
+            "descricao": "Relacionar propriedades físicas, químicas ou biológicas de produtos, sistemas ou procedimentos tecnológicos às finalidades a que se destinam."
+        },
+        "habilidades_relacionadas": [],
+        "eixo_cognitivo": {
+            "id": "II",
+            "nome": "Compreender fenômenos (CF)",
+            "descricao": "construir e aplicar conceitos das várias áreas do conhecimento para a compreensão de fenômenos naturais, de processos histórico-geográficos, da produção tecnológica e das manifestações artísticas."
+        }
+    },
+    "classificacao_de_conteudo": {
+        "conteudo_principal": "Fenômenos de Superfície e Processos de Separação",
+        "conteudos_relacionados": [
+            "Adsorção",
+            "Área superficial específica",
+            "Purificação de água",
+            "Propriedades dos materiais"
+        ],
+        "assunto": "Adsorção e área de contato",
+        "objeto_de_analise": "Eficiência do carvão ativado na remoção de contaminantes por adsorção",
+        "fenomeno_conceito": "Área de superfície específica e adsorção"
+    },
+    "analise_alternativas": [
+        {
+            "letra": "A",
+            "texto": "Massa.",
+            "correta": false,
+            "justificativa": "A quantidade de massa total do carvão não explica, por si só, sua eficiência superior de adsorção em relação ao carvão comum de mesma massa."
+        },
+        {
+            "letra": "B",
+            "texto": "Dureza.",
+            "correta": false,
+            "justificativa": "Dureza é a resistência de um material à deformação plástica localizada ou ao risco, não tendo relação direta com a capacidade de adsorver impurezas."
+        },
+        {
+            "letra": "C",
+            "texto": "Densidade.",
+            "correta": false,
+            "justificativa": "Embora a alta porosidade diminua a densidade aparente do material, não é a densidade que fundamenta o fenômeno físico-químico da adsorção."
+        },
+        {
+            "letra": "D",
+            "texto": "Superfície.",
+            "correta": true,
+            "justificativa": "O carvão ativado possui uma estrutura altamente porosa (microporos, mesoporos e macroporos), o que eleva exponencialmente sua área superficial específica interna e externa, proporcionando muito mais sítios para a adsorção de contaminantes."
+        },
+        {
+            "letra": "E",
+            "texto": "Condutividade.",
+            "correta": false,
+            "justificativa": "A capacidade de conduzir eletricidade ou calor não está relacionada ao mecanismo de retenção de impurezas na purificação da água."
+        }
+    ],
+    "auditoria_da_ia": {
+        "modelo": "gemini-3.8-flash",
+        "versao": "2.5",
+        "datetime": "2026-10-27T18:04:42.030387",
+        "confianca": "alta",
+        "evidencias": [
+            "O texto e a figura destacam a grande quantidade de poros (macroporos, mesoporos e microporos) do carvão ativado, que conferem uma elevadíssima área superficial para retenção de contaminantes por adsorção.",
+            "A alternativa D ('Superfície') aponta diretamente para o conceito de área superficial ou de contato, fundamental para o processo de adsorção, em consonância com o gabarito oficial."
+        ],
+        "proveniencia": {
+            "arquivo_questao": "questao-132.txt",
+            "arquivo_matriz": "matriz_referencia_enem.json"
+        },
+        "validacao_humana": {
+            "validado": null,
+            "data_validacao": null
+        }
+    },
+    "estudante": {
+        "nome_completo": "Tiago Benhossi dos Santos",
+        "colegio": "CCM Marechal Rondon",
+        "turma": "3B TDS"
+    }
+}
